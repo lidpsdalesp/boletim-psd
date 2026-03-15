@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boletim Matinal - Liderança do PSD</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+  :root {
+    --psd-blue:       #1A3A9C;
+    --psd-blue-dark:  #0E2270;
+    --psd-green:      #4CAF50;
+    --psd-gold:       #F5C800;
+    --bg:             #F0F4F9;
+    --white:          #FFFFFF;
+    --text:           #1A1A2E;
+    --text-muted:     #5A6A85;
+    --border:         #D6E0EF;
+    --green-acc:      #0D7A4B;
+    --green-bg:       #E6F7F1;
+    --red:            #C0392B;
+    --red-bg:         #FDECEA;
+    --purple:         #5C2D91;
+    --purple-bg:      #F0EAF8;
+    --orange:         #C05621;
+    --orange-bg:      #FEF0E7;
+    --shadow:         0 2px 12px rgba(0,40,140,0.10);
+    --radius:         10px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: linear-gradient(135deg, var(--psd-blue-dark) 0%, var(--psd-blue) 100%);
+    color: white;
+    padding: 20px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .header-left { display: flex; align-items: center; gap: 18px; }
+  .header-logo {
+    height: 70px; width: auto;
+    flex-shrink: 0; display: block;
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.25));
+  }
+  .header-divider {
+    width: 1px; height: 52px;
+    background: rgba(255,255,255,0.25); flex-shrink: 0;
+  }
+  .header-title { line-height: 1.35; }
+  .header-title h1 { font-size: 19px; font-weight: 800; letter-spacing: -0.3px; }
+  .header-title .subtitle { font-size: 12px; opacity: 0.80; margin-top: 2px; }
+  .header-title .lider {
+    font-size: 12.5px; margin-top: 6px;
+    background: rgba(255,255,255,0.13);
+    border: 1px solid rgba(255,255,255,0.22);
+    display: inline-block; padding: 3px 10px; border-radius: 20px;
+  }
+  .header-right { text-align: right; flex-shrink: 0; }
+  .boletim-num {
+    background: var(--psd-gold); color: var(--psd-blue-dark);
+    font-size: 12.5px; font-weight: 800; padding: 4px 14px;
+    border-radius: 20px; display: inline-block; margin-bottom: 7px;
+  }
+  .header-date { font-size: 13px; opacity: 0.92; font-weight: 500; }
+  .header-weekday { font-size: 10.5px; opacity: 0.65; text-transform: uppercase; letter-spacing: 1.2px; margin-top: 2px; }
+
+  /* ── WRAPPER ── */
+  .wrapper { max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; }
+
+  /* ── SECTION ── */
+  .section {
+    background: var(--white); border-radius: var(--radius);
+    box-shadow: var(--shadow); margin-bottom: 18px; overflow: hidden;
+  }
+  .section-header {
+    display: flex; align-items: center; gap: 10px;
+    padding: 12px 20px; border-bottom: 1px solid var(--border); background: #F7FAFF;
+  }
+  .section-icon { font-size: 16px; }
+  .section-title { font-size: 12.5px; font-weight: 700; color: var(--psd-blue); text-transform: uppercase; letter-spacing: 0.7px; }
+  .section-body { padding: 16px 20px; }
+
+  /* ── AGENDA ── */
+  .agenda-item { display: flex; gap: 14px; align-items: flex-start; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  .agenda-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .agenda-time { background: var(--psd-blue); color: white; font-size: 11.5px; font-weight: 700; padding: 4px 10px; border-radius: 6px; white-space: nowrap; flex-shrink: 0; margin-top: 1px; }
+  .agenda-content { flex: 1; }
+  .agenda-name { font-weight: 600; font-size: 13.5px; }
+  .agenda-meta { font-size: 12px; color: var(--text-muted); margin-top: 3px; display: flex; gap: 12px; flex-wrap: wrap; }
+
+  /* ── BADGE ── */
+  .badge { display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; font-weight: 700; padding: 2px 8px; border-radius: 20px; white-space: nowrap; flex-shrink: 0; text-transform: uppercase; letter-spacing: 0.3px; }
+  .badge-pl      { background: #EBF2FF; color: var(--psd-blue); }
+  .badge-pdl     { background: var(--orange-bg); color: var(--orange); }
+  .badge-mocao   { background: var(--purple-bg); color: var(--purple); }
+  .badge-decreto { background: var(--red-bg); color: var(--red); }
+  .badge-res     { background: var(--green-bg); color: var(--green-acc); }
+  .badge-psd     { background: var(--psd-gold); color: var(--psd-blue-dark); }
+  .badge-comunicado { background: #F0F4F9; color: var(--text-muted); }
+
+  /* ── PROPOSITURA ── */
+  .prop-item { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  .prop-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .prop-item.destaque-psd { background: linear-gradient(90deg, #FFFBEA 0%, white 100%); margin: 0 -20px; padding: 10px 20px; border-left: 3px solid var(--psd-gold); border-bottom: 1px solid var(--border); }
+  .prop-item.destaque-psd:last-child { border-bottom: none; }
+  .prop-body { flex: 1; }
+  .prop-header { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 3px; }
+  .prop-num { font-size: 12px; font-weight: 700; color: var(--psd-blue); }
+  .prop-autor { font-size: 11.5px; color: var(--text-muted); font-weight: 500; }
+  .prop-ementa { font-size: 13px; line-height: 1.5; }
+  .prop-prazo { display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; color: var(--orange); font-weight: 600; margin-top: 4px; }
+
+  /* ── DIÁRIO ── */
+  .diario-item { padding: 9px 0; border-bottom: 1px solid var(--border); display: flex; gap: 12px; align-items: flex-start; }
+  .diario-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .diario-body { flex: 1; }
+  .diario-num  { font-size: 11.5px; font-weight: 700; color: var(--text-muted); margin-bottom: 2px; }
+  .diario-desc { font-size: 13px; line-height: 1.5; }
+  .diario-link { font-size: 11px; color: var(--psd-blue); font-weight: 600; margin-top: 2px; display: inline-block; }
+
+  /* ── SESSÃO ── */
+  .sessao-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .sessao-col { border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+  .sessao-col-title { font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: var(--text-muted); margin-bottom: 8px; }
+  .sessao-dep { display: flex; align-items: center; gap: 8px; padding: 5px 0; border-bottom: 1px solid #F0F4F9; font-size: 12.5px; }
+  .sessao-dep:last-child { border-bottom: none; }
+  .sessao-dep-num { background: var(--psd-blue); color: white; font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 4px; }
+  .sessao-dep-psd { background: var(--psd-gold); color: var(--psd-blue-dark); }
+  .sessao-status { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; padding: 5px 12px; border-radius: 6px; margin-bottom: 12px; }
+  .sessao-status.sem-ordem { background: var(--orange-bg); color: var(--orange); }
+  .sessao-status.com-ordem { background: var(--green-bg); color: var(--green-acc); }
+
+  /* ── COMISSÃO ── */
+  .comissao-item { padding: 10px 0; border-bottom: 1px solid var(--border); display: flex; gap: 12px; align-items: flex-start; }
+  .comissao-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .comissao-dia-tag { font-size: 10px; font-weight: 700; text-transform: uppercase; background: var(--psd-blue); color: white; padding: 3px 8px; border-radius: 5px; white-space: nowrap; flex-shrink: 0; margin-top: 2px; letter-spacing: 0.4px; text-align: center; line-height: 1.5; }
+  .comissao-body { flex: 1; }
+  .comissao-nome { font-size: 13px; font-weight: 600; }
+  .comissao-meta { font-size: 12px; color: var(--text-muted); margin-top: 3px; }
+
+  /* ── SUB LABEL ── */
+  .sub-label { font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-muted); padding: 10px 0 6px; margin-top: 4px; border-top: 1px dashed var(--border); }
+  .sub-label:first-child { border-top: none; margin-top: 0; padding-top: 0; }
+
+  /* ── FOOTER ── */
+  .footer { background: linear-gradient(135deg, var(--psd-blue-dark) 0%, var(--psd-blue) 100%); color: white; padding: 18px 36px; display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
+  .footer-left p { font-size: 11.5px; opacity: 0.78; margin-bottom: 5px; }
+  .footer-left strong { font-size: 13px; font-weight: 700; }
+  .footer-team { display: flex; gap: 8px; flex-wrap: wrap; }
+  .footer-member { background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.20); color: white; font-size: 11.5px; font-weight: 500; padding: 4px 11px; border-radius: 20px; }
+
+
+  /* ── AGENDA ITEM PSD ── */
+  .agenda-item.psd {
+    background: linear-gradient(90deg, #FFFBEA 0%, #FFFFF8 100%);
+    border-left: 3px solid var(--psd-gold);
+    margin: 0 -20px;
+    padding: 10px 20px;
+  }
+  .agenda-item.psd .agenda-time {
+    background: #C8960A;
+  }
+
+  @media print {
+    body { background: white; }
+    .wrapper { padding: 0; max-width: 100%; }
+    .section { box-shadow: none; border: 1px solid var(--border); }
+    .header, .footer { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ══ HEADER ══ -->
+<div class="header">
+  <div class="header-left">
+    <img class="header-logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJMYXllcl8xIiB2aWV3Qm94PSIwIDAgMTA4MCA5NzAiPgogIDxzdHlsZT4KICAgIC5jbHMtMSB7IGZpbGw6ICMxQTNBOUM7IH0KICAgIC5jbHMtMiB7IGZpbGw6ICNGRkZGRkY7IH0KICAgIC5jbHMtMyB7IGZpbGw6IG5vbmU7IH0KICAgIC5jbHMtNCB7IGZpbGw6ICM0Q0FGNTA7IH0KICAgIC5jbHMtNSB7IGZpbGw6ICNGNUM4MDA7IH0KICA8L3N0eWxlPgogIDx0aXRsZT5wc2QtbG9nby1tYW51YWw8L3RpdGxlPgogIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTEwMjUsNDg1YzAsMjY3Ljg2LTIxNy4xNCw0ODUtNDg1LDQ4NVM1NSw3NTIuODUsNTUsNDg1LDI3Mi4xNSwwLDU0MCwwczQ4NSwyMTcuMTQsNDg1LDQ4NSIvPgogIDxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTI4Ni4zMSw2MjguMmMtNy43NiwwLTIyLjY0LTEuNDQtMzIuNjctMi44NmwtNyw4MC4xOWMtLjQ2LDUuMjQtNS4yMywxMC0xMC41NiwxMEgxNjMuNDVjLTUuMzMsMC0xMC4yNC00Ljc4LTkuNzgtMTBMMTgzLjEyLDM2OWMuNzEtOC4xMywzLjk0LTExLjkzLDE4Ljc2LTE1LjI3LDI1LjYzLTUuMjYsNjUuOTEtMTEuOTQsMTA5LjQ4LTExLjk0LDc5LjM5LDAsMTIzLjQ3LDQzLjkxLDExNi40MSwxMjQuNmwtMy4yNSwzNy4yMkM0MTcuODgsNTc5LjUyLDM3Miw2MjguMiwyODYuMzEsNjI4LjJtNDguNTItMTYxLjgyYzIuNTEtMjguNjQtMy00OC43LTMwLjEtNDguNy0xNCwwLTIzLjc2LjQ3LTMzLjA5LDEuOTJMMjYwLjIsNTUwLjRjOS42Ljk1LDIxLjA5LDIuMzksMzIuNzEsMi4zOSwyNy4xMSwwLDM2LjItMjEsMzguNjctNDkuMTdaIi8+CiAgPHBhdGggY2xhc3M9ImNscy0zIiBkPSJNMjg2LjMxLDYyOC4yYy03Ljc2LDAtMjIuNjQtMS40NC0zMi42Ny0yLjg2bC03LDgwLjE5Yy0uNDYsNS4yNC01LjIzLDEwLTEwLjU2LDEwSDE2My40NWMtNS4zMywwLTEwLjI0LTQuNzgtOS43OC0xMEwxODMuMTIsMzY5Yy43MS04LjEzLDMuOTQtMTEuOTMsMTguNzYtMTUuMjcsMjUuNjMtNS4yNiw2NS45MS0xMS45NCwxMDkuNDgtMTEuOTQsNzkuMzksMCwxMjMuNDcsNDMuOTEsMTE2LjQxLDEyNC42bC0zLjI1LDM3LjIyQzQxNy44OCw1NzkuNTIsMzcyLDYyOC4yLDI4Ni4zMSw2MjguMlptNDguNTItMTYxLjgyYzIuNTEtMjguNjQtMy00OC43LTMwLjEtNDguNy0xNCwwLTIzLjc2LjQ3LTMzLjA5LDEuOTJMMjYwLjIsNTUwLjRjOS42Ljk1LDIxLjA5LDIuMzksMzIuNzEsMi4zOSwyNy4xMSwwLDM2LjItMjEsMzguNjctNDkuMTdaIi8+CiAgPHBhdGggY2xhc3M9ImNscy00IiBkPSJNNTIyLjQ2LDYyOC4yMWMtMzQuMzgsMC02Ni44Mi01LjI2LTg4LjU1LTExLjQ2LTUuNjgtMS40MS04Ljc4LTQuNzctOC4yOC0xMC41MUw0MzAsNTU3LjA4Yy40OS01Ljc0LDQuMjYtMTAsMTEtMTBoMS45NGMyOC4yMiwzLjgxLDY2LjYxLDcuNjMsODIuNiw3LjYzLDE4LjM4LDAsMjMuMTctNC43OCwyMy45NS0xMy44NS40Ni01LjI1LTIuMDYtOS41NC0xMy4xNC0xNS43NEw0ODAsNDkzLjZDNDUxLDQ3Ny4zNiw0MzcuNTksNDUzLDQ0MC42NSw0MTguMTdjNC4yNi00OC42OSw0MS03Ni4zNywxMTMuMTgtNzYuMzdhMzI0LjYsMzI0LjYsMCwwLDEsODgsMTEuOTRjNS42OSwxLjQzLDkuMjYsNC43Niw4Ljc2LDEwLjQ5bC00LjQyLDUwLjZjLS41LDUuNzQtMy43NSw5LjU1LTkuMDYsOS41NWgtMS40NWMtMTMuODgtMS45MS02MC44MS03LjY0LTgyLjYtNy42NC0xMi41OCwwLTE4LjE2LDIuODctMTguODMsMTAuNDktLjMzLDMuODEsMi43OCw3LjE2LDkuNywxMWw1NCwzMC4wOGMzNy44NSwyMSw0Ni42NCw0Ny43NCw0NC4zLDc0LjQ2QzYzOCw1OTEsNjAwLjg4LDYyOC4yMSw1MjIuNDYsNjI4LjIxIi8+CiAgPHBhdGggY2xhc3M9ImNscy01IiBkPSJNODgwLjY4LDYxNi4yOGMtMjUuNjEsNS4yNS02NS44OSwxMS45My0xMDkuNDYsMTEuOTMtNzkuMzksMC0xMjMuNDUtNDMuOS0xMTYuNDEtMTI0LjZsMy4yNi0zNy4yMmM2LjY0LTc1LjkyLDUyLjUyLTEyNC42LDEzOC4yLTEyNC42LDcuNzYsMCwyMi42LDEuOTEsMzIuNjMsMy4zNEw4MzYsMjY0LjQ2YTEwLjc1LDEwLjc1LDAsMCwxLDEwLjUyLTkuNTZIOTE4LjZjNS4zMywwLDEwLjI4LDQuMzEsOS44Miw5LjU2TDg5OSw2MDFjLS43MSw4LjExLTMuNDYsMTEuOTUtMTguMjksMTUuMjltLTU4LjMtMTk2LjY2YTMyNy4xMiwzMjcuMTIsMCwwLDAtMzIuNzUtMS45M2MtMjcuMDksMC0zNi42NSwyMC41My0zOS4xMiw0OC43bC0zLjI1LDM3LjIyYy0yLjUxLDI4LjY1LDMuNDUsNDkuMTcsMzAuNTUsNDkuMTdhMjA1LjU1LDIwNS41NSwwLDAsMCwzMy4xMy0yLjM5WiIvPgo8L3N2Zz4=" alt="Logo PSD">
+    <div class="header-divider"></div>
+    <div class="header-title">
+      <h1>Liderança do PSD</h1>
+      <div class="subtitle">Assembleia Legislativa do Estado de São Paulo</div>
+      <div class="lider">Líder da Bancada: <strong>Dep. Oseias de Madureira</strong></div>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="boletim-num">📋 6º Boletim Matinal</div>
+    <div class="header-date">📅 Segunda-Feira, 16 de marco de 2026</div>
+    <div class="header-weekday">Semana 12 · 2026</div>
+  </div>
+</div>
+
+<div class="wrapper">
+
+  <div class="section">
+
+  <div class="section-header">
+    <span class="section-icon">&#128197;</span>
+    <span class="section-title">Agenda de Eventos da Casa</span>
+  </div>
+  <div class="section-body">
+    <div class="sub-label" style="color:#1A3A9C;border-top:none; padding-top:0;">
+      &#128197; HOJE &mdash; Segunda-Feira, 16/03/2026
+    </div>
+    
+      <div class="agenda-item">
+        <div class="agenda-time">10h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Frente Parlamentar em Prol da Vida e da Família</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">14h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">25ª Sessão Ordinária - Expediente</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">18h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Audiência Pública - Desafios e Políticas de Combate à Violência Contra a Mulher</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">18h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Reunião do Grupo Intercessão São Paulo Alesp</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">19h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Premiação Woman Awards Brasil</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">19h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Sessão Solene para Outorga do Colar de Honra ao Mérito Legislativo à Sra. Maristela Alves Lima Honda</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">20h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Sessão Solene para Outorga de Colar de Honra ao Mérito Legislativo à Maristela Alves Lima Honda</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+    <div class="sub-label" style="color:#8A9AB5;margin-top:16px;">
+      &#128197; AMANHA &mdash; Terca-Feira, 17/03/2026
+    </div>
+    
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">10h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">AUDIÊNCIA PÚBLIA SOBRE A CARREIRA DOS TRABALHADORES DO CENTRO PAULA SOUZA</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">10h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Dia Nacional da Atenção à Disfagia</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">10h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Reunião do Conselho de Ética e Decoro Parlamentar com a finalidade de apreciar pauta com 1 item.</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">14h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Reunião da CPI - Questões Impactantes e Nocivas ao Meio Ambiente com a finalidade de realizar a eleição do Presidente e Vice-Presidente.</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">14h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Reunião da Comissão de Finanças, Orçamento e Planejamento com a finalidade de apreciar pauta com 15 itens.</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">14h30</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Reunião da CPI - Vazamento de Dados Cadastrais de Pessoas Físicas e Jurídicas com a finalidade de realizar a eleição do Presidente e Vice-Presidente.</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">14h30</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Reunião da Comissão de Educação e Cultura com a finalidade de apreciar pauta com 83 itens.</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">15h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Reunião da Comissão de Defesa dos Direitos das Pessoas com Deficiência com a finalidade de apreciar pauta com 38 itens.</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">17h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">EVENTO JETHRO</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">18h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Reunião do PSDB</div>
+          <div class="agenda-meta"></div>
+        </div>
+      </div>
+  </div>
+  </div>
+
+  <!-- ══ DIÁRIO LEGISLATIVO ══ -->
+  <div class="section">
+    <div class="section-header"><span class="section-icon">📰</span><span class="section-title">Publicados no Diário Legislativo</span></div>
+    <div class="section-body">
+      <div class="sub-label">Requerimentos e Comunicados</div>
+      <div class="diario-item">
+        <span class="badge badge-comunicado">Req. Representação</span>
+        <div class="diario-body">
+          <div class="diario-num">Nº 787/2026</div>
+          <div class="diario-desc">Representar a ALESP em viagem a Brasília nos dias 23 e 24/03/2026 para reuniões com Ministérios do Governo Federal sobre investimentos para SP. Despesas via verba de gabinete.</div>
+        </div>
+      </div>
+      <div class="diario-item">
+        <span class="badge badge-comunicado">Indicação</span>
+        <div class="diario-body">
+          <div class="diario-num">Dep. Marta Costa — nº 3128 a 3129/2026</div>
+          <div class="diario-desc">Indicações publicadas no Diário Legislativo.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ COMISSÕES ══ -->
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🏛️</span><span class="section-title">Convocações para Comissões</span></div>
+    <div class="section-body">
+      <div class="comissao-item">
+        <div class="comissao-dia-tag">3ª Feira<br>17/03</div>
+        <div class="comissao-body">
+          <div class="comissao-nome">⚠️ CPI — Questões Impactantes e Nocivas ao Meio Ambiente</div>
+          <div class="comissao-meta">🕐 14h00 e 14h16 · Plenário Tiradentes · Reunião Especial de Eleição de Presidente e Vice-Presidente</div>
+          <div style="margin-top:5px"><span class="badge badge-psd">Dep. Oseias de Madureira</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ PROPOSITURAS ══ -->
+  <div class="section">
+    <div class="section-header"><span class="section-icon">📄</span><span class="section-title">Proposituras em Pauta — 5 Sessões para Emendas / Coautoria</span></div>
+    <div class="section-body">
+      <div class="sub-label">Projetos de Lei</div>
+      <div class="prop-item destaque-psd">
+        <span class="badge badge-pl">PL</span>
+        <div class="prop-body">
+          <div class="prop-header"><span class="prop-num">PL Nº 190/2026</span><span class="badge badge-psd">PSD — Dep. Marta Costa</span></div>
+          <div class="prop-ementa">Institui a Política Estadual de Prevenção, Informação e Uso Seguro de Medicamentos Supressores de Apetite (agonorexia / "canetas emagrecedoras") e dá outras providências.</div>
+          <div class="prop-prazo">⏳ Prazo: 5 sessões a partir de 16/03/2026</div>
+        </div>
+      </div>
+      <div class="prop-item">
+        <span class="badge badge-pl">PL</span>
+        <div class="prop-body">
+          <div class="prop-header"><span class="prop-num">PL Nº 189/2026</span><span class="prop-autor">Dep. Solange Freitas</span></div>
+          <div class="prop-ementa">Diretrizes para implementação de Salas de Regulação Sensorial na rede pública estadual de ensino.</div>
+          <div class="prop-prazo">⏳ Prazo: 5 sessões a partir de 16/03/2026</div>
+        </div>
+      </div>
+      <div class="prop-item">
+        <span class="badge badge-pl">PL</span>
+        <div class="prop-body">
+          <div class="prop-header"><span class="prop-num">PL Nº 191/2026</span><span class="prop-autor">Dr. Eduardo Nóbrega</span></div>
+          <div class="prop-ementa">Proibição de fabricação e distribuição de capinhas de celular que simulem armas de fogo no Estado de SP.</div>
+          <div class="prop-prazo">⏳ Prazo: 5 sessões a partir de 16/03/2026</div>
+        </div>
+      </div>
+      <div class="prop-item">
+        <span class="badge badge-pl">PL</span>
+        <div class="prop-body">
+          <div class="prop-header"><span class="prop-num">PL Nº 192/2026 — "Lei do Backup Digital"</span><span class="prop-autor">Dr. Eduardo Nóbrega</span></div>
+          <div class="prop-ementa">Garante ao consumidor de SP o direito de recuperar fotos e conteúdos digitais armazenados em redes sociais após exclusão ou extinção de contas.</div>
+          <div class="prop-prazo">⏳ Prazo: 5 sessões a partir de 16/03/2026</div>
+        </div>
+      </div>
+      <div class="prop-item">
+        <span class="badge badge-pl">PL</span>
+        <div class="prop-body">
+          <div class="prop-header"><span class="prop-num">PL Nº 193/2026</span><span class="prop-autor">Dep. Marina Helou</span></div>
+          <div class="prop-ementa">Institui o dia 17 de outubro como Dia de Luto e Memória às Mulheres Vítimas de Feminicídio em SP.</div>
+        </div>
+      </div>
+      <div class="sub-label">Moções</div>
+      <div class="prop-item">
+        <span class="badge badge-mocao">Moção</span>
+        <div class="prop-body">
+          <div class="prop-header"><span class="prop-num">Moção Nº 75/2026</span><span class="prop-autor">Dep. Monica Seixas</span></div>
+          <div class="prop-ementa"><strong>Repúdio</strong> à iniciativa que buscou impedir a participação da atleta Tifanny Abreu na semifinal da Copa Brasil de Vôlei Feminino 2026.</div>
+        </div>
+      </div>
+      <div class="prop-item">
+        <span class="badge badge-mocao">Moção</span>
+        <div class="prop-body">
+          <div class="prop-header"><span class="prop-num">Moção Nº 76/2026</span><span class="prop-autor">Dep. Marcio Nakashima</span></div>
+          <div class="prop-ementa"><strong>Aplauso</strong> ao Grupo Boticário pela criação de canal de atendimento via WhatsApp para mulheres em situação de violência.</div>
+        </div>
+      </div>
+      <div class="prop-item">
+        <span class="badge badge-mocao">Moção</span>
+        <div class="prop-body">
+          <div class="prop-header"><span class="prop-num">Moção Nº 77/2026</span><span class="prop-autor">Dep. Itamar Borges</span></div>
+          <div class="prop-ementa"><strong>Aplauso</strong> ao Sr. Vitor Martinez Silva pela Medalha de Bronze na 45ª edição do Festival Mondial du Cirque de Demain, em Paris.</div>
+        </div>
+      </div>
+      <div class="prop-item">
+        <span class="badge badge-mocao">Moção</span>
+        <div class="prop-body">
+          <div class="prop-header"><span class="prop-num">Moção Nº 78/2026</span><span class="prop-autor">Dep. Vitão do Cachorrão</span></div>
+          <div class="prop-ementa"><strong>Aplauso</strong> à Delegada Junia Cristina Leme Macedo pelo pioneirismo no combate à violência doméstica contra mulheres.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ SESSÃO ORDINÁRIA ══ -->
+  <div class="section">
+    <div class="section-header"><span class="section-icon">⚖️</span><span class="section-title">Sessão Ordinária — 13/03/2026</span></div>
+    <div class="section-body">
+      <div class="sessao-status sem-ordem">⚠️ Sem Ordem do Dia</div>
+      <div class="sessao-grid">
+        <div class="sessao-col">
+          <div class="sessao-col-title">Pequeno Expediente</div>
+          <div class="sessao-dep"><span class="sessao-dep-num sessao-dep-psd">07</span><span>Oseias de Madureira</span></div>
+        </div>
+        <div class="sessao-col">
+          <div class="sessao-col-title">Grande Expediente</div>
+          <div class="sessao-dep"><span class="sessao-dep-num sessao-dep-psd">21</span><span>Oseias de Madureira</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ DIÁRIO EXECUTIVO ══ -->
+  <div class="section">
+    <div class="section-header"><span class="section-icon">🏢</span><span class="section-title">Diário Executivo — Destaques do Governo do Estado</span></div>
+    <div class="section-body">
+      <div class="sub-label">Decretos — 12/03/2026</div>
+      <div class="diario-item">
+        <span class="badge badge-decreto">Decreto</span>
+        <div class="diario-body">
+          <div class="diario-num">Nº 70.451</div>
+          <div class="diario-desc">Autoriza a Fazenda do Estado a receber do Município de Piracicaba, mediante permissão de uso qualificada e a título gratuito, o imóvel que especifica.</div>
+          <a class="diario-link">📎 Ver íntegra</a>
+        </div>
+      </div>
+      <div class="diario-item">
+        <span class="badge badge-decreto">Decreto</span>
+        <div class="diario-body">
+          <div class="diario-num">Nº 70.453</div>
+          <div class="diario-desc">Abertura de crédito suplementar ao Orçamento Fiscal na Secretaria de Parcerias em Investimentos, para Despesas de Capital.</div>
+          <a class="diario-link">📎 Ver íntegra</a>
+        </div>
+      </div>
+      <div class="diario-item">
+        <span class="badge badge-decreto">Decreto</span>
+        <div class="diario-body">
+          <div class="diario-num">Nº 70.454</div>
+          <div class="diario-desc">Abertura de crédito suplementar ao Orçamento Fiscal na Secretaria da Segurança Pública, para Despesas Correntes.</div>
+          <a class="diario-link">📎 Ver íntegra</a>
+        </div>
+      </div>
+      <div class="diario-item">
+        <span class="badge badge-decreto">Decreto</span>
+        <div class="diario-body">
+          <div class="diario-num">Nº 70.455</div>
+          <div class="diario-desc">Abertura de crédito suplementar ao Orçamento da Seguridade Social no IAMSPE, para Despesas com Pessoal e Encargos Sociais.</div>
+          <a class="diario-link">📎 Ver íntegra</a>
+        </div>
+      </div>
+      <div class="sub-label">Resolução</div>
+      <div class="diario-item">
+        <span class="badge badge-res">Resolução</span>
+        <div class="diario-body">
+          <div class="diario-num">SAA Nº 07 — 11/03/2026</div>
+          <div class="diario-desc">Altera o Anexo I da Resolução SAA nº 78/2021, autorizando o formato eletrônico (e-GTA) para a Guia de Trânsito Animal no transporte intraestadual.</div>
+          <a class="diario-link">📎 Ver íntegra</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /wrapper -->
+
+<!-- ══ FOOTER ══ -->
+<div class="footer">
+  <div class="footer-left">
+    <p>Equipe da Liderança do PSD — à disposição da Deputada, dos Deputados e de suas assessorias</p>
+    <strong>📞 Entre em contato com a equipe:</strong>
+  </div>
+  <div class="footer-team">
+    <span class="footer-member">👤 Evandro</span>
+    <span class="footer-member">👤 Rejane</span>
+    <span class="footer-member">👤 Carol</span>
+    <span class="footer-member">👤 Antonio Carlos</span>
+  </div>
+</div>
+
+</body>
+</html>
