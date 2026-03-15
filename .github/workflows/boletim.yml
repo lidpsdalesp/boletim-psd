@@ -1,0 +1,37 @@
+﻿name: Gerar Boletim Matinal PSD
+
+on:
+  schedule:
+    - cron: "0 10 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  gerar-boletim:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instalar dependencias
+        run: pip install requests beautifulsoup4 pdfplumber
+
+      - name: Gerar boletim
+        run: python gerar_boletim.py
+
+      - name: Copiar para index.html
+        run: |
+          ARQUIVO=$(ls boletins/boletim_*.html | sort | tail -1)
+          cp "$ARQUIVO" docs/index.html
+
+      - name: Commit e push
+        run: |
+          git config user.name "Boletim PSD Bot"
+          git config user.email "antoniocgalban@gmail.com"
+          git add docs/index.html boletins/ contador_boletim.txt
+          git diff --staged --quiet || git commit -m "Boletim $(date +'%d/%m/%Y')"
+          git push
