@@ -21,16 +21,6 @@ from coletor_comissoes import (
     extrair_comissoes,
     gerar_html_comissoes,
 )
-from coletor_proposituras import (
-    buscar_proposituras,
-    gerar_html_proposituras,
-)
-from coletor_diarios import (
-    buscar_diario_legislativo,
-    buscar_diario_executivo,
-    gerar_html_diario_legislativo,
-    gerar_html_diario_executivo,
-)
 
 TEMPLATE_FILE  = "boletim_template_base.html"
 OUTPUT_DIR     = "boletins"
@@ -64,7 +54,7 @@ def gerar_header_html(ref, num_boletim):
     mes_nome = meses[ref.month - 1]
 
     return {
-        "boletim_num": "{}º Boletim Matinal".format(num_boletim),
+        "boletim_num": "{}ª Edição".format(num_boletim),
         "data_header": "{}, {} de {} de {}".format(dia_nome, ref.day, mes_nome, ref.year),
         "semana":      "Semana {} · {}".format(semana, ref.year),
     }
@@ -75,7 +65,7 @@ def main():
     ref  = dia_do_boletim(hoje)
 
     print("=" * 55)
-    print("  BOLETIM MATINAL PSD — GERADOR AUTOMÁTICO")
+    print("  ASSESSORIA PSD · AGENDA & COMISSÕES — GERADOR")
     print("=" * 55)
     print("Executando em:  {}".format(formatar_data_br(hoje)))
     print("Boletim para:   {}".format(formatar_data_br(ref)))
@@ -90,7 +80,7 @@ def main():
         boletim = f.read()
 
     # 2. Coleta a Agenda (uma única requisição, reutilizada por ambas as seções)
-    print("[1/5] Coletando Agenda da ALESP...")
+    print("[1/2] Coletando Agenda da ALESP...")
     try:
         dias = dias_a_exibir(hoje)
         dias = buscar_agenda_completa(dias)
@@ -103,7 +93,7 @@ def main():
         dias = []
 
     # 2b. Extrai Comissões dos mesmos dados (sem nova requisição)
-    print("[2/5] Extraindo Convocações para Comissões...")
+    print("[2/2] Extraindo Convocações para Comissões...")
     try:
         dias_comissoes  = extrair_comissoes(dias)
         comissoes_html  = '<div class="section">\n' + gerar_html_comissoes(dias_comissoes) + '\n  </div>'
@@ -113,67 +103,9 @@ def main():
         print("      AVISO: Erro ao extrair comissões — {}".format(e))
         comissoes_html = '<div class="section"><div class="section-body"><p style="color:#C0392B">Erro ao carregar comissões.</p></div></div>'
 
-    # 3. Proposituras em Pauta
-    print("[3/5] Coletando Proposituras em Pauta...")
-    try:
-        props          = buscar_proposituras()
-        props_html     = '<div class="section">\n' + gerar_html_proposituras(props, ref_date=ref) + '\n  </div>'
-        print("      {} proposituras encontradas".format(len(props)))
-    except Exception as e:
-        print("      AVISO: {}".format(e))
-        data_fmt   = ref.strftime("%d/%m/%Y")
-        props_html = (
-            '<div class="section">\n  <div class="section-header">'
-            '<span class="section-icon">&#128196;</span>'
-            '<span class="section-title">Proposituras em Pauta</span></div>'
-            '\n  <div class="section-body"><p style="color:#5A6A85;font-style:italic;'
-            'font-size:12px;padding:6px 0;">Pauta não divulgada para o dia {data}.</p>'
-            '</div>\n</div>'
-        ).format(data=data_fmt)
-
-    # 4. Diário Legislativo (DOE — mesma data do boletim)
-    print("[4/5] Coletando Diário Legislativo ({})...".format(ref.strftime("%d/%m/%Y")))
-    try:
-        r_leg      = buscar_diario_legislativo(ref)
-        leg_html   = '<div class="section">\n' + gerar_html_diario_legislativo(r_leg) + '\n  </div>'
-        print("      {} atos encontrados".format(len(r_leg["items"])))
-    except Exception as e:
-        print("      AVISO: {}".format(e))
-        from coletor_diarios import DIARIO_LEG, _url_sumario
-        data_fmt = ref.strftime("%d/%m/%Y")
-        leg_html = (
-            '<div class="section">\n  <div class="section-header">'
-            '<span class="section-icon">&#128218;</span>'
-            '<span class="section-title">Diário Legislativo — Atos da ALESP</span></div>'
-            '\n  <div class="section-body"><p style="color:#5A6A85;font-style:italic;'
-            'font-size:12px;padding:6px 0;">Não existem matérias para o dia {data}.</p>'
-            '</div>\n</div>'
-        ).format(data=data_fmt)
-
-    # 5. Diário Executivo (DOE — mesma data do boletim)
-    print("[5/5] Coletando Diário Executivo ({})...".format(ref.strftime("%d/%m/%Y")))
-    try:
-        r_exe      = buscar_diario_executivo(ref)
-        exe_html   = '<div class="section">\n' + gerar_html_diario_executivo(r_exe) + '\n  </div>'
-        print("      {} atos encontrados".format(len(r_exe["items"])))
-    except Exception as e:
-        print("      AVISO: {}".format(e))
-        data_fmt = ref.strftime("%d/%m/%Y")
-        exe_html = (
-            '<div class="section">\n  <div class="section-header">'
-            '<span class="section-icon">&#127963;</span>'
-            '<span class="section-title">Diário Executivo — Atos do Governo</span></div>'
-            '\n  <div class="section-body"><p style="color:#5A6A85;font-style:italic;'
-            'font-size:12px;padding:6px 0;">Não existem matérias para o dia {data}.</p>'
-            '</div>\n</div>'
-        ).format(data=data_fmt)
-
-    # 6. Injeta tudo no template
+    # 3. Injeta tudo no template
     boletim = boletim.replace("<!-- AGENDA -->",         agenda_html)
     boletim = boletim.replace("<!-- COMISSOES -->",      comissoes_html)
-    boletim = boletim.replace("<!-- PROPOSITURAS -->",   props_html)
-    boletim = boletim.replace("<!-- DIARIO_LEG -->",     leg_html)
-    boletim = boletim.replace("<!-- DIARIO_EXE -->",     exe_html)
 
     # 4. Injeta data e número no header via placeholders
     num = numero_boletim()
