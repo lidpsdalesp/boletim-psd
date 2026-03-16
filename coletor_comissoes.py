@@ -2,23 +2,29 @@
 """
 coletor_comissoes.py
 Extrai Convocacoes para Comissoes a partir dos eventos ja coletados da Agenda.
-Nao faz scraping adicional — usa os dados de 'dias' ja preenchidos.
+Cruza com comissoes_membros.json para destacar deputados do PSD.
 """
+
+import json
+import os
+import re
 
 COMISSAO_KEYWORDS = [
     "Reuniao da Comissao", "Reunião da Comissão",
-    "Reuniao do Conselho", "Reunião do Conselho",
-    "Reuniao da CPI",      "Reunião da CPI",
-    "Reuniao da CPMI",     "Reunião da CPMI",
-    "Reuniao da Frente",   "Reunião da Frente",
-    "Audiencia Publica",   "Audiência Pública",
-    "Sessao Tematica",     "Sessão Temática",
-    "Seminario",           "Seminário",
-    "Forum",               "Fórum",
+    "Reuniao do Conselho",  "Reunião do Conselho",
+    "Reuniao da CPI",       "Reunião da CPI",
+    "Reuniao da CPMI",      "Reunião da CPMI",
+    "Reuniao da Frente",    "Reunião da Frente",
+    "Audiencia Publica",    "Audiência Pública",
+    "Sessao Tematica",      "Sessão Temática",
+    "Seminario",            "Seminário",
+    "Forum",                "Fórum",
 ]
-
 NAO_COMISSAO = ["Montagem", "Desmontagem", "Apoio ao Evento"]
 
+MEMBROS_FILE = "comissoes_membros.json"
+
+# ── Helpers ───────────────────────────────────────────────────────────────────
 
 def is_comissao(ev):
     titulo = ev.get("titulo", "")
@@ -26,21 +32,77 @@ def is_comissao(ev):
         return False
     return any(kw.lower() in titulo.lower() for kw in COMISSAO_KEYWORDS)
 
-
 def extrair_comissoes(dias):
-    """Filtra eventos de comissao de cada dia da lista 'dias'."""
     resultado = []
     for d in dias:
         comissoes = [ev for ev in d.get("eventos", []) if is_comissao(ev)]
         if comissoes:
             resultado.append({
-                "label":   d["label"],
-                "data":    d["data"],
-                "estilo":  d["estilo"],
+                "label":  d["label"],
+                "data":   d["data"],
+                "estilo": d["estilo"],
                 "eventos": comissoes,
             })
     return resultado
 
+def _carregar_membros():
+    """
+    Carrega comissoes_membros.json.
+    Retorna lista de dicts: [{sigla, nome, palavras_chave, psd}]
+    para cruzamento por nome completo (os títulos não contêm siglas).
+    """
+    if not os.path.exists(MEMBROS_FILE):
+        return []
+    try:
+        with open(MEMBROS_FILE, encoding="utf-8") as f:
+            dados = json.load(f)
+        resultado = []
+        for sigla, info in dados.get("comissoes", {}).items():
+            nome = info.get("nome", "")
+            # Palavras significativas do nome (>3 letras) para busca parcial
+            palavras = [p.lower() for p in re.split(r"\s+|,|e\s", nome) if len(p) > 3]
+            resultado.append({
+                "sigla":    sigla,
+                "nome":     nome,
+                "palavras": palavras,
+                "psd":      info.get("psd", []),
+            })
+        return resultado
+    except Exception:
+        return []
+
+def _sigla_do_titulo(titulo):
+    """Tenta extrair a sigla da comissão do título do evento."""
+    t = titulo.upper()
+    # Padrão: "Reunião da Comissão de XXX - SIGLA" ou "Reunião da CCJR"
+    m = re.search(r'\b([A-Z]{2,6})\b', titulo)
+    return m.group(1) if m else ""
+
+def _psd_na_comissao(titulo, comissoes_list):
+    """
+    Encontra membros PSD da comissão mencionada no título do evento.
+    Busca primeiro por sigla, depois por palavras do nome completo.
+    """
+    if not comissoes_list:
+        return "", []
+    titulo_u = titulo.upper()
+    titulo_l = titulo.lower()
+
+    # 1. Busca exata por sigla no título
+    for c in comissoes_list:
+        if c["sigla"] in titulo_u and c["psd"]:
+            return c["sigla"], c["psd"]
+
+    # 2. Busca por palavras-chave do nome completo (mínimo 3 palavras em comum)
+    melhor_sigla, melhor_membros, melhor_score = "", [], 0
+    for c in comissoes_list:
+        score = sum(1 for p in c["palavras"] if p in titulo_l)
+        if score >= 3 and score > melhor_score:
+            melhor_score = score
+            melhor_sigla = c["sigla"]
+            melhor_membros = c["psd"]
+
+    return melhor_sigla, melhor_membros
 
 def _badge_tipo(titulo):
     t = titulo.lower()
@@ -56,106 +118,162 @@ def _badge_tipo(titulo):
         bg, cor, borda, txt = "#EBF2FF", "#1A3A9C", "#BFD0F7", "Comissão"
     return (
         '<span style="background:{bg};color:{cor};border:1px solid {borda};'
-        'border-radius:4px;padding:1px 7px;font-size:10.5px;font-weight:700;">'
-        '{txt}</span>'
+        'font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;'
+        'letter-spacing:0.3px;text-transform:uppercase;">{txt}</span>'
     ).format(bg=bg, cor=cor, borda=borda, txt=txt)
 
+def _badge_cargo(cargo):
+    """Badge colorido por cargo do deputado PSD."""
+    c = cargo.lower()
+    if "presidente" in c and "vice" not in c:
+        bg, cor = "#1A3A9C", "#FFFFFF"       # azul escuro
+    elif "vice" in c:
+        bg, cor = "#2B6CB0", "#FFFFFF"       # azul médio
+    elif "efetivo" in c:
+        bg, cor = "#F5C800", "#1A3A9C"       # amarelo PSD
+    else:
+        bg, cor = "#F0F4F9", "#5A6A85"       # cinza (suplente)
+    return (
+        '<span style="background:{bg};color:{cor};font-size:10px;font-weight:700;'
+        'padding:2px 8px;border-radius:10px;white-space:nowrap;">{cargo}</span>'
+    ).format(bg=bg, cor=cor, cargo=cargo)
+
+def _html_membros_psd(membros):
+    """Gera bloco HTML com os membros PSD da comissão."""
+    if not membros:
+        return ""
+    itens = ""
+    # Ordena: Presidente > Vice > Efetivo > Suplente
+    ordem = {"Presidente": 0, "Vice-Presidente": 1, "Efetivo": 2, "Suplente": 3}
+    membros_ord = sorted(membros, key=lambda m: ordem.get(m.get("cargo", ""), 9))
+    for m in membros_ord:
+        itens += (
+            '<div style="display:flex;align-items:center;gap:8px;'
+            'padding:3px 0;font-size:12px;">'
+            '<span style="font-size:13px;">👤</span>'
+            '<span style="font-weight:600;color:#1A1A2E;">{nome}</span>'
+            '{badge}'
+            '</div>'
+        ).format(nome=m["nome"], badge=_badge_cargo(m.get("cargo", "")))
+    return (
+        '<div style="margin-top:8px;padding:8px 10px;'
+        'background:rgba(245,200,0,0.08);border-radius:6px;'
+        'border-left:3px solid #F5C800;">'
+        '<div style="font-size:10px;font-weight:700;color:#C8960A;'
+        'text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">'
+        '⭐ PSD na Comissão</div>'
+        '{itens}'
+        '</div>'
+    ).format(itens=itens)
+
+# ── Geração do HTML ───────────────────────────────────────────────────────────
 
 def gerar_html_comissoes(dias_comissoes):
-    """Gera o bloco HTML completo da secao Convocacoes para Comissoes."""
+    """Gera o bloco HTML completo da seção Convocações para Comissões."""
+    membros_psd = _carregar_membros()
+
     header = (
-        '\n  <div class="section-header">'
-        '\n    <span class="section-icon">&#127963;</span>'
-        '\n    <span class="section-title">Convocações para Comissões</span>'
-        '\n  </div>'
+        '\n<div class="section">\n'
+        '<div class="section-header">'
+        '<span class="section-icon">🏛️</span>'
+        '<span class="section-title">Convocações para Comissões</span>'
+        '</div>\n'
+        '<div class="section-body">\n'
     )
 
     if not dias_comissoes:
-        vazio = (
-            '\n  <div class="section-body">'
-            '\n    <p style="color:#5A6A85;font-style:italic;font-size:12.5px;padding:6px 0">'
-            'Nenhuma convocação de comissão divulgada para os próximos dias.</p>'
-            '\n  </div>'
+        return (
+            header +
+            '<p style="color:#5A6A85;font-style:italic;font-size:12.5px;padding:6px 0">'
+            'Nenhuma convocação de comissão divulgada para os próximos dias.</p>\n'
+            '</div>\n</div>\n'
         )
-        return header + vazio
 
     corpo = ""
     for i, d in enumerate(dias_comissoes):
         cor = "#1A3A9C" if d["estilo"] == "destaque" else "#8A9AB5"
-        bt  = "border-top:none;padding-top:0;" if i == 0 else ""
-        mt  = "" if i == 0 else "margin-top:16px;"
+        bt  = "border-top:none;padding-top:0" if i == 0 else "margin-top:16px"
+
         corpo += (
-            '\n    <div class="sub-label" style="color:{cor};{bt}{mt}">'
-            '\n      &#128203; {label} &mdash; {data}'
-            '\n    </div>'
+            '<div class="sub-label" style="color:{cor};{bt}">'
+            '&mdash; {label} &middot; {data_br} &mdash;</div>'
         ).format(
-            cor=cor, bt=bt, mt=mt,
+            cor=cor, bt=bt,
             label=d["label"],
-            data=d["data"].strftime("%d/%m/%Y"),
+            data_br="{:02d}/{:02d}".format(d["data"].day, d["data"].month)
         )
 
         for ev in d["eventos"]:
-            badge_tipo = _badge_tipo(ev["titulo"])
-            badge_psd  = '<span class="badge badge-psd">PSD</span>' if ev.get("is_psd") else ""
+            titulo    = ev.get("titulo", "")
+            horario   = ev.get("horario", "")
+            local     = ev.get("local", "")
+            solicit   = ev.get("solicitante", "")
 
-            if ev.get("is_psd") and d["estilo"] == "destaque":
-                item_s = ' style="background:linear-gradient(90deg,#FFFBEA 0%,#FFFFF8 100%);border-left:3px solid #F5C800;margin:0 -20px;padding:10px 20px;"'
-            elif d["estilo"] == "muted":
-                item_s = ' style="opacity:0.55;filter:grayscale(15%);"'
-            else:
-                item_s = ""
+            # Cruza com membros PSD
+            sigla, membros = _psd_na_comissao(titulo, membros_psd)
+            tem_psd = bool(membros)
 
-            local_h = ""
-            if ev.get("local"):
-                local_h = "&#128205; " + ev["local"]
-
-            sol_h = ""
-            if ev.get("solicitante"):
-                sol_h = "&#128100; " + ev["solicitante"]
-                if badge_psd:
-                    sol_h += " " + badge_psd
-
-            meta_parts = [p for p in [local_h, sol_h] if p]
-            meta_h = ""
-            if meta_parts:
-                meta_h = (
-                    '<div class="event-meta">'
-                    + " &nbsp;·&nbsp; ".join(meta_parts)
-                    + "</div>"
+            # Estilo do item — fundo amarelo se tem PSD
+            if tem_psd:
+                item_style = (
+                    "background:linear-gradient(90deg,#FFFBEA 0%,#FFFFF8 100%);"
+                    "border-left:3px solid #F5C800;"
+                    "margin:0 -20px;padding:10px 20px;"
                 )
+                borda_class = ""
+            else:
+                item_style = ""
+                borda_class = ""
+
+            meta_parts = []
+            if horario: meta_parts.append(
+                '<span style="font-size:11px;">🕐 {}</span>'.format(horario))
+            if local:   meta_parts.append(
+                '<span>📍 {}</span>'.format(local))
+            if solicit: meta_parts.append(
+                '<span>👤 {}</span>'.format(solicit))
+            meta_html = (
+                '<div style="font-size:12px;color:#5A6A85;margin-top:3px;'
+                'display:flex;gap:12px;flex-wrap:wrap;">' +
+                "".join(meta_parts) + "</div>"
+            ) if meta_parts else ""
+
+            membros_html = _html_membros_psd(membros) if tem_psd else ""
 
             corpo += (
-                '\n    <div class="agenda-item"{item_s}>'
-                '\n      <div class="agenda-time">{hora}</div>'
-                '\n      <div class="agenda-content">'
-                '\n        <div class="event-name">{badge_tipo} {titulo}</div>'
-                '\n        {meta_h}'
-                '\n      </div>'
-                '\n    </div>'
+                '<div class="comissao-item" style="{item_style}">'
+                '<div class="comissao-body">'
+                '<div class="comissao-nome">{badge} {titulo}</div>'
+                '{meta}'
+                '{membros}'
+                '</div>'
+                '</div>'
             ).format(
-                item_s=item_s,
-                hora=ev["horario"],
-                badge_tipo=badge_tipo,
-                titulo=ev["titulo"],
-                meta_h=meta_h,
+                item_style=item_style,
+                badge=_badge_tipo(titulo),
+                titulo=titulo,
+                meta=meta_html,
+                membros=membros_html,
             )
 
-    return header + '\n  <div class="section-body">' + corpo + '\n  </div>'
+    return header + corpo + '</div>\n</div>\n'
 
 
 if __name__ == "__main__":
-    from datetime import date
-    from coletor_agenda_alesp import dias_a_exibir, buscar_agenda_completa
+    from datetime import date, timedelta
+    from coletor_agenda_alesp import buscar_agenda_completa, dias_a_exibir
 
-    hoje = date.today()
-    dias = dias_a_exibir(hoje)
-    dias = buscar_agenda_completa(dias)
+    dias  = dias_a_exibir()
+    dias  = buscar_agenda_completa(dias)
+    comis = extrair_comissoes(dias)
+    html  = gerar_html_comissoes(comis)
 
-    comissoes = extrair_comissoes(dias)
-    total = sum(len(d["eventos"]) for d in comissoes)
-    print("Comissoes encontradas: {}".format(total))
-    for d in comissoes:
-        print("\n  {} ({})".format(d["label"], d["data"].strftime("%d/%m/%Y")))
+    with open("comissoes_bloco.html", "w", encoding="utf-8") as f:
+        f.write(html)
+    print("Salvo em comissoes_bloco.html")
+    for d in comis:
+        print(f"\n{d['label']} {d['data']:%d/%m}")
         for ev in d["eventos"]:
-            psd = " [PSD]" if ev.get("is_psd") else ""
-            print("    {}  {}{}".format(ev["horario"], ev["titulo"][:65], psd))
+            sigla, membros = _psd_na_comissao(ev["titulo"], _carregar_membros())
+            psd_txt = f" | PSD: {', '.join(m['nome'] for m in membros)}" if membros else ""
+            print(f"  {ev['horario']} {ev['titulo'][:60]}{psd_txt}")
