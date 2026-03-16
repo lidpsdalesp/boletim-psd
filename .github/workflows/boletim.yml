@@ -1,40 +1,42 @@
-name: Gerar Boletim Matinal PSD
+name: Assessoria PSD · Agenda & Comissões
 
 on:
   schedule:
-    - cron: "0 10 * * 1-5"
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: '0 9 * * 1-5'   # 06h00 BRT (09h00 UTC), seg a sex
+  workflow_dispatch:          # permite rodar manualmente
 
 jobs:
-  gerar-boletim:
+  gerar-assessoria:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repositório
         uses: actions/checkout@v4
 
-      - name: Setup Python
+      - name: Configura Python 3.11
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: Instalar dependencias
-        run: pip install requests beautifulsoup4 pdfplumber
+      - name: Instala dependências
+        run: pip install requests beautifulsoup4 lxml
 
-      - name: Gerar boletim
+      - name: Atualiza membros das Comissões Permanentes
+        run: python coletor_membros_comissoes.py
+
+      - name: Atualiza membros das CPIs
+        run: python coletor_membros_cpis.py
+
+      - name: Gera Assessoria PSD
         run: python gerar_boletim.py
 
-      - name: Copiar para index.html
+      - name: Commit e push dos arquivos gerados
         run: |
-          ARQUIVO=$(ls boletins/boletim_*.html | sort | tail -1)
-          cp "$ARQUIVO" docs/index.html
-
-      - name: Commit e push
-        run: |
-          git config user.name "Boletim PSD Bot"
-          git config user.email "antoniocgalban@gmail.com"
-          git add docs/index.html boletins/ contador_boletim.txt
-          git diff --staged --quiet || git commit -m "Boletim $(date +'%d/%m/%Y')"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add boletins/
+          git add comissoes_membros.json
+          git add cpis_membros.json
+          git add contador_boletim.txt
+          git diff --staged --quiet || git commit -m "auto: assessoria $(date +'%d/%m/%Y')"
           git push
