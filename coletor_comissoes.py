@@ -13,11 +13,7 @@ COMISSAO_KEYWORDS = [
     "Reuniao da Comissao", "Reunião da Comissão",
     "Reuniao do Conselho",  "Reunião do Conselho",
     "Reuniao da Frente",    "Reunião da Frente",
-    "Audiencia Publica",    "Audiência Pública",
-    "Sessao Tematica",      "Sessão Temática",
-    "Seminario",            "Seminário",
-    "Forum",                "Fórum",
-]
+    "Audiencia Publica",    "Sessao Tematica",      "Seminario",            "Forum",            ]
 NAO_COMISSAO = ["Montagem", "Desmontagem", "Apoio ao Evento"]
 
 MEMBROS_FILE = "comissoes_membros.json"
