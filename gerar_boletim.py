@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 gerar_boletim.py
-Gera o Boletim Matinal do PSD com dados reais da ALESP.
+Gera a Assessoria PSD · Agenda & Comissões.
 Uso: python gerar_boletim.py
 """
 
@@ -65,10 +65,10 @@ def main():
     ref  = dia_do_boletim(hoje)
 
     print("=" * 55)
-    print("  ASSESSORIA PSD · AGENDA & COMISSÕES — GERADOR")
+    print("  🏛️  ASSESSORIA PSD · AGENDA & COMISSÕES")
     print("=" * 55)
     print("Executando em:  {}".format(formatar_data_br(hoje)))
-    print("Boletim para:   {}".format(formatar_data_br(ref)))
+    print("Edição para:    {}".format(formatar_data_br(ref)))
     print("")
 
     # 1. Carrega o template
@@ -124,7 +124,7 @@ def main():
         f.write(boletim)
 
     print("")
-    print("Boletim gerado com sucesso!")
+    print("Assessoria PSD gerada com sucesso!")
     print("Arquivo: {}".format(nome_arquivo))
     print("")
     print("Abra o arquivo no navegador para visualizar.")
