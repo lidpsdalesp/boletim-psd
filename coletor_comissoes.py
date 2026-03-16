@@ -212,18 +212,21 @@ def gerar_html_comissoes(dias_comissoes):
             # Cruza com membros PSD
             sigla, membros = _psd_na_comissao(titulo, membros_psd)
             tem_psd = bool(membros)
+            eh_hoje = d["estilo"] == "destaque"
 
-            # Estilo do item — fundo amarelo se tem PSD
-            if tem_psd:
+            # Fundo amarelo apenas para HOJE com PSD
+            # Amanhã/demais: item mais claro, sem destaque
+            if not eh_hoje:
+                item_style = "opacity:0.55;filter:grayscale(10%);"
+                membros = []   # não exibe bloco PSD nos dias futuros
+            elif tem_psd:
                 item_style = (
                     "background:linear-gradient(90deg,#FFFBEA 0%,#FFFFF8 100%);"
                     "border-left:3px solid #F5C800;"
                     "margin:0 -20px;padding:10px 20px;"
                 )
-                borda_class = ""
             else:
                 item_style = ""
-                borda_class = ""
 
             meta_parts = []
             if horario: meta_parts.append(
