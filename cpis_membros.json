@@ -1,0 +1,3339 @@
+{
+  "CPI - Descarte de Materiais Contaminantes": {
+    "nome": "CPI - Descarte de Materiais Contaminantes",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=1000001275",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Delegado Olim",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Thiago Auricchio",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Bruno Zambelli",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Luiz Fernando T. Ferreira",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Rômulo Fernandes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Carlão Pignatari",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Dr. Elton",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Jorge Caruso",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Fábio Faria de Sá",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "André Bueno",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Rodrigo Moraes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Ana Perugini",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Reis",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Rogério Nogueira",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Solange Freitas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Léo Oliveira",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Marcelo Aguiar",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Capitão Telhada",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI - Golpes do tipo \"Pirâmide\"": {
+    "nome": "CPI - Golpes do tipo \"Pirâmide\"",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=1000001277",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Paulo Fiorilo",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lucas Bove",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Tenente Coimbra",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Luiz Claudio Marcolino",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Dirceu Dalben",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Altair Moraes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Fábio Faria de Sá",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Leonardo Siqueira",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Alex Madureira",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Dani Alonso",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Dr. Jorge do Carmo",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Luiz Fernando T. Ferreira",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Carla Morando",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Jorge Wilson Xerife do Consumidor",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Marcelo Aguiar",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI - Lixões": {
+    "nome": "CPI - Lixões",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=1000001278",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Carlão Pignatari",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Delegado Olim",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "André Bueno",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Thiago Auricchio",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Enio Tatto",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Luiz Claudio Marcolino",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Altair Moraes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Edson Giriboni",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Marcelo Aguiar",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Marcos Damasio",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Paulo Mansur",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Beth Sahão",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Thainara Faria",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Rogério Nogueira",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Danilo Campetti",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Felipe Franco",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Clarice Ganem",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Capitão Telhada",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI - Questões Impactantes e Nocivas ao Meio Ambiente": {
+    "nome": "CPI - Questões Impactantes e Nocivas ao Meio Ambiente",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=1000001276",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "André Bueno",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Valeria Bolsonaro",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Beth Sahão",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Professora Bebel",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Sebastião Santos",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Rafael Saraiva",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Monica Seixas do Movimento Pretas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Dr. Eduardo Nóbrega",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Oseias de Madureira",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Gil Diniz Bolsonaro",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Ricardo Madalena",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Dr. Jorge do Carmo",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Enio Tatto",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Altair Moraes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Guilherme Cortez",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Marcelo Aguiar",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Marta Costa",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI - Vazamento de Dados Cadastrais de Pessoas Físicas e Jurídicas": {
+    "nome": "CPI - Vazamento de Dados Cadastrais de Pessoas Físicas e Jurídicas",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=1000001274",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Agente Federal Danilo Balas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Conte Lopes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Dr. Jorge do Carmo",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Professora Bebel",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Dirceu Dalben",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Danilo Campetti",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Felipe Franco",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Itamar Borges",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Dr. Eduardo Nóbrega",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Letícia Aguiar",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Tenente Coimbra",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Emídio de Souza",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Márcia Lia",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Rogério Nogueira",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Sebastião Santos",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Dr. Elton",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Jorge Caruso",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Marcelo Aguiar",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Desaparecimento de Pessoas": {
+    "nome": "CPI Desaparecimento de Pessoas",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100020",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Eletropaulo": {
+    "nome": "CPI Eletropaulo",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99976",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Violência Praticada contra as Mulheres": {
+    "nome": "CPI Violência Praticada contra as Mulheres",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100021",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Cartelização do Mercado de Autopeças de Reposição": {
+    "nome": "CPI Cartelização do Mercado de Autopeças de Reposição",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100017",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Pesca Predatória": {
+    "nome": "CPI Pesca Predatória",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100018",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Parcelamento 'sem juros'": {
+    "nome": "CPI Parcelamento 'sem juros'",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100015",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Reprodução Assistida": {
+    "nome": "CPI Reprodução Assistida",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100016",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Ensino Superior": {
+    "nome": "CPI Ensino Superior",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100012",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI TV por Assinatura": {
+    "nome": "CPI TV por Assinatura",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100011",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI - TV por assinatura": {
+    "nome": "CPI - TV por assinatura",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100010",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Segurança Alimentar": {
+    "nome": "CPI Segurança Alimentar",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100009",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI BANCOOP": {
+    "nome": "CPI BANCOOP",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100005",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Gorjetas": {
+    "nome": "CPI Gorjetas",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100008",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI IPVA": {
+    "nome": "CPI IPVA",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100006",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Pedofilia": {
+    "nome": "CPI Pedofilia",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100007",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI CDHU": {
+    "nome": "CPI CDHU",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100001",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Cursos de Medicina": {
+    "nome": "CPI Cursos de Medicina",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100003",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Erro Médico": {
+    "nome": "CPI Erro Médico",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100002",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Sistema Ferroviário": {
+    "nome": "CPI Sistema Ferroviário",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100004",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Transporte Aéreo": {
+    "nome": "CPI Transporte Aéreo",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=100000",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Santas Casas": {
+    "nome": "CPI Santas Casas",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99968",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Contaminações Ambientais": {
+    "nome": "CPI Contaminações Ambientais",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99969",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI ECAD": {
+    "nome": "CPI ECAD",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99971",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Febre Aftosa": {
+    "nome": "CPI Febre Aftosa",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99967",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Operadoras de Seguro": {
+    "nome": "CPI Operadoras de Seguro",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99970",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Guerra Fiscal": {
+    "nome": "CPI Guerra Fiscal",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99975",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Queima da Palha da Cana-de-Açúcar": {
+    "nome": "CPI Queima da Palha da Cana-de-Açúcar",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99974",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Remuneração dos Serviços Médico-Hospitalares": {
+    "nome": "CPI Remuneração dos Serviços Médico-Hospitalares",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99973",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Telefonia": {
+    "nome": "CPI Telefonia",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99972",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Eletropaulo.": {
+    "nome": "CPI Eletropaulo.",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99978",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Guerra Fiscal.": {
+    "nome": "CPI Guerra Fiscal.",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99977",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Consumidor (CPI - Financeiras - 2ª)": {
+    "nome": "CPI Consumidor (CPI - Financeiras - 2ª)",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99996",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Sistema Prisional": {
+    "nome": "CPI Sistema Prisional",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99998",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Combustíveis": {
+    "nome": "CPI Combustíveis",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99991",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Financeiras": {
+    "nome": "CPI Financeiras",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99992",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Narcotráfico": {
+    "nome": "CPI Narcotráfico",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99994",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Educação": {
+    "nome": "CPI Educação",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99982",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Indenização": {
+    "nome": "CPI Indenização",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99993",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Pedágio": {
+    "nome": "CPI Pedágio",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99995",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Transportes": {
+    "nome": "CPI Transportes",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99981",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Precatórios": {
+    "nome": "CPI Precatórios",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99997",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Telefonica": {
+    "nome": "CPI Telefonica",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99999",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI FEBEM": {
+    "nome": "CPI FEBEM",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99987",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI 0900": {
+    "nome": "CPI 0900",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99986",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI Diadema": {
+    "nome": "CPI Diadema",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99984",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  },
+  "CPI do Crime Organizado": {
+    "nome": "CPI do Crime Organizado",
+    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99985",
+    "membros": [
+      {
+        "nome": "Deputados",
+        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Lista de Deputados",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Mesa Diretora",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Líderes",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Parlamentares desde 1947",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Prestação de Contas",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Presença em Plenário",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Perda de Mandato",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Veículos do Gabinete",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "O Trabalho do Deputado",
+        "partido": "",
+        "cargo": "Efetivo"
+      }
+    ],
+    "psd": []
+  }
+}
