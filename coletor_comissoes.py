@@ -218,7 +218,6 @@ def gerar_html_comissoes(dias_comissoes):
             # Amanhã/demais: item mais claro, sem destaque
             if not eh_hoje:
                 item_style = "opacity:0.55;filter:grayscale(10%);"
-                membros = []   # não exibe bloco PSD nos dias futuros
             elif tem_psd:
                 item_style = (
                     "background:linear-gradient(90deg,#FFFBEA 0%,#FFFFF8 100%);"
