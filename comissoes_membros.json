@@ -1,0 +1,2940 @@
+{
+  "atualizado_em": "2026-03-16",
+  "comissoes": {
+    "CAPRT": {
+      "id": "12452",
+      "nome": "Administração Pública e Relações do Trabalho",
+      "membros": [
+        {
+          "nome": "Solange Freitas",
+          "partido": "UNIÃO",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Itamar Borges",
+          "partido": "MDB",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Alex Madureira",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rodrigo Moraes",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Professora Bebel",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Teonilio Barba",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Gilmaci Santos",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Solange Freitas",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Guilherme Cortez",
+          "partido": "PSOL/REDE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Itamar Borges",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Capitão Telhada",
+          "partido": "PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Leonardo Siqueira",
+          "partido": "NOVO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Bruno Zambelli",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Major Mecca",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Donato",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Luiz Claudio Marcolino",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ana Carolina Serra",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paula da Bancada Feminista",
+          "partido": "PSOL/REDE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Jorge Caruso",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [],
+      "total": 20
+    },
+    "CAD": {
+      "id": "12448",
+      "nome": "Assuntos Desportivos",
+      "membros": [
+        {
+          "nome": "Danilo Campetti",
+          "partido": "REPUBLICANOS",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Felipe Franco",
+          "partido": "UNIÃO",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "André Bueno",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Tenente Coimbra",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Donato",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Enio Tatto",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Altair Moraes",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Danilo Campetti",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Felipe Franco",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dr. Eduardo Nóbrega",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Caio França",
+          "partido": "PSB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Conte Lopes",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ricardo Madalena",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Reis",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Sebastião Santos",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Tomé Abduch",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dr. Elton",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Fábio Faria de Sá",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Valdomiro Lopes",
+          "partido": "PSB",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 22
+    },
+    "CAMM": {
+      "id": "12449",
+      "nome": "Assuntos Metropolitanos e Municipais",
+      "membros": [
+        {
+          "nome": "Ana Carolina Serra",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Ana Perugini",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Paulo Mansur",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Ricardo Madalena",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Tenente Coimbra",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Ana Perugini",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Beth Sahão",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dr. Jorge do Carmo",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Ana Carolina Serra",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Jorge Wilson Xerife do Consumidor",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Edson Giriboni",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rogério Santos",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Fábio Faria de Sá",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marta Costa",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marcio Nakashima",
+          "partido": "PDT",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Bruno Zambelli",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Conte Lopes",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Rodrigo Moraes",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Eduardo Suplicy",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Luiz Fernando T. Ferreira",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Rômulo Fernandes",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Gilmaci Santos",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Milton Leite Filho",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Jorge Caruso",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dr. Eduardo Nóbrega",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [
+        {
+          "nome": "Marta Costa",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marcio Nakashima",
+          "partido": "PDT",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 27
+    },
+    "CAE": {
+      "id": "12454",
+      "nome": "Atividades Econômicas",
+      "membros": [
+        {
+          "nome": "Itamar Borges",
+          "partido": "MDB",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Carla Morando",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Bruno Zambelli",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Lucas Bove",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Márcia Lia",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Thainara Faria",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Carla Morando",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Sebastião Santos",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Edson Giriboni",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Monica Seixas do Movimento Pretas",
+          "partido": "PSOL/REDE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Itamar Borges",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Capitão Telhada",
+          "partido": "PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Leonardo Siqueira",
+          "partido": "NOVO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dani Alonso",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Marcos Damasio",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Donato",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Eduardo Suplicy",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Tomé Abduch",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Solange Freitas",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paula da Bancada Feminista",
+          "partido": "PSOL/REDE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Jorge Caruso",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [],
+      "total": 22
+    },
+    "CCTI": {
+      "id": "12456",
+      "nome": "Ciência, Tecnologia, Inovação e Informação",
+      "membros": [
+        {
+          "nome": "Mauro Bragato",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Leonardo Siqueira",
+          "partido": "NOVO",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Bruno Zambelli",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Fabiana Bolsonaro",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Beth Sahão",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Paulo Fiorilo",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Mauro Bragato",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Sebastião Santos",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Milton Leite Filho",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marina Helou",
+          "partido": "PSOL/REDE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rogério Santos",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dr. Eduardo Nóbrega",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Leonardo Siqueira",
+          "partido": "NOVO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marcos Damasio",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ricardo Madalena",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Professora Bebel",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Teonilio Barba",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Danilo Campetti",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Edson Giriboni",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Guilherme Cortez",
+          "partido": "PSOL/REDE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Itamar Borges",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ricardo França",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [],
+      "total": 23
+    },
+    "CCJR": {
+      "id": "12444",
+      "nome": "Constituição, Justiça e Redação",
+      "membros": [
+        {
+          "nome": "Thiago Auricchio",
+          "partido": "PL",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Altair Moraes",
+          "partido": "REPUBLICANOS",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Alex Madureira",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Conte Lopes",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Thiago Auricchio",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Emídio de Souza",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Reis",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rômulo Fernandes",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Mauro Bragato",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Altair Moraes",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rafael Saraiva",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marcelo Aguiar",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marta Costa",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Bruno Zambelli",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dani Alonso",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Gil Diniz Bolsonaro",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Luiz Fernando T. Ferreira",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paulo Fiorilo",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Professora Bebel",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Maria Lúcia Amary",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Danilo Campetti",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Solange Freitas",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dr. Eduardo Nóbrega",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Rafael Silva",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Capitão Telhada",
+          "partido": "PP",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [
+        {
+          "nome": "Marta Costa",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Rafael Silva",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 28
+    },
+    "CDD": {
+      "id": "12455",
+      "nome": "Defesa dos Direitos da Pessoa Humana",
+      "membros": [
+        {
+          "nome": "Márcia Lia",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Gil Diniz Bolsonaro",
+          "partido": "PL",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Gil Diniz Bolsonaro",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Major Mecca",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Eduardo Suplicy",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Márcia Lia",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Carlão Pignatari",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Altair Moraes",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Paula da Bancada Feminista",
+          "partido": "PSOL/REDE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Clarice Ganem",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rafael Silva",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Capitão Telhada",
+          "partido": "PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Lucas Bove",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Tenente Coimbra",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Beth Sahão",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dr. Jorge do Carmo",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Bruna Furlan",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Danilo Campetti",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Solange Freitas",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Guilherme Cortez",
+          "partido": "PSOL/REDE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dr. Eduardo Nóbrega",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [
+        {
+          "nome": "Rafael Silva",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 23
+    },
+    "CDDPD": {
+      "id": "1000001015",
+      "nome": "Defesa dos Direitos das Pessoas com Deficiência",
+      "membros": [
+        {
+          "nome": "Andréa Werner",
+          "partido": "PSB",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "André Bueno",
+          "partido": "PL",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "André Bueno",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Fabiana Bolsonaro",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Beth Sahão",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Professora Bebel",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Gilmaci Santos",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Solange Freitas",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Clarice Ganem",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rafael Silva",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Capitão Telhada",
+          "partido": "PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Andréa Werner",
+          "partido": "PSB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Gil Diniz Bolsonaro",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Marcos Damasio",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Donato",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Emídio de Souza",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ana Carolina Serra",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Danilo Campetti",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dr. Elton",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Marcelo Aguiar",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Marta Costa",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Caio França",
+          "partido": "PSB",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [
+        {
+          "nome": "Rafael Silva",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marta Costa",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 24
+    },
+    "CDDC": {
+      "id": "1000000128",
+      "nome": "Defesa dos Direitos do Consumidor",
+      "membros": [
+        {
+          "nome": "Jorge Wilson Xerife do Consumidor",
+          "partido": "REPUBLICANOS",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Lucas Bove",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Thiago Auricchio",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Luiz Claudio Marcolino",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Reis",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Edna Macedo",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Jorge Wilson Xerife do Consumidor",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Felipe Franco",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Jorge Caruso",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marcio Nakashima",
+          "partido": "PDT",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Gil Diniz Bolsonaro",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paulo Mansur",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Donato",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Enio Tatto",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Carla Morando",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Altair Moraes",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Léo Oliveira",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Capitão Telhada",
+          "partido": "PP",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [
+        {
+          "nome": "Marcio Nakashima",
+          "partido": "PDT",
+          "cargo": "Efetivo"
+        }
+      ],
+      "total": 21
+    },
+    "CDDM": {
+      "id": "1000000297",
+      "nome": "Defesa dos Direitos das Mulheres",
+      "membros": [
+        {
+          "nome": "Dani Alonso",
+          "partido": "PL",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Márcia Lia",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Dani Alonso",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Fabiana Bolsonaro",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Leci Brandão",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Márcia Lia",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Maria Lúcia Amary",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Edna Macedo",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Solange Freitas",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marina Helou",
+          "partido": "PSOL/REDE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Clarice Ganem",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marcio Nakashima",
+          "partido": "PDT",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "André Bueno",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Bruno Zambelli",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ana Perugini",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Thainara Faria",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dr. Elton",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ediane Maria",
+          "partido": "PSOL/REDE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Marcelo Aguiar",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Capitão Telhada",
+          "partido": "PP",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [
+        {
+          "nome": "Marcio Nakashima",
+          "partido": "PDT",
+          "cargo": "Efetivo"
+        }
+      ],
+      "total": 22
+    },
+    "CEC": {
+      "id": "12447",
+      "nome": "Educação e Cultura",
+      "membros": [
+        {
+          "nome": "Professora Bebel",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Lucas Bove",
+          "partido": "PL",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Gil Diniz Bolsonaro",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Lucas Bove",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Tenente Coimbra",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Leci Brandão",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Professora Bebel",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Reis",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Mauro Bragato",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Gilmaci Santos",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Tomé Abduch",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Carlos Giannazi",
+          "partido": "PSOL/REDE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dr. Eduardo Nóbrega",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Alex Madureira",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "André Bueno",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dani Alonso",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ana Perugini",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paulo Fiorilo",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Carlão Pignatari",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Altair Moraes",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Jorge Wilson Xerife do Consumidor",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Felipe Franco",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Marina Helou",
+          "partido": "PSOL/REDE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ricardo França",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Marta Costa",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marta Costa",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 26
+    },
+    "CFOP": {
+      "id": "12445",
+      "nome": "Finanças, Orçamento e Planejamento",
+      "membros": [
+        {
+          "nome": "Gilmaci Santos",
+          "partido": "REPUBLICANOS",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Luiz Claudio Marcolino",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Alex Madureira",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Fabiana Bolsonaro",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Enio Tatto",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Luiz Claudio Marcolino",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Carlão Pignatari",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Gilmaci Santos",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Solange Freitas",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Itamar Borges",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Ricardo França",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "André Bueno",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paulo Mansur",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paulo Fiorilo",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Teonilio Barba",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Carla Morando",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Tomé Abduch",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Rafael Saraiva",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Rogério Santos",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Fábio Faria de Sá",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 23
+    },
+    "CFC": {
+      "id": "8509",
+      "nome": "Fiscalização e Controle",
+      "membros": [
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Caio França",
+          "partido": "PSB",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Alex Madureira",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Bruno Zambelli",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Donato",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Reis",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Altair Moraes",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Milton Leite Filho",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Jorge Caruso",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Caio França",
+          "partido": "PSB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Leonardo Siqueira",
+          "partido": "NOVO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marcos Damasio",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Rodrigo Moraes",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Enio Tatto",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Luiz Claudio Marcolino",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Mauro Bragato",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Danilo Campetti",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Edson Giriboni",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Itamar Borges",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Capitão Telhada",
+          "partido": "PP",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Valdomiro Lopes",
+          "partido": "PSB",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [],
+      "total": 23
+    },
+    "CHDRU": {
+      "id": "1000001021",
+      "nome": "Habitação, Desenvolvimento e Reforma Urbana",
+      "membros": [
+        {
+          "nome": "Rafael Saraiva",
+          "partido": "UNIÃO",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Dr. Jorge do Carmo",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Dani Alonso",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Paulo Mansur",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dr. Jorge do Carmo",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Eduardo Suplicy",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Edson Giriboni",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rafael Saraiva",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Ediane Maria",
+          "partido": "PSOL/REDE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Itamar Borges",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Fábio Faria de Sá",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Valdomiro Lopes",
+          "partido": "PSB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Lucas Bove",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ricardo Madalena",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Donato",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Luiz Claudio Marcolino",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Milton Leite Filho",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Solange Freitas",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Monica Seixas do Movimento Pretas",
+          "partido": "PSOL/REDE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Léo Oliveira",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ricardo França",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Andréa Werner",
+          "partido": "PSB",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [],
+      "total": 24
+    },
+    "CI": {
+      "id": "12450",
+      "nome": "Infraestrutura",
+      "membros": [
+        {
+          "nome": "Luiz Fernando T. Ferreira",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Rogério Santos",
+          "partido": "MDB",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Dani Alonso",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marcos Damasio",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Luiz Fernando T. Ferreira",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Teonilio Barba",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Carlão Pignatari",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Danilo Campetti",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Edson Giriboni",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Guilherme Cortez",
+          "partido": "PSOL/REDE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rogério Santos",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Fábio Faria de Sá",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Capitão Telhada",
+          "partido": "PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Bruno Zambelli",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Lucas Bove",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Professora Bebel",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Thainara Faria",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Altair Moraes",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Milton Leite Filho",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ediane Maria",
+          "partido": "PSOL/REDE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Léo Oliveira",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ricardo França",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [],
+      "total": 24
+    },
+    "CMADS": {
+      "id": "12453",
+      "nome": "Meio Ambiente e Desenvolvimento Sustentável",
+      "membros": [
+        {
+          "nome": "Ricardo França",
+          "partido": "PODE",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Rafael Saraiva",
+          "partido": "UNIÃO",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Bruno Zambelli",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Ricardo Madalena",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Luiz Claudio Marcolino",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rômulo Fernandes",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Sebastião Santos",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rafael Saraiva",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marina Helou",
+          "partido": "PSOL/REDE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Monica Seixas do Movimento Pretas",
+          "partido": "PSOL/REDE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Léo Oliveira",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Ricardo França",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "André Bueno",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Lucas Bove",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Beth Sahão",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Donato",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Bruna Furlan",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Edna Macedo",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Milton Leite Filho",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Guilherme Cortez",
+          "partido": "PSOL/REDE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paula da Bancada Feminista",
+          "partido": "PSOL/REDE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Itamar Borges",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Clarice Ganem",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [],
+      "total": 24
+    },
+    "CRI": {
+      "id": "1000000596",
+      "nome": "Relações Internacionais",
+      "membros": [
+        {
+          "nome": "Paulo Fiorilo",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Gil Diniz Bolsonaro",
+          "partido": "PL",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "André Bueno",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Gil Diniz Bolsonaro",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Paulo Fiorilo",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Thainara Faria",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Maria Lúcia Amary",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Mauro Bragato",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Danilo Campetti",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Guilherme Cortez",
+          "partido": "PSOL/REDE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Itamar Borges",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marcelo Aguiar",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dani Alonso",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Tenente Coimbra",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Donato",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Luiz Fernando T. Ferreira",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Carla Morando",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Sebastião Santos",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paula da Bancada Feminista",
+          "partido": "PSOL/REDE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Jorge Caruso",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dr. Eduardo Nóbrega",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 24
+    },
+    "CS": {
+      "id": "12446",
+      "nome": "Saúde",
+      "membros": [
+        {
+          "nome": "Bruna Furlan",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Alex Madureira",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dani Alonso",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Ana Perugini",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Beth Sahão",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Bruna Furlan",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Edna Macedo",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dr. Elton",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Itamar Borges",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Clarice Ganem",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Valdomiro Lopes",
+          "partido": "PSB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Delegada Graciela",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ricardo Madalena",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Enio Tatto",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Luiz Claudio Marcolino",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Felipe Franco",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Léo Oliveira",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Marcelo Aguiar",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Marta Costa",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Caio França",
+          "partido": "PSB",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marta Costa",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 23
+    },
+    "CSPAP": {
+      "id": "12451",
+      "nome": "Segurança Pública e Assuntos Penitenciários",
+      "membros": [
+        {
+          "nome": "Major Mecca",
+          "partido": "PL",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Agente Federal Danilo Balas",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Conte Lopes",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Major Mecca",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Eduardo Suplicy",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Reis",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Carla Morando",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Altair Moraes",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Ediane Maria",
+          "partido": "PSOL/REDE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Jorge Caruso",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Gil Diniz Bolsonaro",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paulo Mansur",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Rodrigo Moraes",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Luiz Fernando T. Ferreira",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paulo Fiorilo",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Mauro Bragato",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Danilo Campetti",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Rafael Saraiva",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Monica Seixas do Movimento Pretas",
+          "partido": "PSOL/REDE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Itamar Borges",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Capitão Telhada",
+          "partido": "PP",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [],
+      "total": 23
+    },
+    "CTC": {
+      "id": "8520",
+      "nome": "Transportes e Comunicações",
+      "membros": [
+        {
+          "nome": "Ricardo Madalena",
+          "partido": "PL",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Milton Leite Filho",
+          "partido": "UNIÃO",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Paulo Mansur",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Ricardo Madalena",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rodrigo Moraes",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Emídio de Souza",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Enio Tatto",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Luiz Fernando T. Ferreira",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Jorge Wilson Xerife do Consumidor",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Milton Leite Filho",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Léo Oliveira",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Capitão Telhada",
+          "partido": "PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Valdomiro Lopes",
+          "partido": "PSB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Alex Madureira",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Bruno Zambelli",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dani Alonso",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Donato",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Luiz Claudio Marcolino",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Rômulo Fernandes",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Carla Morando",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Danilo Campetti",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Edson Giriboni",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Rogério Santos",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Caio França",
+          "partido": "PSB",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 28
+    },
+    "CT": {
+      "id": "1000001016",
+      "nome": "Turismo",
+      "membros": [
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Sebastião Santos",
+          "partido": "REPUBLICANOS",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Agente Federal Danilo Balas",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Delegada Graciela",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Professora Bebel",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rômulo Fernandes",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Maria Lúcia Amary",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Sebastião Santos",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Solange Freitas",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Itamar Borges",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Caio França",
+          "partido": "PSB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marcio Nakashima",
+          "partido": "PDT",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dani Alonso",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Tenente Coimbra",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Donato",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Enio Tatto",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Edna Macedo",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dr. Elton",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Jorge Caruso",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Rafael Silva",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Valdomiro Lopes",
+          "partido": "PSB",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marcio Nakashima",
+          "partido": "PDT",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rafael Silva",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 22
+    },
+    "CEDP": {
+      "id": "8521",
+      "nome": "Conselho de Ética e Decoro Parlamentar",
+      "membros": [
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Presidente"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Bruno Zambelli",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Emídio de Souza",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Altair Moraes",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Rafael Saraiva",
+          "partido": "UNIÃO",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Paula da Bancada Feminista",
+          "partido": "PSOL/REDE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dr. Eduardo Nóbrega",
+          "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Delegado Olim",
+          "partido": "PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Agente Federal Danilo Balas",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Enio Tatto",
+          "partido": "PT/PCdoB/PV",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Danilo Campetti",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Milton Leite Filho",
+          "partido": "UNIÃO",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Ediane Maria",
+          "partido": "PSOL/REDE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Clarice Ganem",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Capitão Telhada",
+          "partido": "PP",
+          "cargo": "Suplente"
+        }
+      ],
+      "psd": [
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Paulo Correa Jr",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 20
+    }
+  }
+}

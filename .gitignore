@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+fix_*.py
+diagn.py
+comissoes_bloco.html

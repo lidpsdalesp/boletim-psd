@@ -20,6 +20,8 @@ from coletor_agenda_alesp import (
 from coletor_comissoes import (
     extrair_comissoes,
     gerar_html_comissoes,
+    extrair_cpis,
+    gerar_html_cpis,
 )
 
 TEMPLATE_FILE  = "boletim_template_base.html"
@@ -80,7 +82,7 @@ def main():
         boletim = f.read()
 
     # 2. Coleta a Agenda (uma única requisição, reutilizada por ambas as seções)
-    print("[1/2] Coletando Agenda da ALESP...")
+    print("[1/3] Coletando Agenda da ALESP...")
     try:
         dias = dias_a_exibir(hoje)
         dias = buscar_agenda_completa(dias)
@@ -93,7 +95,7 @@ def main():
         dias = []
 
     # 2b. Extrai Comissões dos mesmos dados (sem nova requisição)
-    print("[2/2] Extraindo Convocações para Comissões...")
+    print("[2/3] Extraindo Convocações para Comissões...")
     try:
         dias_comissoes  = extrair_comissoes(dias)
         comissoes_html  = '<div class="section">\n' + gerar_html_comissoes(dias_comissoes) + '\n  </div>'
@@ -103,9 +105,22 @@ def main():
         print("      AVISO: Erro ao extrair comissões — {}".format(e))
         comissoes_html = '<div class="section"><div class="section-body"><p style="color:#C0392B">Erro ao carregar comissões.</p></div></div>'
 
-    # 3. Injeta tudo no template
+
+    # 3. Extrai CPIs da mesma agenda
+    print("[3/3] Extraindo Reuniões de CPIs...")
+    try:
+        dias_cpis    = extrair_cpis(dias)
+        cpis_html    = '<div class="section">\n' + gerar_html_cpis(dias_cpis) + '\n  </div>'
+        total_cpis   = sum(len(d["eventos"]) for d in dias_cpis)
+        print("      {} reuniões de CPI encontradas".format(total_cpis))
+    except Exception as e:
+        print("      AVISO: Erro ao extrair CPIs — {}".format(e))
+        cpis_html = '<div class="section"><div class="section-body"><p style="color:#C0392B">Erro ao carregar CPIs.</p></div></div>'
+
+    # 4. Injeta tudo no template
     boletim = boletim.replace("<!-- AGENDA -->",         agenda_html)
     boletim = boletim.replace("<!-- COMISSOES -->",      comissoes_html)
+    boletim = boletim.replace("<!-- CPIS -->",           cpis_html)
 
     # 4. Injeta data e número no header via placeholders
     num = numero_boletim()

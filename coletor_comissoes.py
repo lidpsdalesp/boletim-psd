@@ -12,8 +12,6 @@ import re
 COMISSAO_KEYWORDS = [
     "Reuniao da Comissao", "Reunião da Comissão",
     "Reuniao do Conselho",  "Reunião do Conselho",
-    "Reuniao da CPI",       "Reunião da CPI",
-    "Reuniao da CPMI",      "Reunião da CPMI",
     "Reuniao da Frente",    "Reunião da Frente",
     "Audiencia Publica",    "Audiência Pública",
     "Sessao Tematica",      "Sessão Temática",
@@ -28,6 +26,9 @@ MEMBROS_FILE = "comissoes_membros.json"
 
 def is_comissao(ev):
     titulo = ev.get("titulo", "")
+    # CPIs ficam na seção própria — excluir daqui
+    if any(k in titulo.lower() for k in ["cpi", "cpmi"]):
+        return False
     if any(nc.lower() in titulo.lower() for nc in NAO_COMISSAO):
         return False
     return any(kw.lower() in titulo.lower() for kw in COMISSAO_KEYWORDS)
@@ -304,3 +305,97 @@ if __name__ == "__main__":
             sigla, membros = _psd_na_comissao(ev["titulo"], _carregar_membros())
             psd_txt = f" | PSD: {', '.join(m['nome'] for m in membros)}" if membros else ""
             print(f"  {ev['horario']} {ev['titulo'][:60]}{psd_txt}")
+
+# ── Funções para seção CPI separada ─────────────────────────────────────────
+
+def extrair_cpis(dias):
+    """Filtra apenas eventos de CPI/CPMI da agenda."""
+    resultado = []
+    for d in dias:
+        cpis = [ev for ev in d.get("eventos", [])
+                if any(k in ev.get("titulo", "").lower()
+                       for k in ["cpi", "cpmi"])]
+        if cpis:
+            resultado.append({
+                "label":  d["label"],
+                "data":   d["data"],
+                "estilo": d["estilo"],
+                "eventos": cpis,
+            })
+    return resultado
+
+
+def _psd_na_cpi(titulo, cpis_membros):
+    """Cruza título do evento com membros PSD da CPI correspondente."""
+    titulo_l = titulo.lower()
+    for nome_cpi, dados in cpis_membros.items():
+        palavras = [p for p in nome_cpi.lower().split() if len(p) > 3
+                    and p not in ("para", "com", "dos", "das", "que")]
+        if sum(1 for p in palavras if p in titulo_l) >= 2:
+            return [m["nome"] for m in dados.get("psd", [])]
+    return []
+
+
+def gerar_html_cpis(dias_cpis):
+    """Gera bloco HTML da seção CPIs — mesmo padrão das comissões."""
+    import json, os
+
+    cpis_membros = {}
+    if os.path.exists("cpis_membros.json"):
+        with open("cpis_membros.json", encoding="utf-8") as f:
+            cpis_membros = json.load(f)
+
+    header = (
+        '\n<div class="section-header">'
+        '<span class="section-icon">&#128270;</span>'
+        '<span class="section-title">Reuni&otilde;es de CPIs</span>'
+        '</div>\n<div class="section-body">\n'
+    )
+    footer = '</div>\n'
+    vazio  = header + '<p style="color:#5A6A85;font-style:italic;font-size:12px;padding:6px 0;">Nenhuma reuni&atilde;o de CPI divulgada para os pr&oacute;ximos dias.</p>\n' + footer
+
+    if not dias_cpis:
+        return vazio
+
+    html = header
+    for d in dias_cpis:
+        eh_hoje = d["estilo"] == "destaque"
+        html += (
+            f'<div class="day-label" style="font-weight:700;font-size:12px;'
+            f'color:#C05621;text-transform:uppercase;letter-spacing:.6px;'
+            f'padding:8px 0 4px;">{d["label"]}</div>\n'
+        )
+        for ev in d["eventos"]:
+            titulo  = ev.get("titulo", "")
+            horario = ev.get("horario", "")
+            local   = ev.get("local", "")
+            membros = _psd_na_cpi(titulo, cpis_membros)
+
+            if not eh_hoje:
+                item_style = "opacity:0.55;"
+            elif membros:
+                item_style = (
+                    "background:linear-gradient(90deg,#FEF0E7 0%,#FFFFF8 100%);"
+                    "border-left:3px solid #C05621;"
+                    "margin:0 -20px;padding:10px 20px;"
+                )
+            else:
+                item_style = ""
+
+            html += f'<div class="agenda-item" style="{item_style}">\n'
+            if horario:
+                html += f'  <div class="agenda-time">{horario}</div>\n'
+            html += f'  <div class="agenda-content">\n'
+            html += f'    <div class="agenda-name">{titulo}</div>\n'
+            if local:
+                html += f'    <div class="agenda-meta">📍 {local}</div>\n'
+            if membros:
+                nomes = ", ".join(membros)
+                html += (
+                    f'    <div style="margin-top:5px;font-size:11.5px;'
+                    f'color:#C05621;font-weight:600;">'
+                    f'🔶 PSD: {nomes}</div>\n'
+                )
+            html += '  </div>\n</div>\n'
+    html += footer
+    return html
