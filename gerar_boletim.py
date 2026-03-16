@@ -116,7 +116,7 @@ def main():
     # 3. Proposituras em Pauta
     print("[3/5] Coletando Proposituras em Pauta...")
     try:
-        props          = buscar_proposituras(ref_date=ref)
+        props          = buscar_proposituras()
         props_html     = '<div class="section">\n' + gerar_html_proposituras(props, ref_date=ref) + '\n  </div>'
         print("      {} proposituras encontradas".format(len(props)))
     except Exception as e:
