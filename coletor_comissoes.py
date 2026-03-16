@@ -60,7 +60,7 @@ def _carregar_membros():
         for sigla, info in dados.get("comissoes", {}).items():
             nome = info.get("nome", "")
             # Palavras significativas do nome (>3 letras) para busca parcial
-            palavras = [p.lower() for p in re.split(r"\s+|,|e\s", nome) if len(p) > 3]
+            palavras = [p.lower().strip(".,") for p in nome.split() if len(p) > 3]
             resultado.append({
                 "sigla":    sigla,
                 "nome":     nome,
@@ -97,7 +97,7 @@ def _psd_na_comissao(titulo, comissoes_list):
     melhor_sigla, melhor_membros, melhor_score = "", [], 0
     for c in comissoes_list:
         score = sum(1 for p in c["palavras"] if p in titulo_l)
-        if score >= 3 and score > melhor_score:
+        if score >= 2 and score > melhor_score:
             melhor_score = score
             melhor_sigla = c["sigla"]
             melhor_membros = c["psd"]
@@ -259,7 +259,32 @@ def gerar_html_comissoes(dias_comissoes):
     return header + corpo + '</div>\n</div>\n'
 
 
+def _debug_cruzamento(titulos):
+    """Testa o cruzamento de títulos com o JSON de membros."""
+    comissoes = _carregar_membros()
+    print(f"\n[DEBUG] {len(comissoes)} comissões carregadas do JSON")
+    if comissoes:
+        c = comissoes[0]
+        print(f"[DEBUG] Exemplo: {c['sigla']} | palavras={c['palavras'][:5]} | psd={len(c['psd'])} membros")
+    print()
+    for titulo in titulos:
+        sigla, membros = _psd_na_comissao(titulo, comissoes)
+        psd = [m["nome"] for m in membros]
+        print(f"  '{titulo[:55]}'")
+        print(f"   → {sigla or 'NÃO ACHADO'} | PSD: {psd or 'nenhum'}\n")
+
+
 if __name__ == "__main__":
+    import sys
+    if "--debug" in sys.argv:
+        _debug_cruzamento([
+            "Reunião do Conselho de Ética e Decoro Parlamentar com a finalidade",
+            "Reunião da Comissão de Finanças, Orçamento e Planejamento com a f",
+            "Reunião da Comissão de Educação e Cultura com a finalidade",
+            "Reunião da Comissão de Defesa dos Direitos das Pessoas com Defici",
+            "Reunião da Comissão de Defesa dos Direitos do Consumidor",
+        ])
+        exit()
     from datetime import date, timedelta
     from coletor_agenda_alesp import buscar_agenda_completa, dias_a_exibir
 
