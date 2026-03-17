@@ -1,0 +1,54 @@
+{
+  "id_1000001276": {
+    "id_comissao": "1000001276",
+    "nome": "CPI - Questoes Impactantes e Nocivas ao Meio Ambiente",
+    "membros": [
+      {"nome": "Dr. Eduardo Nobrega",  "partido": "Podemos",      "tipo": "Titular"},
+      {"nome": "Gil Diniz Bolsonaro",   "partido": "PL",           "tipo": "Suplente"},
+      {"nome": "Enio Tatto",            "partido": "PT",           "tipo": "Suplente"},
+      {"nome": "Marcelo Aguiar",        "partido": "Podemos",      "tipo": "Suplente"}
+    ],
+    "obs": "Lista parcial - atualizar em al.sp.gov.br/comissao/cpi/?idLegislatura=20&idComissao=1000001276"
+  },
+  "id_1000001274": {
+    "id_comissao": "1000001274",
+    "nome": "CPI - Vazamento de Dados Cadastrais de Pessoas Fisicas e Juridicas",
+    "membros": [
+      {"nome": "Danilo Balas",          "partido": "PL",           "tipo": "Titular"},
+      {"nome": "Conte Lopes",           "partido": "PL",           "tipo": "Titular"},
+      {"nome": "Professora Bebel",      "partido": "PT",           "tipo": "Titular"},
+      {"nome": "Dr. Jorge do Carmo",    "partido": "PT",           "tipo": "Titular"},
+      {"nome": "Dirceu Dalben",         "partido": "Cidadania",    "tipo": "Titular"},
+      {"nome": "Felipe Franco",         "partido": "Uniao",        "tipo": "Titular"},
+      {"nome": "Danilo Campetti",       "partido": "Republicanos", "tipo": "Titular"},
+      {"nome": "Itamar Borges",         "partido": "MDB",          "tipo": "Titular"},
+      {"nome": "Dr. Eduardo Nobrega",   "partido": "Podemos",      "tipo": "Titular"},
+      {"nome": "Tenente Coimbra",       "partido": "PL",           "tipo": "Suplente"},
+      {"nome": "Rogerio Nogueira",      "partido": "PSDB",         "tipo": "Suplente"},
+      {"nome": "Marcelo Aguiar",        "partido": "Podemos",      "tipo": "Suplente"}
+    ],
+    "obs": "Fonte: al.sp.gov.br"
+  },
+  "id_1000001275": {
+    "id_comissao": "1000001275",
+    "nome": "CPI - Descarte de Materiais Contaminantes",
+    "membros": [
+      {"nome": "Delegado Olim",         "partido": "PP",           "tipo": "Titular"},
+      {"nome": "Thiago Auricchio",      "partido": "PL",           "tipo": "Titular"},
+      {"nome": "Carlao Pignatari",      "partido": "PSDB",         "tipo": "Titular"},
+      {"nome": "Bruno Zambelli",        "partido": "PL",           "tipo": "Titular"},
+      {"nome": "Fabio Faria de Sa",     "partido": "Podemos",      "tipo": "Titular"}
+    ],
+    "obs": "Fonte: al.sp.gov.br/noticia/?id=508623"
+  },
+  "id_1000001273": {
+    "id_comissao": "1000001273",
+    "nome": "CPI - Lixoes",
+    "membros": [
+      {"nome": "Carlao Pignatari",      "partido": "PSDB",         "tipo": "Titular"},
+      {"nome": "Delegado Olim",         "partido": "PP",           "tipo": "Titular"},
+      {"nome": "Thiago Auricchio",      "partido": "PL",           "tipo": "Titular"}
+    ],
+    "obs": "Lista parcial - atualizar em al.sp.gov.br/comissao/cpi/?idLegislatura=20&idComissao=1000001273"
+  }
+}
