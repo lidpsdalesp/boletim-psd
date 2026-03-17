@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-03-16",
+  "atualizado_em": "2026-03-17",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -144,11 +144,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Dirceu Dalben",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Altair Moraes",
           "partido": "REPUBLICANOS",
           "cargo": "Efetivo"
@@ -236,7 +231,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 22
+      "total": 21
     },
     "CAMM": {
       "id": "12449",
@@ -313,11 +308,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Marcio Nakashima",
-          "partido": "PDT",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Bruno Zambelli",
           "partido": "PL",
           "cargo": "Suplente"
@@ -345,11 +335,6 @@
         {
           "nome": "Rômulo Fernandes",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Analice Fernandes",
-          "partido": "PSDB/Cidadania",
           "cargo": "Suplente"
         },
         {
@@ -385,17 +370,12 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Marcio Nakashima",
-          "partido": "PDT",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Oseias de Madureira",
           "partido": "PSD",
           "cargo": "Suplente"
         }
       ],
-      "total": 27
+      "total": 25
     },
     "CAE": {
       "id": "12454",
@@ -520,11 +500,6 @@
       "nome": "Ciência, Tecnologia, Inovação e Informação",
       "membros": [
         {
-          "nome": "Mauro Bragato",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Presidente"
-        },
-        {
           "nome": "Leonardo Siqueira",
           "partido": "NOVO",
           "cargo": "Vice-Presidente"
@@ -547,11 +522,6 @@
         {
           "nome": "Paulo Fiorilo",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Mauro Bragato",
-          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -605,11 +575,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Analice Fernandes",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Danilo Campetti",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -636,7 +601,7 @@
         }
       ],
       "psd": [],
-      "total": 23
+      "total": 20
     },
     "CCJR": {
       "id": "12444",
@@ -680,11 +645,6 @@
         {
           "nome": "Rômulo Fernandes",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Mauro Bragato",
-          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -748,11 +708,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Maria Lúcia Amary",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Danilo Campetti",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -805,7 +760,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 28
+      "total": 26
     },
     "CDD": {
       "id": "12455",
@@ -839,11 +794,6 @@
         {
           "nome": "Márcia Lia",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Carlão Pignatari",
-          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -939,7 +889,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 23
+      "total": 22
     },
     "CDDPD": {
       "id": "1000001015",
@@ -973,11 +923,6 @@
         {
           "nome": "Professora Bebel",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Dirceu Dalben",
-          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -1078,7 +1023,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 24
+      "total": 23
     },
     "CDDC": {
       "id": "1000000128",
@@ -1115,11 +1060,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Dirceu Dalben",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Edna Macedo",
           "partido": "REPUBLICANOS",
           "cargo": "Efetivo"
@@ -1142,11 +1082,6 @@
         {
           "nome": "Delegado Olim",
           "partido": "PP",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Marcio Nakashima",
-          "partido": "PDT",
           "cargo": "Efetivo"
         },
         {
@@ -1190,14 +1125,8 @@
           "cargo": "Suplente"
         }
       ],
-      "psd": [
-        {
-          "nome": "Marcio Nakashima",
-          "partido": "PDT",
-          "cargo": "Efetivo"
-        }
-      ],
-      "total": 21
+      "psd": [],
+      "total": 19
     },
     "CDDM": {
       "id": "1000000297",
@@ -1234,11 +1163,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Maria Lúcia Amary",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Edna Macedo",
           "partido": "REPUBLICANOS",
           "cargo": "Efetivo"
@@ -1264,11 +1188,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Marcio Nakashima",
-          "partido": "PDT",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "André Bueno",
           "partido": "PL",
           "cargo": "Suplente"
@@ -1286,11 +1205,6 @@
         {
           "nome": "Thainara Faria",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Analice Fernandes",
-          "partido": "PSDB/Cidadania",
           "cargo": "Suplente"
         },
         {
@@ -1314,14 +1228,8 @@
           "cargo": "Suplente"
         }
       ],
-      "psd": [
-        {
-          "nome": "Marcio Nakashima",
-          "partido": "PDT",
-          "cargo": "Efetivo"
-        }
-      ],
-      "total": 22
+      "psd": [],
+      "total": 19
     },
     "CEC": {
       "id": "12447",
@@ -1365,11 +1273,6 @@
         {
           "nome": "Reis",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Mauro Bragato",
-          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -1423,11 +1326,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Carlão Pignatari",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Altair Moraes",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -1470,7 +1368,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 26
+      "total": 24
     },
     "CFOP": {
       "id": "12445",
@@ -1504,16 +1402,6 @@
         {
           "nome": "Luiz Claudio Marcolino",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Carlão Pignatari",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Dirceu Dalben",
-          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -1604,7 +1492,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 23
+      "total": 21
     },
     "CFC": {
       "id": "8509",
@@ -1638,11 +1526,6 @@
         {
           "nome": "Reis",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Dirceu Dalben",
-          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -1696,11 +1579,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Mauro Bragato",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Danilo Campetti",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -1727,7 +1605,7 @@
         }
       ],
       "psd": [],
-      "total": 23
+      "total": 21
     },
     "CHDRU": {
       "id": "1000001021",
@@ -1761,11 +1639,6 @@
         {
           "nome": "Eduardo Suplicy",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Analice Fernandes",
-          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -1819,11 +1692,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Dirceu Dalben",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Milton Leite Filho",
           "partido": "UNIÃO",
           "cargo": "Suplente"
@@ -1855,7 +1723,7 @@
         }
       ],
       "psd": [],
-      "total": 24
+      "total": 22
     },
     "CI": {
       "id": "12450",
@@ -1889,11 +1757,6 @@
         {
           "nome": "Teonilio Barba",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Carlão Pignatari",
-          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -1947,11 +1810,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Dirceu Dalben",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Altair Moraes",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -1983,7 +1841,7 @@
         }
       ],
       "psd": [],
-      "total": 24
+      "total": 22
     },
     "CMADS": {
       "id": "12453",
@@ -2017,11 +1875,6 @@
         {
           "nome": "Rômulo Fernandes",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Dirceu Dalben",
-          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -2111,7 +1964,7 @@
         }
       ],
       "psd": [],
-      "total": 24
+      "total": 23
     },
     "CRI": {
       "id": "1000000596",
@@ -2145,16 +1998,6 @@
         {
           "nome": "Thainara Faria",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Maria Lúcia Amary",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Mauro Bragato",
-          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -2208,11 +2051,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Dirceu Dalben",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Sebastião Santos",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -2250,7 +2088,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 24
+      "total": 21
     },
     "CS": {
       "id": "12446",
@@ -2342,11 +2180,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Dirceu Dalben",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Felipe Franco",
           "partido": "UNIÃO",
           "cargo": "Suplente"
@@ -2389,7 +2222,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 23
+      "total": 22
     },
     "CSPAP": {
       "id": "12451",
@@ -2481,11 +2314,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Mauro Bragato",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Danilo Campetti",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -2512,7 +2340,7 @@
         }
       ],
       "psd": [],
-      "total": 23
+      "total": 22
     },
     "CTC": {
       "id": "8520",
@@ -2556,11 +2384,6 @@
         {
           "nome": "Luiz Fernando T. Ferreira",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Analice Fernandes",
-          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -2671,7 +2494,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 28
+      "total": 27
     },
     "CT": {
       "id": "1000001016",
@@ -2708,11 +2531,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Maria Lúcia Amary",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Sebastião Santos",
           "partido": "REPUBLICANOS",
           "cargo": "Efetivo"
@@ -2735,11 +2553,6 @@
         {
           "nome": "Caio França",
           "partido": "PSB",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Marcio Nakashima",
-          "partido": "PDT",
           "cargo": "Efetivo"
         },
         {
@@ -2800,17 +2613,12 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Marcio Nakashima",
-          "partido": "PDT",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Rafael Silva",
           "partido": "PSD",
           "cargo": "Suplente"
         }
       ],
-      "total": 22
+      "total": 20
     },
     "CEDP": {
       "id": "8521",
