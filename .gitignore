@@ -3,3 +3,11 @@ __pycache__/
 fix_*.py
 diagn.py
 comissoes_bloco.html
+
+boletins/boletim_*.html
+cont ador_boletim.txt
+
+boletins/boletim_*.html
+cont ador_boletim.txt
+
+.cache_bancada_*.json

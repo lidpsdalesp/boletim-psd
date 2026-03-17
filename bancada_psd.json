@@ -1,12 +1,19 @@
 {
   "deputados": [
+    "Analice Fernandes",
+    "Barros Munhoz",
+    "Carlão Pignatari",
+    "Dirceu Dalben",
     "Marcio Nakashima",
+    "Maria Lúcia Amary",
     "Marta Costa",
+    "Mauro Bragato",
     "Oseias de Madureira",
     "Paulo Correa Jr",
-    "Rafael Silva"
+    "Rafael Silva",
+    "Rogério Nogueira"
   ],
-  "atualizado_em": "2026-03-15",
-  "total": 5,
+  "atualizado_em": "2026-03-17",
+  "total": 12,
   "fonte": "xml_dados_abertos"
 }
