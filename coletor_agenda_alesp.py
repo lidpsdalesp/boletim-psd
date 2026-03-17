@@ -5,7 +5,7 @@ Coletor automatico da Agenda da ALESP
 
 import re
 import requests
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from typing import List, Dict
 from bs4 import BeautifulSoup
 
@@ -32,7 +32,12 @@ DIAS_SEMANA = ["Segunda-Feira","Terca-Feira","Quarta-Feira",
 # ── Datas ─────────────────────────────────────────────────────────────────────
 
 def dia_do_boletim(hoje=None):
-    d = hoje or date.today()
+    if hoje:
+        d = hoje
+    else:
+        # Usa horário de Brasília (UTC-3)
+        brt = timezone(timedelta(hours=-3))
+        d = datetime.now(tz=brt).date()
     if d.weekday() == 5:
         return d + timedelta(days=2)
     elif d.weekday() == 6:
