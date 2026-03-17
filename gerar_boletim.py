@@ -17,11 +17,11 @@ from coletor_agenda_alesp import (
     dia_do_boletim,
     formatar_data_br,
 )
+from cpis_html import gerar_html_cpis
 from coletor_comissoes import (
     extrair_comissoes,
     gerar_html_comissoes,
     extrair_cpis,
-    gerar_html_cpis,
 )
 
 TEMPLATE_FILE  = "boletim_template_base.html"
