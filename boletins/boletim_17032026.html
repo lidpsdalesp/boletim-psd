@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assessoria PSD · Agenda &amp; Comissões</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+  :root {
+    --psd-blue:       #1A3A9C;
+    --psd-blue-dark:  #0E2270;
+    --psd-green:      #4CAF50;
+    --psd-gold:       #F5C800;
+    --bg:             #F0F4F9;
+    --white:          #FFFFFF;
+    --text:           #1A1A2E;
+    --text-muted:     #5A6A85;
+    --border:         #D6E0EF;
+    --green-acc:      #0D7A4B;
+    --green-bg:       #E6F7F1;
+    --red:            #C0392B;
+    --red-bg:         #FDECEA;
+    --purple:         #5C2D91;
+    --purple-bg:      #F0EAF8;
+    --orange:         #C05621;
+    --orange-bg:      #FEF0E7;
+    --shadow:         0 2px 12px rgba(0,40,140,0.10);
+    --radius:         10px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: linear-gradient(135deg, var(--psd-blue-dark) 0%, var(--psd-blue) 100%);
+    color: white;
+    padding: 20px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .header-left { display: flex; align-items: center; gap: 18px; }
+  .header-logo {
+    height: 70px; width: auto;
+    flex-shrink: 0; display: block;
+    filter: drop-shadow(0 2px 6px rgba(0,0,0,0.25));
+  }
+  .header-divider {
+    width: 1px; height: 52px;
+    background: rgba(255,255,255,0.25); flex-shrink: 0;
+  }
+  .header-title { line-height: 1.35; }
+  .header-title h1 { font-size: 19px; font-weight: 800; letter-spacing: -0.3px; }
+  .header-title .subtitle { font-size: 12px; opacity: 0.80; margin-top: 2px; }
+  .header-title .lider {
+    font-size: 12.5px; margin-top: 6px;
+    background: rgba(255,255,255,0.13);
+    border: 1px solid rgba(255,255,255,0.22);
+    display: inline-block; padding: 3px 10px; border-radius: 20px;
+  }
+  .header-right { text-align: right; flex-shrink: 0; }
+  .boletim-num {
+    background: var(--psd-gold); color: var(--psd-blue-dark);
+    font-size: 12.5px; font-weight: 800; padding: 4px 14px;
+    border-radius: 20px; display: inline-block; margin-bottom: 7px;
+  }
+  .header-date { font-size: 13px; opacity: 0.92; font-weight: 500; }
+  .header-weekday { font-size: 10.5px; opacity: 0.65; text-transform: uppercase; letter-spacing: 1.2px; margin-top: 2px; }
+
+  /* ── WRAPPER ── */
+  .wrapper { max-width: 860px; margin: 0 auto; padding: 24px 20px 40px; }
+
+  /* ── SECTION ── */
+  .section {
+    background: var(--white); border-radius: var(--radius);
+    box-shadow: var(--shadow); margin-bottom: 18px; overflow: hidden;
+  }
+  .section-header {
+    display: flex; align-items: center; gap: 10px;
+    padding: 12px 20px; border-bottom: 1px solid var(--border); background: #F7FAFF;
+  }
+  .section-icon { font-size: 16px; }
+  .section-title { font-size: 12.5px; font-weight: 700; color: var(--psd-blue); text-transform: uppercase; letter-spacing: 0.7px; }
+  .section-body { padding: 16px 20px; }
+
+  /* ── AGENDA ── */
+  .agenda-item { display: flex; gap: 14px; align-items: flex-start; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  .agenda-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .agenda-time { background: var(--psd-blue); color: white; font-size: 11.5px; font-weight: 700; padding: 4px 10px; border-radius: 6px; white-space: nowrap; flex-shrink: 0; margin-top: 1px; }
+  .agenda-content { flex: 1; }
+  .agenda-name { font-weight: 600; font-size: 13.5px; }
+  .agenda-meta { font-size: 12px; color: var(--text-muted); margin-top: 3px; display: flex; gap: 12px; flex-wrap: wrap; }
+
+  /* ── BADGE ── */
+  .badge { display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; font-weight: 700; padding: 5px 5px; line-height: 1; border-radius: 20px; white-space: nowrap; flex-shrink: 0; text-transform: uppercase; letter-spacing: 0.3px; }
+  .badge-pl      { background: #EBF2FF; color: var(--psd-blue); line-height: 1; }
+  .badge-pdl     { background: var(--orange-bg); color: var(--orange); line-height: 1; }
+  .badge-mocao   { background: var(--purple-bg); color: var(--purple); line-height: 1; }
+  .badge-decreto { background: var(--red-bg); color: var(--red); line-height: 1; }
+  .badge-res     { background: var(--green-bg); color: var(--green-acc); line-height: 1; }
+  .badge-psd     { background: var(--psd-gold); color: var(--psd-blue-dark); line-height: 1; }
+  .badge-comunicado { background: #F0F4F9; color: var(--text-muted); line-height: 1; }
+
+  /* ── PROPOSITURA ── */
+  .prop-item { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  .prop-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .prop-item.destaque-psd { background: linear-gradient(90deg, #FFFBEA 0%, white 100%); margin: 0 -20px; padding: 10px 20px; border-left: 3px solid var(--psd-gold); border-bottom: 1px solid var(--border); }
+  .prop-item.destaque-psd:last-child { border-bottom: none; }
+  .prop-body { flex: 1; }
+  .prop-header { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 3px; }
+  .prop-num { font-size: 12px; font-weight: 700; color: var(--psd-blue); }
+  .prop-autor { font-size: 11.5px; color: var(--text-muted); font-weight: 500; }
+  .prop-ementa { font-size: 13px; line-height: 1.5; }
+  .prop-prazo { display: inline-flex; align-items: center; gap: 4px; font-size: 10.5px; color: var(--orange); font-weight: 600; margin-top: 4px; }
+
+  /* ── DIÁRIO ── */
+  .diario-item { padding: 9px 0; border-bottom: 1px solid var(--border); display: flex; gap: 12px; align-items: flex-start; }
+  .diario-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .diario-body { flex: 1; }
+  .diario-num  { font-size: 11.5px; font-weight: 700; color: var(--text-muted); margin-bottom: 2px; }
+  .diario-desc { font-size: 13px; line-height: 1.5; }
+  .diario-link { font-size: 11px; color: var(--psd-blue); font-weight: 600; margin-top: 2px; display: inline-block; }
+
+  /* ── SESSÃO ── */
+  .sessao-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .sessao-col { border: 1px solid var(--border); border-radius: 8px; padding: 12px 14px; }
+  .sessao-col-title { font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: var(--text-muted); margin-bottom: 8px; }
+  .sessao-dep { display: flex; align-items: center; gap: 8px; padding: 5px 0; border-bottom: 1px solid #F0F4F9; font-size: 12.5px; }
+  .sessao-dep:last-child { border-bottom: none; }
+  .sessao-dep-num { background: var(--psd-blue); color: white; font-size: 11px; font-weight: 700; padding: 1px 7px; border-radius: 4px; line-height: 1; }
+  .sessao-dep-psd { background: var(--psd-gold); color: var(--psd-blue-dark); }
+  .sessao-status { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; padding: 5px 12px; border-radius: 6px; margin-bottom: 12px; }
+  .sessao-status.sem-ordem { background: var(--orange-bg); color: var(--orange); }
+  .sessao-status.com-ordem { background: var(--green-bg); color: var(--green-acc); }
+
+  /* ── COMISSÃO ── */
+  .comissao-item { padding: 10px 0; border-bottom: 1px solid var(--border); display: flex; gap: 12px; align-items: flex-start; }
+  .comissao-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .comissao-dia-tag { font-size: 10px; font-weight: 700; text-transform: uppercase; background: var(--psd-blue); color: white; padding: 3px 8px; border-radius: 5px; white-space: nowrap; flex-shrink: 0; margin-top: 2px; letter-spacing: 0.4px; text-align: center; line-height: 1.5; }
+  .comissao-body { flex: 1; }
+  .comissao-nome { font-size: 13px; font-weight: 600; }
+  .comissao-meta { font-size: 12px; color: var(--text-muted); margin-top: 3px; }
+
+  /* ── SUB LABEL ── */
+  .sub-label { font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-muted); padding: 10px 0 6px; margin-top: 4px; border-top: 1px dashed var(--border); }
+  .sub-label:first-child { border-top: none; margin-top: 0; padding-top: 0; }
+
+  /* ── FOOTER ── */
+  .footer { background: linear-gradient(135deg, var(--psd-blue-dark) 0%, var(--psd-blue) 100%); color: white; padding: 18px 36px; display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap; }
+  .footer-left p { font-size: 11.5px; opacity: 0.78; margin-bottom: 5px; }
+  .footer-left strong { font-size: 13px; font-weight: 700; }
+  .footer-team { display: flex; gap: 8px; flex-wrap: wrap; }
+  .footer-member { background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.20); color: white; font-size: 11.5px; font-weight: 500; padding: 4px 11px; border-radius: 20px; line-height: 1; }
+
+
+  /* ── AGENDA ITEM PSD ── */
+  .agenda-item.psd {
+    background: linear-gradient(90deg, #FFFBEA 0%, #FFFFF8 100%);
+    border-left: 3px solid var(--psd-gold);
+    margin: 0 -20px;
+    padding: 10px 20px;
+  }
+  .agenda-item.psd .agenda-time {
+    background: #C8960A;
+  }
+
+  @media print {
+    body { background: white; }
+    .wrapper { padding: 0; max-width: 100%; }
+    .section { box-shadow: none; border: 1px solid var(--border); }
+    .header, .footer { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ══ HEADER ══ -->
+<div class="header">
+  <div class="header-left">
+    <img class="header-logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0nMS4wJyBlbmNvZGluZz0ndXRmLTgnPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJMYXllcl8xIiB2aWV3Qm94PSIwIDAgMTA4MCA5NzAiPgogIDxzdHlsZT4KICAgIC5jbHMtMSB7IGZpbGw6ICMxQTNBOUM7IH0KICAgIC5jbHMtMiB7IGZpbGw6ICNGRkZGRkY7IH0KICAgIC5jbHMtMyB7IGZpbGw6IG5vbmU7IH0KICAgIC5jbHMtNCB7IGZpbGw6ICM0Q0FGNTA7IH0KICAgIC5jbHMtNSB7IGZpbGw6ICNGNUM4MDA7IH0KICA8L3N0eWxlPgogIDx0aXRsZT5wc2QtbG9nby1tYW51YWw8L3RpdGxlPgogIDxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTEwMjUsNDg1YzAsMjY3Ljg2LTIxNy4xNCw0ODUtNDg1LDQ4NVM1NSw3NTIuODUsNTUsNDg1LDI3Mi4xNSwwLDU0MCwwczQ4NSwyMTcuMTQsNDg1LDQ4NSIvPgogIDxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTI4Ni4zMSw2MjguMmMtNy43NiwwLTIyLjY0LTEuNDQtMzIuNjctMi44NmwtNyw4MC4xOWMtLjQ2LDUuMjQtNS4yMywxMC0xMC41NiwxMEgxNjMuNDVjLTUuMzMsMC0xMC4yNC00Ljc4LTkuNzgtMTBMMTgzLjEyLDM2OWMuNzEtOC4xMywzLjk0LTExLjkzLDE4Ljc2LTE1LjI3LDI1LjYzLTUuMjYsNjUuOTEtMTEuOTQsMTA5LjQ4LTExLjk0LDc5LjM5LDAsMTIzLjQ3LDQzLjkxLDExNi40MSwxMjQuNmwtMy4yNSwzNy4yMkM0MTcuODgsNTc5LjUyLDM3Miw2MjguMiwyODYuMzEsNjI4LjJtNDguNTItMTYxLjgyYzIuNTEtMjguNjQtMy00OC43LTMwLjEtNDguNy0xNCwwLTIzLjc2LjQ3LTMzLjA5LDEuOTJMMjYwLjIsNTUwLjRjOS42Ljk1LDIxLjA5LDIuMzksMzIuNzEsMi4zOSwyNy4xMSwwLDM2LjItMjEsMzguNjctNDkuMTdaIi8+CiAgPHBhdGggY2xhc3M9ImNscy0zIiBkPSJNMjg2LjMxLDYyOC4yYy03Ljc2LDAtMjIuNjQtMS40NC0zMi42Ny0yLjg2bC03LDgwLjE5Yy0uNDYsNS4yNC01LjIzLDEwLTEwLjU2LDEwSDE2My40NWMtNS4zMywwLTEwLjI0LTQuNzgtOS43OC0xMEwxODMuMTIsMzY5Yy43MS04LjEzLDMuOTQtMTEuOTMsMTguNzYtMTUuMjcsMjUuNjMtNS4yNiw2NS45MS0xMS45NCwxMDkuNDgtMTEuOTQsNzkuMzksMCwxMjMuNDcsNDMuOTEsMTE2LjQxLDEyNC42bC0zLjI1LDM3LjIyQzQxNy44OCw1NzkuNTIsMzcyLDYyOC4yLDI4Ni4zMSw2MjguMlptNDguNTItMTYxLjgyYzIuNTEtMjguNjQtMy00OC43LTMwLjEtNDguNy0xNCwwLTIzLjc2LjQ3LTMzLjA5LDEuOTJMMjYwLjIsNTUwLjRjOS42Ljk1LDIxLjA5LDIuMzksMzIuNzEsMi4zOSwyNy4xMSwwLDM2LjItMjEsMzguNjctNDkuMTdaIi8+CiAgPHBhdGggY2xhc3M9ImNscy00IiBkPSJNNTIyLjQ2LDYyOC4yMWMtMzQuMzgsMC02Ni44Mi01LjI2LTg4LjU1LTExLjQ2LTUuNjgtMS40MS04Ljc4LTQuNzctOC4yOC0xMC41MUw0MzAsNTU3LjA4Yy40OS01Ljc0LDQuMjYtMTAsMTEtMTBoMS45NGMyOC4yMiwzLjgxLDY2LjYxLDcuNjMsODIuNiw3LjYzLDE4LjM4LDAsMjMuMTctNC43OCwyMy45NS0xMy44NS40Ni01LjI1LTIuMDYtOS41NC0xMy4xNC0xNS43NEw0ODAsNDkzLjZDNDUxLDQ3Ny4zNiw0MzcuNTksNDUzLDQ0MC42NSw0MTguMTdjNC4yNi00OC42OSw0MS03Ni4zNywxMTMuMTgtNzYuMzdhMzI0LjYsMzI0LjYsMCwwLDEsODgsMTEuOTRjNS42OSwxLjQzLDkuMjYsNC43Niw4Ljc2LDEwLjQ5bC00LjQyLDUwLjZjLS41LDUuNzQtMy43NSw5LjU1LTkuMDYsOS41NWgtMS40NWMtMTMuODgtMS45MS02MC44MS03LjY0LTgyLjYtNy42NC0xMi41OCwwLTE4LjE2LDIuODctMTguODMsMTAuNDktLjMzLDMuODEsMi43OCw3LjE2LDkuNywxMWw1NCwzMC4wOGMzNy44NSwyMSw0Ni42NCw0Ny43NCw0NC4zLDc0LjQ2QzYzOCw1OTEsNjAwLjg4LDYyOC4yMSw1MjIuNDYsNjI4LjIxIi8+CiAgPHBhdGggY2xhc3M9ImNscy01IiBkPSJNODgwLjY4LDYxNi4yOGMtMjUuNjEsNS4yNS02NS44OSwxMS45My0xMDkuNDYsMTEuOTMtNzkuMzksMC0xMjMuNDUtNDMuOS0xMTYuNDEtMTI0LjZsMy4yNi0zNy4yMmM2LjY0LTc1LjkyLDUyLjUyLTEyNC42LDEzOC4yLTEyNC42LDcuNzYsMCwyMi42LDEuOTEsMzIuNjMsMy4zNEw4MzYsMjY0LjQ2YTEwLjc1LDEwLjc1LDAsMCwxLDEwLjUyLTkuNTZIOTE4LjZjNS4zMywwLDEwLjI4LDQuMzEsOS44Miw5LjU2TDg5OSw2MDFjLS43MSw4LjExLTMuNDYsMTEuOTUtMTguMjksMTUuMjltLTU4LjMtMTk2LjY2YTMyNy4xMiwzMjcuMTIsMCwwLDAtMzIuNzUtMS45M2MtMjcuMDksMC0zNi42NSwyMC41My0zOS4xMiw0OC43bC0zLjI1LDM3LjIyYy0yLjUxLDI4LjY1LDMuNDUsNDkuMTcsMzAuNTUsNDkuMTdhMjA1LjU1LDIwNS41NSwwLDAsMCwzMy4xMy0yLjM5WiIvPgo8L3N2Zz4=" alt="Logo PSD">
+    <div class="header-divider"></div>
+    <div class="header-title">
+      <h1>🏛️ Assessoria PSD · Agenda &amp; Comissões</h1>
+      <div class="subtitle">Assembleia Legislativa do Estado de São Paulo</div>
+      <div class="lider">Líder da Bancada: <strong>Dep. Oseias de Madureira</strong></div>
+    </div>
+  </div>
+  <div class="header-right">
+    <div class="boletim-num">🏛️ Assessoria PSD · Agenda &amp; Comissões</div>
+    <div class="header-date">📅 Terca-Feira, 17 de marco de 2026</div>
+    <div class="header-weekday">Semana 12 · 2026</div>
+        <div class="header-weekday" style="margin-top:3px;opacity:0.55;">30ª Edição</div>
+  </div>
+</div>
+
+<div class="wrapper">
+
+  <div class="section">
+
+  <div class="section-header">
+    <span class="section-icon">&#128197;</span>
+    <span class="section-title">Agenda de Eventos da Casa</span>
+  </div>
+  <div class="section-body">
+    <div class="sub-label" style="color:#1A3A9C;border-top:none;padding-top:0;">
+      &#128197; HOJE &mdash; Terca-Feira, 17/03/2026
+    </div>
+    
+      <div class="agenda-item">
+        <div class="agenda-time">08h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Exposição "Arte, reflexo de luz" Montagem da exposição</div>
+          <div class="agenda-meta"><span>&#128205; Hall Monumental</span><span>&#128100; Dep. Emídio de Souza</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">08h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Exposições "DownHora: cuidados em cena", "A natureza por Kathellen" e "O olhar que cria</div>
+          <div class="agenda-meta"><span>&#128205; Espaço Heróis de 32</span><span>&#128100; Dep. Márcia Lia</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">09h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Apoio ao evento "Dia Nacional da Atenção à Disfagia</div>
+          <div class="agenda-meta"><span>&#128205; Copa do Auditório Franco Montoro</span><span>&#128100; Dep. Márcia Lia</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">10h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">AUDIÊNCIA PÚBLIA SOBRE A CARREIRA DOS TRABALHADORES DO CENTRO PAULA SOUZA</div>
+          <div class="agenda-meta"><span>&#128205; Plenário José Bonifácio</span><span>&#128100; Dep. Professora Bebel</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">10h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Dia Nacional da Atenção à Disfagia</div>
+          <div class="agenda-meta"><span>&#128205; Auditório Franco Montoro</span><span>&#128100; Dep. Márcia Lia</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">10h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Reunião do Conselho de Ética e Decoro Parlamentar com a finalidade de apreciar pauta com 1 item.</div>
+          <div class="agenda-meta"><span>&#128205; Plenário Tiradentes</span><span>&#128100; Conselho de Ética e Decoro Parlamentar</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">12h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Apoio a Abertura da Exposição "Arte, Reflexo da Luz</div>
+          <div class="agenda-meta"><span>&#128205; Copa do Hall Monumental</span><span>&#128100; Dep. Emídio de Souza</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">14h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">26ª Sessão Ordinária - Expediente</div>
+          <div class="agenda-meta"><span>&#128205; Plenário Juscelino Kubitschek</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">14h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Reunião da CPI - Questões Impactantes e Nocivas ao Meio Ambiente com a finalidade de realizar a eleição do Presidente e Vice-Presidente.</div>
+          <div class="agenda-meta"><span>&#128205; Plenário Tiradentes</span><span>&#128100; CPI - Questões Impactantes e Nocivas ao Meio Ambiente</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">14h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Reunião da Comissão de Finanças, Orçamento e Planejamento com a finalidade de apreciar pauta com 15 itens.</div>
+          <div class="agenda-meta"><span>&#128205; Plenário Dom Pedro I</span><span>&#128100; Comissão de Finanças, Orçamento e Planejamento</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">14h30</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Reunião da CPI - Vazamento de Dados Cadastrais de Pessoas Físicas e Jurídicas com a finalidade de realizar a eleição do Presidente e Vice-Presidente.</div>
+          <div class="agenda-meta"><span>&#128205; Plenário José Bonifácio</span><span>&#128100; CPI - Vazamento de Dados Cadastrais de Pessoas Físicas e Jurídicas</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">14h30</div>
+        <div class="agenda-content">
+          <div class="agenda-name">CANCELADO Reunião da Comissão de Educação e Cultura com a finalidade de apreciar pauta com 83 itens.</div>
+          <div class="agenda-meta"><span>&#128205; Plenário Tiradentes</span><span>&#128100; Comissão de Educação e Cultura</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">15h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Reunião da Comissão de Defesa dos Direitos das Pessoas com Deficiência com a finalidade de apreciar pauta com 38 itens.</div>
+          <div class="agenda-meta"><span>&#128205; Plenário Dom Pedro I</span><span>&#128100; Comissão de Defesa dos Direitos das Pessoas com Deficiência</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">15h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">Reunião da Comissão de Defesa dos Direitos do Consumidor com a finalidade de apreciar pauta com 18 itens.</div>
+          <div class="agenda-meta"><span>&#128205; Plenário José Bonifácio</span><span>&#128100; Comissão de Defesa dos Direitos do Consumidor</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">16h30</div>
+        <div class="agenda-content">
+          <div class="agenda-name">26ª Sessão Ordinária - Ordem do Dia</div>
+          <div class="agenda-meta"><span>&#128205; Plenário Juscelino Kubitschek</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">17h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">EVENTO JETHRO</div>
+          <div class="agenda-meta"><span>&#128205; Auditório Franco Montoro</span><span>&#128100; Dep. Valeria Bolsonaro</span></div>
+        </div>
+      </div>
+      <div class="agenda-item">
+        <div class="agenda-time">18h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name">CANCELADO Reunião do PSDB</div>
+          <div class="agenda-meta"><span>&#128205; Auditório Teotônio Vilela</span><span>&#128100; Dep. Ana Carolina Serra</span></div>
+        </div>
+      </div>
+    <div class="sub-label" style="color:#8A9AB5;margin-top:16px;">
+      &#128197; AMANHA &mdash; Quarta-Feira, 18/03/2026
+    </div>
+    
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">08h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Amor que se doa - Coleta de sangue</div>
+          <div class="agenda-meta"><span>&#128205; Auditório Franco Montoro</span><span>&#128100; Dep. Fábio Faria de Sá</span></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">08h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Exposição "Arte, reflexo de luz</div>
+          <div class="agenda-meta"><span>&#128205; Hall Monumental</span><span>&#128100; Dep. Emídio de Souza</span></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">08h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Exposições "DownHora: cuidados em cena", "A natureza por Kathellen" e "O olhar que cria</div>
+          <div class="agenda-meta"><span>&#128205; Espaço Heróis de 32</span><span>&#128100; Dep. Márcia Lia</span></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">09h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Alesp de Portas Abertas - CIEJA Santana Tucuruvi</div>
+          <div class="agenda-meta"><span>&#128205; Alesp</span><span>&#128100; Alesp</span></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">11h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Reunião da CPI - Descarte de Materiais Contaminantes com a finalidade de apreciar pauta com 4 itens e realizar a oitiva do Senhor Manoel Bernardes de Lara Junior, Diretor do Centro de Vigilância Sanitária (CVS) do Estado de São Paulo, nos termos do Requerimento nº 183/2026.</div>
+          <div class="agenda-meta"><span>&#128205; Plenário José Bonifácio</span><span>&#128100; CPI - Descarte de Materiais Contaminantes</span></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">11h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Reunião da Comissão de Relações Internacionais com a finalidade de apreciar pauta com 24 itens e Recepcionar a Excelentíssima Cônsul-Geral da Bélgica em São Paulo, Senhora Valentine Mangez, para dialogar sobre parcerias entre o Estado de São Paulo e a Bélgica.</div>
+          <div class="agenda-meta"><span>&#128205; Plenário Tiradentes</span><span>&#128100; Comissão de Relações Internacionais</span></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">14h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Alesp de Portas Abertas - Colégio Marista Arquidiocesano Brasil</div>
+          <div class="agenda-meta"><span>&#128205; Alesp</span><span>&#128100; Alesp</span></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">14h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Reunião conjunta da Comissão de Infraestrutura , da Comissão de Atividades Econômicas e da Comissão de Transportes e Comunicações , com a finalidade de ouvir o Senhor Secretário de Parcerias em Investimentos, Rafael Benini, quanto ao disposto no Artigo 52-A da Constituição do Estado de São Paulo - prestação de contas do andamento da gestão e avaliação das ações, programas e metas da Secretaria.</div>
+          <div class="agenda-meta"><span>&#128205; Plenário Tiradentes</span><span>&#128100; Comissão de Infraestrutura ; Comissão de Atividades Econômicas ; Comissão de Transportes e Comunicações ;</span></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">14h30</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Dia de Conscientização da Síndrome de Down - Vamos falar sobre políticas públicas?</div>
+          <div class="agenda-meta"><span>&#128205; Auditório Franco Montoro</span><span>&#128100; Dep. Márcia Lia</span></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">15h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Reunião da Comissão de Administração Pública e Relações do Trabalho com a finalidade de apreciar pauta com 56 itens.</div>
+          <div class="agenda-meta"><span>&#128205; Plenário José Bonifácio</span><span>&#128100; Comissão de Administração Pública e Relações do Trabalho</span></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">16h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Apresentação do CorAlesp</div>
+          <div class="agenda-meta"><span>&#128205; Espaço Cultural V Centenário</span><span>&#128100; Alesp</span></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">18h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Audiência Pública - Cuba</div>
+          <div class="agenda-meta"><span>&#128205; Auditório Teotônio Vilela</span><span>&#128100; Dep. Paulo Fiorilo</span></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">18h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Mulheres que Superam</div>
+          <div class="agenda-meta"><span>&#128205; Auditório Franco Montoro</span><span>&#128100; Dep. André Bueno</span></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">18h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Reunião Capelania Hospitalar</div>
+          <div class="agenda-meta"><span>&#128205; Plenário Tiradentes</span><span>&#128100; Dep. André Bueno</span></div>
+        </div>
+      </div>
+      <div class="agenda-item" style="opacity:0.5;filter:grayscale(15%);">
+        <div class="agenda-time" style="background:#96A7C0;">18h00</div>
+        <div class="agenda-content">
+          <div class="agenda-name" style="font-weight:500;color:#4A5A75;">Reunião Frente Parlamentar ESG</div>
+          <div class="agenda-meta"><span>&#128205; Plenário Dom Pedro I</span><span>&#128100; Dep. Alex Madureira</span></div>
+        </div>
+      </div>
+  </div>
+  </div>
+
+  <div class="section">
+
+<div class="section">
+<div class="section-header"><span class="section-icon">🏛️</span><span class="section-title">Convocações para Comissões</span></div>
+<div class="section-body">
+<div class="sub-label" style="color:#1A3A9C;border-top:none;padding-top:0">&mdash; HOJE &middot; 17/03 &mdash;</div><div class="comissao-item" style="background:linear-gradient(90deg,#FFFBEA 0%,#FFFFF8 100%);border-left:3px solid #F5C800;margin:0 -20px;padding:10px 20px;"><div class="comissao-body"><div class="comissao-nome"><span style="background:#FAF5FF;color:#6B46C1;border:1px solid #D6BCFA;font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:0.3px;text-transform:uppercase;">Conselho</span> Reunião do Conselho de Ética e Decoro Parlamentar com a finalidade de apreciar pauta com 1 item.</div><div style="font-size:12px;color:#5A6A85;margin-top:3px;display:flex;gap:12px;flex-wrap:wrap;"><span style="font-size:11px;">🕐 10h00</span><span>📍 Plenário Tiradentes</span><span>👤 Conselho de Ética e Decoro Parlamentar</span></div><div style="margin-top:8px;padding:8px 10px;background:rgba(245,200,0,0.08);border-radius:6px;border-left:3px solid #F5C800;"><div style="font-size:10px;font-weight:700;color:#C8960A;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">⭐ PSD na Comissão</div><div style="display:flex;align-items:center;gap:8px;padding:3px 0;font-size:12px;"><span style="font-size:13px;">👤</span><span style="font-weight:600;color:#1A1A2E;">Oseias de Madureira</span><span style="background:#2B6CB0;color:#FFFFFF;font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px;white-space:nowrap;">Vice-Presidente</span></div><div style="display:flex;align-items:center;gap:8px;padding:3px 0;font-size:12px;"><span style="font-size:13px;">👤</span><span style="font-weight:600;color:#1A1A2E;">Oseias de Madureira</span><span style="background:#F5C800;color:#1A3A9C;font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px;white-space:nowrap;">Efetivo</span></div><div style="display:flex;align-items:center;gap:8px;padding:3px 0;font-size:12px;"><span style="font-size:13px;">👤</span><span style="font-weight:600;color:#1A1A2E;">Paulo Correa Jr</span><span style="background:#F0F4F9;color:#5A6A85;font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px;white-space:nowrap;">Suplente</span></div></div></div></div><div class="comissao-item" style="background:linear-gradient(90deg,#FFFBEA 0%,#FFFFF8 100%);border-left:3px solid #F5C800;margin:0 -20px;padding:10px 20px;"><div class="comissao-body"><div class="comissao-nome"><span style="background:#EBF2FF;color:#1A3A9C;border:1px solid #BFD0F7;font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:0.3px;text-transform:uppercase;">Comissão</span> Reunião da Comissão de Finanças, Orçamento e Planejamento com a finalidade de apreciar pauta com 15 itens.</div><div style="font-size:12px;color:#5A6A85;margin-top:3px;display:flex;gap:12px;flex-wrap:wrap;"><span style="font-size:11px;">🕐 14h00</span><span>📍 Plenário Dom Pedro I</span><span>👤 Comissão de Finanças, Orçamento e Planejamento</span></div><div style="margin-top:8px;padding:8px 10px;background:rgba(245,200,0,0.08);border-radius:6px;border-left:3px solid #F5C800;"><div style="font-size:10px;font-weight:700;color:#C8960A;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">⭐ PSD na Comissão</div><div style="display:flex;align-items:center;gap:8px;padding:3px 0;font-size:12px;"><span style="font-size:13px;">👤</span><span style="font-weight:600;color:#1A1A2E;">Oseias de Madureira</span><span style="background:#F5C800;color:#1A3A9C;font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px;white-space:nowrap;">Efetivo</span></div><div style="display:flex;align-items:center;gap:8px;padding:3px 0;font-size:12px;"><span style="font-size:13px;">👤</span><span style="font-weight:600;color:#1A1A2E;">Paulo Correa Jr</span><span style="background:#F0F4F9;color:#5A6A85;font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px;white-space:nowrap;">Suplente</span></div></div></div></div><div class="comissao-item" style="background:linear-gradient(90deg,#FFFBEA 0%,#FFFFF8 100%);border-left:3px solid #F5C800;margin:0 -20px;padding:10px 20px;"><div class="comissao-body"><div class="comissao-nome"><span style="background:#EBF2FF;color:#1A3A9C;border:1px solid #BFD0F7;font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:0.3px;text-transform:uppercase;">Comissão</span> CANCELADO Reunião da Comissão de Educação e Cultura com a finalidade de apreciar pauta com 83 itens.</div><div style="font-size:12px;color:#5A6A85;margin-top:3px;display:flex;gap:12px;flex-wrap:wrap;"><span style="font-size:11px;">🕐 14h30</span><span>📍 Plenário Tiradentes</span><span>👤 Comissão de Educação e Cultura</span></div><div style="margin-top:8px;padding:8px 10px;background:rgba(245,200,0,0.08);border-radius:6px;border-left:3px solid #F5C800;"><div style="font-size:10px;font-weight:700;color:#C8960A;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">⭐ PSD na Comissão</div><div style="display:flex;align-items:center;gap:8px;padding:3px 0;font-size:12px;"><span style="font-size:13px;">👤</span><span style="font-weight:600;color:#1A1A2E;">Oseias de Madureira</span><span style="background:#F5C800;color:#1A3A9C;font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px;white-space:nowrap;">Efetivo</span></div><div style="display:flex;align-items:center;gap:8px;padding:3px 0;font-size:12px;"><span style="font-size:13px;">👤</span><span style="font-weight:600;color:#1A1A2E;">Marta Costa</span><span style="background:#F0F4F9;color:#5A6A85;font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px;white-space:nowrap;">Suplente</span></div></div></div></div><div class="comissao-item" style="background:linear-gradient(90deg,#FFFBEA 0%,#FFFFF8 100%);border-left:3px solid #F5C800;margin:0 -20px;padding:10px 20px;"><div class="comissao-body"><div class="comissao-nome"><span style="background:#EBF2FF;color:#1A3A9C;border:1px solid #BFD0F7;font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:0.3px;text-transform:uppercase;">Comissão</span> Reunião da Comissão de Defesa dos Direitos das Pessoas com Deficiência com a finalidade de apreciar pauta com 38 itens.</div><div style="font-size:12px;color:#5A6A85;margin-top:3px;display:flex;gap:12px;flex-wrap:wrap;"><span style="font-size:11px;">🕐 15h00</span><span>📍 Plenário Dom Pedro I</span><span>👤 Comissão de Defesa dos Direitos das Pessoas com Deficiência</span></div><div style="margin-top:8px;padding:8px 10px;background:rgba(245,200,0,0.08);border-radius:6px;border-left:3px solid #F5C800;"><div style="font-size:10px;font-weight:700;color:#C8960A;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">⭐ PSD na Comissão</div><div style="display:flex;align-items:center;gap:8px;padding:3px 0;font-size:12px;"><span style="font-size:13px;">👤</span><span style="font-weight:600;color:#1A1A2E;">Rafael Silva</span><span style="background:#F5C800;color:#1A3A9C;font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px;white-space:nowrap;">Efetivo</span></div><div style="display:flex;align-items:center;gap:8px;padding:3px 0;font-size:12px;"><span style="font-size:13px;">👤</span><span style="font-weight:600;color:#1A1A2E;">Marta Costa</span><span style="background:#F0F4F9;color:#5A6A85;font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px;white-space:nowrap;">Suplente</span></div></div></div></div><div class="comissao-item" style=""><div class="comissao-body"><div class="comissao-nome"><span style="background:#EBF2FF;color:#1A3A9C;border:1px solid #BFD0F7;font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:0.3px;text-transform:uppercase;">Comissão</span> Reunião da Comissão de Defesa dos Direitos do Consumidor com a finalidade de apreciar pauta com 18 itens.</div><div style="font-size:12px;color:#5A6A85;margin-top:3px;display:flex;gap:12px;flex-wrap:wrap;"><span style="font-size:11px;">🕐 15h00</span><span>📍 Plenário José Bonifácio</span><span>👤 Comissão de Defesa dos Direitos do Consumidor</span></div></div></div><div class="sub-label" style="color:#8A9AB5;margin-top:16px">&mdash; AMANHA &middot; 18/03 &mdash;</div><div class="comissao-item" style="opacity:0.55;filter:grayscale(10%);"><div class="comissao-body"><div class="comissao-nome"><span style="background:#EBF2FF;color:#1A3A9C;border:1px solid #BFD0F7;font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:0.3px;text-transform:uppercase;">Comissão</span> Reunião da Comissão de Relações Internacionais com a finalidade de apreciar pauta com 24 itens e Recepcionar a Excelentíssima Cônsul-Geral da Bélgica em São Paulo, Senhora Valentine Mangez, para dialogar sobre parcerias entre o Estado de São Paulo e a Bélgica.</div><div style="font-size:12px;color:#5A6A85;margin-top:3px;display:flex;gap:12px;flex-wrap:wrap;"><span style="font-size:11px;">🕐 11h00</span><span>📍 Plenário Tiradentes</span><span>👤 Comissão de Relações Internacionais</span></div><div style="margin-top:8px;padding:8px 10px;background:rgba(245,200,0,0.08);border-radius:6px;border-left:3px solid #F5C800;"><div style="font-size:10px;font-weight:700;color:#C8960A;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:4px;">⭐ PSD na Comissão</div><div style="display:flex;align-items:center;gap:8px;padding:3px 0;font-size:12px;"><span style="font-size:13px;">👤</span><span style="font-weight:600;color:#1A1A2E;">Paulo Correa Jr</span><span style="background:#F5C800;color:#1A3A9C;font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px;white-space:nowrap;">Efetivo</span></div><div style="display:flex;align-items:center;gap:8px;padding:3px 0;font-size:12px;"><span style="font-size:13px;">👤</span><span style="font-weight:600;color:#1A1A2E;">Oseias de Madureira</span><span style="background:#F0F4F9;color:#5A6A85;font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px;white-space:nowrap;">Suplente</span></div></div></div></div><div class="comissao-item" style="opacity:0.55;filter:grayscale(10%);"><div class="comissao-body"><div class="comissao-nome"><span style="background:#EBF2FF;color:#1A3A9C;border:1px solid #BFD0F7;font-size:10px;font-weight:700;padding:2px 7px;border-radius:4px;letter-spacing:0.3px;text-transform:uppercase;">Comissão</span> Reunião da Comissão de Administração Pública e Relações do Trabalho com a finalidade de apreciar pauta com 56 itens.</div><div style="font-size:12px;color:#5A6A85;margin-top:3px;display:flex;gap:12px;flex-wrap:wrap;"><span style="font-size:11px;">🕐 15h00</span><span>📍 Plenário José Bonifácio</span><span>👤 Comissão de Administração Pública e Relações do Trabalho</span></div></div></div></div>
+</div>
+
+  </div>
+
+  <div class="section">
+
+<div class="section-header"><span class="section-icon">&#128270;</span><span class="section-title">Reuni&otilde;es de CPIs</span></div>
+<div class="section-body">
+<div class="day-label" style="font-weight:700;font-size:12px;color:#C05621;text-transform:uppercase;letter-spacing:.6px;padding:8px 0 4px;">HOJE</div>
+<div class="agenda-item" style="">
+  <div class="agenda-time">14h00</div>
+  <div class="agenda-content">
+    <div class="agenda-name">Reunião da CPI - Questões Impactantes e Nocivas ao Meio Ambiente com a finalidade de realizar a eleição do Presidente e Vice-Presidente.</div>
+    <div class="agenda-meta">📍 Plenário Tiradentes</div>
+  </div>
+</div>
+<div class="agenda-item" style="">
+  <div class="agenda-time">14h30</div>
+  <div class="agenda-content">
+    <div class="agenda-name">Reunião da CPI - Vazamento de Dados Cadastrais de Pessoas Físicas e Jurídicas com a finalidade de realizar a eleição do Presidente e Vice-Presidente.</div>
+    <div class="agenda-meta">📍 Plenário José Bonifácio</div>
+  </div>
+</div>
+<div class="day-label" style="font-weight:700;font-size:12px;color:#C05621;text-transform:uppercase;letter-spacing:.6px;padding:8px 0 4px;">AMANHA</div>
+<div class="agenda-item" style="opacity:0.55;">
+  <div class="agenda-time">11h00</div>
+  <div class="agenda-content">
+    <div class="agenda-name">Reunião da CPI - Descarte de Materiais Contaminantes com a finalidade de apreciar pauta com 4 itens e realizar a oitiva do Senhor Manoel Bernardes de Lara Junior, Diretor do Centro de Vigilância Sanitária (CVS) do Estado de São Paulo, nos termos do Requerimento nº 183/2026.</div>
+    <div class="agenda-meta">📍 Plenário José Bonifácio</div>
+  </div>
+</div>
+</div>
+
+  </div>
+
+  
+
+  
+
+  
+
+</div>
+
+</body>
+</html>
