@@ -41,7 +41,6 @@ MESES_EXTENSO = [
 ]
 
 def numero_boletim():
-    """Le/incrementa o contador de boletins."""
     contador_file = "contador_boletim.txt"
     if os.path.exists(contador_file):
         with open(contador_file) as f:
@@ -54,18 +53,17 @@ def numero_boletim():
 
 
 def gerar_header_html(ref, num_boletim):
-    """Gera o bloco do header com data e numero do boletim atualizados."""
     dias_semana = ["Segunda-Feira","Terca-Feira","Quarta-Feira",
                    "Quinta-Feira","Sexta-Feira","Sabado","Domingo"]
     meses = ["janeiro","fevereiro","marco","abril","maio","junho",
              "julho","agosto","setembro","outubro","novembro","dezembro"]
-    semana  = ref.isocalendar()[1]
+    semana   = ref.isocalendar()[1]
     dia_nome = dias_semana[ref.weekday()]
     mes_nome = meses[ref.month - 1]
     return {
-        "boletim_num": "{}\u00ba Boletim Matinal".format(num_boletim),
-        "data_header": "{}, {} de {} de {}".format(dia_nome, ref.day, mes_nome, ref.year),
-        "semana":      "Semana {} \u00b7 {}".format(semana, ref.year),
+        "boletim_num": u"{}\u00ba Boletim Matinal".format(num_boletim),
+        "data_header": u"{}, {} de {} de {}".format(dia_nome, ref.day, mes_nome, ref.year),
+        "semana":      u"Semana {} \u00b7 {}".format(semana, ref.year),
     }
 
 
@@ -74,20 +72,19 @@ def main():
     ref  = dia_do_boletim(hoje)
 
     print("=" * 55)
-    print("  BOLETIM MATINAL PSD \u2014 GERADOR AUTOM\u00c1TICO")
+    print(" BOLETIM MATINAL PSD - GERADOR AUTOMATICO")
     print("=" * 55)
     print("Executando em: {}".format(formatar_data_br(hoje)))
-    print("Boletim para:  {}".format(formatar_data_br(ref)))
+    print("Boletim para: {}".format(formatar_data_br(ref)))
     print("")
 
-    # 1. Template
     if not os.path.exists(TEMPLATE_FILE):
-        print("ERRO: Arquivo \'{}\' nao encontrado!".format(TEMPLATE_FILE))
+        print("ERRO: Arquivo '{}' nao encontrado!".format(TEMPLATE_FILE))
         sys.exit(1)
     with open(TEMPLATE_FILE, "r", encoding="utf-8") as f:
         boletim = f.read()
 
-    # 2. Agenda
+    # 1. Agenda
     print("[1/5] Coletando Agenda da ALESP...")
     try:
         dias = dias_a_exibir(hoje)
@@ -96,9 +93,9 @@ def main():
         print("  OK")
     except Exception as e:
         print("  ERRO: {}".format(e))
-        agenda_html = '<p style="color:red">Erro ao carregar agenda.</p>'
+        agenda_html = u'<p style="color:red">Erro ao carregar agenda.</p>'
 
-    # 3. Comissoes (com busca de membros PSD nas CPIs)
+    # 2. Comissoes + membros CPIs
     print("[2/5] Coletando Reunioes de Comissoes...")
     try:
         dias_com = extrair_comissoes(dias)
@@ -107,53 +104,54 @@ def main():
         print("  OK")
     except Exception as e:
         print("  ERRO: {}".format(e))
-        comissoes_html = '<p style="color:red">Erro ao carregar comissoes.</p>'
+        comissoes_html = u'<p style="color:red">Erro ao carregar comissoes.</p>'
 
-    # 4. Proposituras
+    # 3. Proposituras
     print("[3/5] Coletando Proposituras...")
     try:
-        prop = buscar_proposituras(ref)
-        proposituras_html = gerar_html_proposituras(prop, ref)
+        prop = buscar_proposituras()
+        proposituras_html = gerar_html_proposituras(prop)
         print("  OK")
     except Exception as e:
         print("  ERRO: {}".format(e))
-        proposituras_html = '<p style="color:red">Pauta nao divulgada para o dia {data}.</p>'.format(
-            data=ref.strftime("%d/%m/%Y"))
+        proposituras_html = u'<p style="color:red">Pauta nao divulgada para o dia {}.</p>'.format(
+            ref.strftime("%d/%m/%Y"))
 
-    # 5. Diarios
+    # 4. Diario Legislativo
     print("[4/5] Coletando Diario Legislativo...")
     try:
-        diario_leg = buscar_diario_legislativo(ref)
-        diario_leg_html = gerar_html_diario_legislativo(diario_leg, ref)
+        diario_leg      = buscar_diario_legislativo(ref)
+        diario_leg_html = gerar_html_diario_legislativo(diario_leg)
         print("  OK")
     except Exception as e:
         print("  ERRO: {}".format(e))
-        diario_leg_html = '<p style="color:red">Nao existem materias para o dia {data}.</p>'.format(
-            data=ref.strftime("%d/%m/%Y"))
+        diario_leg_html = u'<p style="color:red">Nao existem materias para o dia {}.</p>'.format(
+            ref.strftime("%d/%m/%Y"))
 
+    # 5. Diario Executivo
     print("[5/5] Coletando Diario Executivo...")
     try:
-        diario_exe = buscar_diario_executivo(ref)
-        diario_exe_html = gerar_html_diario_executivo(diario_exe, ref)
+        diario_exe      = buscar_diario_executivo(ref)
+        diario_exe_html = gerar_html_diario_executivo(diario_exe)
         print("  OK")
     except Exception as e:
         print("  ERRO: {}".format(e))
-        diario_exe_html = '<p style="color:red">Nao existem materias para o dia {data}.</p>'.format(
-            data=ref.strftime("%d/%m/%Y"))
+        diario_exe_html = u'<p style="color:red">Nao existem materias para o dia {}.</p>'.format(
+            ref.strftime("%d/%m/%Y"))
 
     # 6. Header
     num  = numero_boletim()
     info = gerar_header_html(ref, num)
 
-    # 7. Monta o boletim
-    boletim = boletim.replace("{{boletim_num}}",   info["boletim_num"])
-    boletim = boletim.replace("{{data_header}}",   info["data_header"])
-    boletim = boletim.replace("{{semana}}",        info["semana"])
-    boletim = boletim.replace("{{agenda}}",        agenda_html)
-    boletim = boletim.replace("{{comissoes}}",     comissoes_html)
-    boletim = boletim.replace("{{proposituras}}",  proposituras_html)
-    boletim = boletim.replace("{{diario_leg}}",    diario_leg_html)
-    boletim = boletim.replace("{{diario_exe}}",    diario_exe_html)
+    # 7. Substituicoes — template usa <!-- PLACEHOLDER --> em maiusculas
+    boletim = boletim.replace("<!-- BOLETIM_NUM -->", info["boletim_num"])
+    boletim = boletim.replace("<!-- DATA_HEADER -->",  info["data_header"])
+    boletim = boletim.replace("<!-- SEMANA -->",        info["semana"])
+    boletim = boletim.replace("<!-- AGENDA -->",        agenda_html)
+    boletim = boletim.replace("<!-- COMISSOES -->",     comissoes_html)
+    boletim = boletim.replace("<!-- PROPOSITURAS -->",  proposituras_html)
+    boletim = boletim.replace("<!-- DIARIO_LEG -->",    diario_leg_html)
+    boletim = boletim.replace("<!-- DIARIO_EXE -->",    diario_exe_html)
 
     # 8. Salva
     os.makedirs(OUTPUT_DIR, exist_ok=True)

@@ -2,11 +2,18 @@
 """
 coletor_comissoes.py
 Extrai Convocacoes para Comissoes dos eventos ja coletados da Agenda.
-Enriquece CPIs com membros buscados ao vivo via coletor_bancada_cpi.
+Enriquece CPIs com membros via XML dados abertos ALESP.
 """
 
 import unicodedata
-from coletor_bancada_cpi import buscar_deputados_psd, buscar_membros_cpi, CPIS_ATIVAS
+from coletor_bancada_psd import atualizar_bancada, get_bancada_psd
+from coletor_bancada_cpi import (
+    atualizar_membros_cpis,
+    get_membros_cpi,
+    get_membros_psd_cpi,
+    chave_por_titulo,
+    CPIS_ATIVAS,
+)
 
 COMISSAO_KEYWORDS = [
     "Reuniao da Comissao", "Reuniao da Comissao",
@@ -21,13 +28,6 @@ COMISSAO_KEYWORDS = [
 ]
 
 NAO_COMISSAO = ["Montagem", "Desmontagem", "Apoio ao Evento"]
-
-_MAPA_CHAVE = [
-    ("questoes impactantes",  "questoes_impactantes"),
-    ("vazamento de dados",    "vazamento_dados"),
-    ("descarte de materiais", "descarte_materiais"),
-    ("lixoes",                "lixoes"),
-]
 
 # ── Utilitario ────────────────────────────────────────────────────────────────
 
@@ -59,19 +59,12 @@ def extrair_comissoes(dias):
             })
     return resultado
 
-
-def _chave_por_titulo(titulo):
-    t = _normalizar(titulo)
-    for kw, chave in _MAPA_CHAVE:
-        if _normalizar(kw) in t:
-            return chave
-    return None
-
-# ── Enriquecimento com membros ────────────────────────────────────────────────
+# ── Enriquecimento ────────────────────────────────────────────────────────────
 
 def enriquecer_cpis_com_membros(dias_comissoes):
-    """Busca membros PSD frescos para cada evento de CPI/CPMI."""
-    bancada_psd = buscar_deputados_psd()
+    """Atualiza bancada e membros das CPIs via XML, injeta nos eventos."""
+    atualizar_bancada()
+    atualizar_membros_cpis()
 
     for dia in dias_comissoes:
         for ev in dia["eventos"]:
@@ -83,22 +76,13 @@ def enriquecer_cpis_com_membros(dias_comissoes):
                 ev.setdefault("membros_psd", [])
                 continue
 
-            chave = _chave_por_titulo(titulo)
-            if chave and chave in CPIS_ATIVAS:
-                todos = buscar_membros_cpi(chave, CPIS_ATIVAS[chave])
-            else:
-                todos = []
+            chave = chave_por_titulo(titulo)
+            ev["membros_cpi"] = get_membros_cpi(chave) if chave else []
+            ev["membros_psd"] = get_membros_psd_cpi(chave) if chave else []
 
-            psd = [
-                m for m in todos
-                if any(_normalizar(dep) in _normalizar(m["nome"]) for dep in bancada_psd)
-            ]
-
-            ev["membros_cpi"] = todos
-            ev["membros_psd"] = psd
-
-            if psd:
-                print("  [CPI] PSD: {}".format(", ".join(m["nome"] for m in psd)))
+            if ev["membros_psd"]:
+                nomes = ", ".join(m["nome"] for m in ev["membros_psd"])
+                print("  [CPI] PSD: {}".format(nomes))
 
     return dias_comissoes
 
@@ -136,7 +120,7 @@ def _html_membros(membros_lista, membros_psd):
         )
         partes.append(
             '{} <span style="color:#999;font-size:10px;">{}</span>'.format(
-                nome_fmt, m["partido"]
+                nome_fmt, m.get("partido", "")
             )
         )
     return (
