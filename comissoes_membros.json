@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-03-17",
+  "atualizado_em": "2026-04-01",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -164,11 +164,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Caio França",
           "partido": "PSB",
           "cargo": "Efetivo"
@@ -209,29 +204,13 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Valdomiro Lopes",
           "partido": "PSB",
           "cargo": "Suplente"
         }
       ],
-      "psd": [
-        {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Suplente"
-        }
-      ],
-      "total": 21
+      "psd": [],
+      "total": 19
     },
     "CAMM": {
       "id": "12449",
@@ -356,11 +335,6 @@
           "nome": "Dr. Eduardo Nóbrega",
           "partido": "PODE",
           "cargo": "Suplente"
-        },
-        {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Suplente"
         }
       ],
       "psd": [
@@ -368,14 +342,9 @@
           "nome": "Marta Costa",
           "partido": "PSD",
           "cargo": "Efetivo"
-        },
-        {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Suplente"
         }
       ],
-      "total": 25
+      "total": 24
     },
     "CAE": {
       "id": "12454",
@@ -658,17 +627,12 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Marcelo Aguiar",
+          "nome": "Fábio Faria de Sá",
           "partido": "PODE",
           "cargo": "Efetivo"
         },
         {
           "nome": "Marta Costa",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Oseias de Madureira",
           "partido": "PSD",
           "cargo": "Efetivo"
         },
@@ -708,11 +672,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Danilo Campetti",
-          "partido": "REPUBLICANOS",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Solange Freitas",
           "partido": "UNIÃO",
           "cargo": "Suplente"
@@ -720,11 +679,6 @@
         {
           "nome": "Dr. Eduardo Nóbrega",
           "partido": "PODE",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
           "cargo": "Suplente"
         },
         {
@@ -745,22 +699,12 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Rafael Silva",
           "partido": "PSD",
           "cargo": "Suplente"
         }
       ],
-      "total": 26
+      "total": 23
     },
     "CDD": {
       "id": "12455",
@@ -867,11 +811,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Delegado Olim",
           "partido": "PP",
           "cargo": "Suplente"
@@ -882,14 +821,9 @@
           "nome": "Rafael Silva",
           "partido": "PSD",
           "cargo": "Efetivo"
-        },
-        {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
-          "cargo": "Suplente"
         }
       ],
-      "total": 22
+      "total": 21
     },
     "CDDPD": {
       "id": "1000001015",
@@ -991,11 +925,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Marcelo Aguiar",
-          "partido": "PODE",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Marta Costa",
           "partido": "PSD",
           "cargo": "Suplente"
@@ -1023,7 +952,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 23
+      "total": 22
     },
     "CDDC": {
       "id": "1000000128",
@@ -1218,18 +1147,13 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Marcelo Aguiar",
-          "partido": "PODE",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Capitão Telhada",
           "partido": "PP",
           "cargo": "Suplente"
         }
       ],
       "psd": [],
-      "total": 19
+      "total": 18
     },
     "CEC": {
       "id": "12447",
@@ -1296,11 +1220,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Alex Madureira",
           "partido": "PL",
           "cargo": "Suplente"
@@ -1358,17 +1277,12 @@
       ],
       "psd": [
         {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Marta Costa",
           "partido": "PSD",
           "cargo": "Suplente"
         }
       ],
-      "total": 24
+      "total": 23
     },
     "CFOP": {
       "id": "12445",
@@ -1425,11 +1339,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "André Bueno",
           "partido": "PL",
           "cargo": "Suplente"
@@ -1473,26 +1382,10 @@
           "nome": "Fábio Faria de Sá",
           "partido": "PODE",
           "cargo": "Suplente"
-        },
-        {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
-          "cargo": "Suplente"
         }
       ],
-      "psd": [
-        {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
-          "cargo": "Suplente"
-        }
-      ],
-      "total": 21
+      "psd": [],
+      "total": 19
     },
     "CFC": {
       "id": "8509",
@@ -2016,16 +1909,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Marcelo Aguiar",
-          "partido": "PODE",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Dani Alonso",
           "partido": "PL",
           "cargo": "Suplente"
@@ -2069,26 +1952,10 @@
           "nome": "Dr. Eduardo Nóbrega",
           "partido": "PODE",
           "cargo": "Suplente"
-        },
-        {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Suplente"
         }
       ],
-      "psd": [
-        {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Suplente"
-        }
-      ],
-      "total": 21
+      "psd": [],
+      "total": 18
     },
     "CS": {
       "id": "12446",
@@ -2098,11 +1965,6 @@
           "nome": "Bruna Furlan",
           "partido": "PSDB/Cidadania",
           "cargo": "Presidente"
-        },
-        {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Vice-Presidente"
         },
         {
           "nome": "Alex Madureira",
@@ -2150,11 +2012,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Valdomiro Lopes",
           "partido": "PSB",
           "cargo": "Efetivo"
@@ -2190,11 +2047,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Marcelo Aguiar",
-          "partido": "PODE",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Marta Costa",
           "partido": "PSD",
           "cargo": "Suplente"
@@ -2207,22 +2059,12 @@
       ],
       "psd": [
         {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Vice-Presidente"
-        },
-        {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Marta Costa",
           "partido": "PSD",
           "cargo": "Suplente"
         }
       ],
-      "total": 22
+      "total": 19
     },
     "CSPAP": {
       "id": "12451",
@@ -2314,11 +2156,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Danilo Campetti",
-          "partido": "REPUBLICANOS",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Rafael Saraiva",
           "partido": "UNIÃO",
           "cargo": "Suplente"
@@ -2340,7 +2177,7 @@
         }
       ],
       "psd": [],
-      "total": 22
+      "total": 21
     },
     "CTC": {
       "id": "8520",
@@ -2399,11 +2236,6 @@
         {
           "nome": "Léo Oliveira",
           "partido": "MDB",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
           "cargo": "Efetivo"
         },
         {
@@ -2467,11 +2299,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Delegado Olim",
           "partido": "PP",
           "cargo": "Suplente"
@@ -2482,29 +2309,13 @@
           "cargo": "Suplente"
         }
       ],
-      "psd": [
-        {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
-          "cargo": "Suplente"
-        }
-      ],
-      "total": 27
+      "psd": [],
+      "total": 25
     },
     "CT": {
       "id": "1000001016",
       "nome": "Turismo",
       "membros": [
-        {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
-          "cargo": "Presidente"
-        },
         {
           "nome": "Sebastião Santos",
           "partido": "REPUBLICANOS",
@@ -2543,11 +2354,6 @@
         {
           "nome": "Itamar Borges",
           "partido": "MDB",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
           "cargo": "Efetivo"
         },
         {
@@ -2603,22 +2409,12 @@
       ],
       "psd": [
         {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
-          "cargo": "Presidente"
-        },
-        {
-          "nome": "Paulo Correa Jr",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Rafael Silva",
           "partido": "PSD",
           "cargo": "Suplente"
         }
       ],
-      "total": 20
+      "total": 18
     },
     "CEDP": {
       "id": "8521",
@@ -2631,7 +2427,7 @@
         },
         {
           "nome": "Oseias de Madureira",
-          "partido": "PSD",
+          "partido": "PL",
           "cargo": "Vice-Presidente"
         },
         {
@@ -2640,13 +2436,13 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Emídio de Souza",
-          "partido": "PT/PCdoB/PV",
+          "nome": "Oseias de Madureira",
+          "partido": "PL",
           "cargo": "Efetivo"
         },
         {
-          "nome": "Dirceu Dalben",
-          "partido": "PSDB/Cidadania",
+          "nome": "Emídio de Souza",
+          "partido": "PT/PCdoB/PV",
           "cargo": "Efetivo"
         },
         {
@@ -2670,11 +2466,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Oseias de Madureira",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Delegado Olim",
           "partido": "PP",
           "cargo": "Efetivo"
@@ -2690,12 +2481,12 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Analice Fernandes",
-          "partido": "PSDB/Cidadania",
+          "nome": "Danilo Campetti",
+          "partido": "REPUBLICANOS",
           "cargo": "Suplente"
         },
         {
-          "nome": "Danilo Campetti",
+          "nome": "Paulo Correa Jr",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
         },
@@ -2715,7 +2506,7 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Paulo Correa Jr",
+          "nome": "Analice Fernandes",
           "partido": "PSD",
           "cargo": "Suplente"
         },
@@ -2728,21 +2519,26 @@
       "psd": [
         {
           "nome": "Oseias de Madureira",
-          "partido": "PSD",
+          "partido": "PL",
           "cargo": "Vice-Presidente"
         },
         {
           "nome": "Oseias de Madureira",
-          "partido": "PSD",
+          "partido": "PL",
           "cargo": "Efetivo"
         },
         {
           "nome": "Paulo Correa Jr",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Analice Fernandes",
           "partido": "PSD",
           "cargo": "Suplente"
         }
       ],
-      "total": 20
+      "total": 19
     }
   }
 }
