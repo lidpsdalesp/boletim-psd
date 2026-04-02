@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-04-01",
+  "atualizado_em": "2026-04-02",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -114,11 +114,6 @@
       "nome": "Assuntos Desportivos",
       "membros": [
         {
-          "nome": "Danilo Campetti",
-          "partido": "REPUBLICANOS",
-          "cargo": "Presidente"
-        },
-        {
           "nome": "Felipe Franco",
           "partido": "UNIÃO",
           "cargo": "Vice-Presidente"
@@ -145,11 +140,6 @@
         },
         {
           "nome": "Altair Moraes",
-          "partido": "REPUBLICANOS",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Danilo Campetti",
           "partido": "REPUBLICANOS",
           "cargo": "Efetivo"
         },
@@ -210,7 +200,7 @@
         }
       ],
       "psd": [],
-      "total": 19
+      "total": 17
     },
     "CAMM": {
       "id": "12449",
@@ -381,11 +371,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Carla Morando",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Sebastião Santos",
           "partido": "REPUBLICANOS",
           "cargo": "Efetivo"
@@ -462,7 +447,7 @@
         }
       ],
       "psd": [],
-      "total": 22
+      "total": 21
     },
     "CCTI": {
       "id": "12456",
@@ -544,11 +529,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Danilo Campetti",
-          "partido": "REPUBLICANOS",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Edson Giriboni",
           "partido": "UNIÃO",
           "cargo": "Suplente"
@@ -570,7 +550,7 @@
         }
       ],
       "psd": [],
-      "total": 20
+      "total": 19
     },
     "CCJR": {
       "id": "12444",
@@ -786,16 +766,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Bruna Furlan",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Danilo Campetti",
-          "partido": "REPUBLICANOS",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Solange Freitas",
           "partido": "UNIÃO",
           "cargo": "Suplente"
@@ -823,7 +793,7 @@
           "cargo": "Efetivo"
         }
       ],
-      "total": 21
+      "total": 19
     },
     "CDDPD": {
       "id": "1000001015",
@@ -915,11 +885,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Danilo Campetti",
-          "partido": "REPUBLICANOS",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Dr. Elton",
           "partido": "UNIÃO",
           "cargo": "Suplente"
@@ -952,7 +917,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 22
+      "total": 21
     },
     "CDDC": {
       "id": "1000000128",
@@ -1034,11 +999,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Carla Morando",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Altair Moraes",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -1055,7 +1015,7 @@
         }
       ],
       "psd": [],
-      "total": 19
+      "total": 18
     },
     "CDDM": {
       "id": "1000000297",
@@ -1359,11 +1319,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Carla Morando",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Tomé Abduch",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -1385,7 +1340,7 @@
         }
       ],
       "psd": [],
-      "total": 19
+      "total": 18
     },
     "CFC": {
       "id": "8509",
@@ -1472,11 +1427,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Danilo Campetti",
-          "partido": "REPUBLICANOS",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Edson Giriboni",
           "partido": "UNIÃO",
           "cargo": "Suplente"
@@ -1498,7 +1448,7 @@
         }
       ],
       "psd": [],
-      "total": 21
+      "total": 20
     },
     "CHDRU": {
       "id": "1000001021",
@@ -1653,11 +1603,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Danilo Campetti",
-          "partido": "REPUBLICANOS",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Edson Giriboni",
           "partido": "UNIÃO",
           "cargo": "Efetivo"
@@ -1734,7 +1679,7 @@
         }
       ],
       "psd": [],
-      "total": 22
+      "total": 21
     },
     "CMADS": {
       "id": "12453",
@@ -1821,11 +1766,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Bruna Furlan",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Edna Macedo",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -1857,7 +1797,7 @@
         }
       ],
       "psd": [],
-      "total": 23
+      "total": 22
     },
     "CRI": {
       "id": "1000000596",
@@ -1894,11 +1834,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Danilo Campetti",
-          "partido": "REPUBLICANOS",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Guilherme Cortez",
           "partido": "PSOL/REDE",
           "cargo": "Efetivo"
@@ -1929,11 +1864,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Carla Morando",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Sebastião Santos",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -1955,7 +1885,7 @@
         }
       ],
       "psd": [],
-      "total": 18
+      "total": 16
     },
     "CS": {
       "id": "12446",
@@ -2279,16 +2209,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Carla Morando",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Danilo Campetti",
-          "partido": "REPUBLICANOS",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Edson Giriboni",
           "partido": "UNIÃO",
           "cargo": "Suplente"
@@ -2310,7 +2230,7 @@
         }
       ],
       "psd": [],
-      "total": 25
+      "total": 23
     },
     "CT": {
       "id": "1000001016",
@@ -2481,11 +2401,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Danilo Campetti",
-          "partido": "REPUBLICANOS",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Paulo Correa Jr",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -2538,7 +2453,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 19
+      "total": 18
     }
   }
 }
