@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-04-06",
+  "atualizado_em": "2026-04-07",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -320,11 +320,6 @@
           "nome": "Jorge Caruso",
           "partido": "MDB",
           "cargo": "Suplente"
-        },
-        {
-          "nome": "Dr. Eduardo Nóbrega",
-          "partido": "PODE",
-          "cargo": "Suplente"
         }
       ],
       "psd": [
@@ -334,7 +329,7 @@
           "cargo": "Efetivo"
         }
       ],
-      "total": 24
+      "total": 23
     },
     "CAE": {
       "id": "12454",
@@ -344,11 +339,6 @@
           "nome": "Itamar Borges",
           "partido": "MDB",
           "cargo": "Presidente"
-        },
-        {
-          "nome": "Carla Morando",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Vice-Presidente"
         },
         {
           "nome": "Bruno Zambelli",
@@ -447,7 +437,7 @@
         }
       ],
       "psd": [],
-      "total": 21
+      "total": 20
     },
     "CCTI": {
       "id": "12456",
@@ -489,18 +479,8 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Marina Helou",
-          "partido": "PSOL/REDE",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Rogério Santos",
           "partido": "MDB",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Dr. Eduardo Nóbrega",
-          "partido": "PODE",
           "cargo": "Efetivo"
         },
         {
@@ -550,7 +530,7 @@
         }
       ],
       "psd": [],
-      "total": 19
+      "total": 17
     },
     "CCJR": {
       "id": "12444",
@@ -657,11 +637,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Dr. Eduardo Nóbrega",
-          "partido": "PODE",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Rafael Silva",
           "partido": "PSD",
           "cargo": "Suplente"
@@ -684,7 +659,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 23
+      "total": 22
     },
     "CDD": {
       "id": "12455",
@@ -805,16 +780,6 @@
           "cargo": "Presidente"
         },
         {
-          "nome": "André Bueno",
-          "partido": "PL",
-          "cargo": "Vice-Presidente"
-        },
-        {
-          "nome": "André Bueno",
-          "partido": "PL",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Fabiana Bolsonaro",
           "partido": "PL",
           "cargo": "Efetivo"
@@ -917,7 +882,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 21
+      "total": 19
     },
     "CDDC": {
       "id": "1000000128",
@@ -1175,17 +1140,7 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Dr. Eduardo Nóbrega",
-          "partido": "PODE",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Alex Madureira",
-          "partido": "PL",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "André Bueno",
           "partido": "PL",
           "cargo": "Suplente"
         },
@@ -1220,11 +1175,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Marina Helou",
-          "partido": "PSOL/REDE",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Ricardo França",
           "partido": "PODE",
           "cargo": "Suplente"
@@ -1242,7 +1192,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 23
+      "total": 20
     },
     "CFOP": {
       "id": "12445",
@@ -1299,11 +1249,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "André Bueno",
-          "partido": "PL",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Paulo Mansur",
           "partido": "PL",
           "cargo": "Suplente"
@@ -1340,7 +1285,7 @@
         }
       ],
       "psd": [],
-      "total": 18
+      "total": 17
     },
     "CFC": {
       "id": "8509",
@@ -1726,11 +1671,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Marina Helou",
-          "partido": "PSOL/REDE",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Monica Seixas do Movimento Pretas",
           "partido": "PSOL/REDE",
           "cargo": "Efetivo"
@@ -1744,11 +1684,6 @@
           "nome": "Ricardo França",
           "partido": "PODE",
           "cargo": "Efetivo"
-        },
-        {
-          "nome": "André Bueno",
-          "partido": "PL",
-          "cargo": "Suplente"
         },
         {
           "nome": "Lucas Bove",
@@ -1797,7 +1732,7 @@
         }
       ],
       "psd": [],
-      "total": 22
+      "total": 20
     },
     "CRI": {
       "id": "1000000596",
@@ -1812,11 +1747,6 @@
           "nome": "Gil Diniz Bolsonaro",
           "partido": "PL",
           "cargo": "Vice-Presidente"
-        },
-        {
-          "nome": "André Bueno",
-          "partido": "PL",
-          "cargo": "Efetivo"
         },
         {
           "nome": "Gil Diniz Bolsonaro",
@@ -1877,25 +1807,15 @@
           "nome": "Jorge Caruso",
           "partido": "MDB",
           "cargo": "Suplente"
-        },
-        {
-          "nome": "Dr. Eduardo Nóbrega",
-          "partido": "PODE",
-          "cargo": "Suplente"
         }
       ],
       "psd": [],
-      "total": 16
+      "total": 14
     },
     "CS": {
       "id": "12446",
       "nome": "Saúde",
       "membros": [
-        {
-          "nome": "Bruna Furlan",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Presidente"
-        },
         {
           "nome": "Alex Madureira",
           "partido": "PL",
@@ -1914,11 +1834,6 @@
         {
           "nome": "Beth Sahão",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Bruna Furlan",
-          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -1994,7 +1909,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 19
+      "total": 17
     },
     "CSPAP": {
       "id": "12451",
@@ -2033,11 +1948,6 @@
         {
           "nome": "Reis",
           "partido": "PT/PCdoB/PV",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Carla Morando",
-          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -2107,7 +2017,7 @@
         }
       ],
       "psd": [],
-      "total": 21
+      "total": 20
     },
     "CTC": {
       "id": "8520",
