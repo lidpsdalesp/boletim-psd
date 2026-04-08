@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-04-07",
+  "atualizado_em": "2026-04-08",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -119,11 +119,6 @@
           "cargo": "Vice-Presidente"
         },
         {
-          "nome": "André Bueno",
-          "partido": "PL",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Tenente Coimbra",
           "partido": "PL",
           "cargo": "Efetivo"
@@ -146,11 +141,6 @@
         {
           "nome": "Felipe Franco",
           "partido": "UNIÃO",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Dr. Eduardo Nóbrega",
-          "partido": "PODE",
           "cargo": "Efetivo"
         },
         {
@@ -200,7 +190,7 @@
         }
       ],
       "psd": [],
-      "total": 17
+      "total": 15
     },
     "CAMM": {
       "id": "12449",
@@ -751,11 +741,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Dr. Eduardo Nóbrega",
-          "partido": "PODE",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Delegado Olim",
           "partido": "PP",
           "cargo": "Suplente"
@@ -768,7 +753,7 @@
           "cargo": "Efetivo"
         }
       ],
-      "total": 19
+      "total": 18
     },
     "CDDPD": {
       "id": "1000001015",
@@ -1027,11 +1012,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Marina Helou",
-          "partido": "PSOL/REDE",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Clarice Ganem",
           "partido": "PODE",
           "cargo": "Efetivo"
@@ -1040,11 +1020,6 @@
           "nome": "Delegado Olim",
           "partido": "PP",
           "cargo": "Efetivo"
-        },
-        {
-          "nome": "André Bueno",
-          "partido": "PL",
-          "cargo": "Suplente"
         },
         {
           "nome": "Bruno Zambelli",
@@ -1078,7 +1053,7 @@
         }
       ],
       "psd": [],
-      "total": 18
+      "total": 16
     },
     "CEC": {
       "id": "12447",
@@ -2292,7 +2267,7 @@
         },
         {
           "nome": "Dr. Eduardo Nóbrega",
-          "partido": "PODE",
+          "partido": "MDB",
           "cargo": "Efetivo"
         },
         {
