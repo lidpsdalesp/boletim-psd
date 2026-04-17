@@ -109,17 +109,17 @@
         "cargo": "Efetivo"
       },
       {
+        "nome": "Capitão Telhada",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
         "nome": "Solange Freitas",
         "partido": "",
         "cargo": "Efetivo"
       },
       {
         "nome": "Léo Oliveira",
-        "partido": "",
-        "cargo": "Efetivo"
-      },
-      {
-        "nome": "Capitão Telhada",
         "partido": "",
         "cargo": "Efetivo"
       }
@@ -348,17 +348,17 @@
         "cargo": "Efetivo"
       },
       {
+        "nome": "Capitão Telhada",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
         "nome": "Felipe Franco",
         "partido": "",
         "cargo": "Efetivo"
       },
       {
         "nome": "Clarice Ganem",
-        "partido": "",
-        "cargo": "Efetivo"
-      },
-      {
-        "nome": "Capitão Telhada",
         "partido": "",
         "cargo": "Efetivo"
       }
@@ -440,12 +440,12 @@
         "cargo": "Efetivo"
       },
       {
-        "nome": "Rafael Saraiva",
+        "nome": "Monica Seixas do Movimento Pretas",
         "partido": "",
         "cargo": "Efetivo"
       },
       {
-        "nome": "Monica Seixas do Movimento Pretas",
+        "nome": "Rafael Saraiva",
         "partido": "",
         "cargo": "Efetivo"
       },
@@ -562,12 +562,12 @@
         "cargo": "Efetivo"
       },
       {
-        "nome": "Felipe Franco",
+        "nome": "Itamar Borges",
         "partido": "",
         "cargo": "Efetivo"
       },
       {
-        "nome": "Itamar Borges",
+        "nome": "Felipe Franco",
         "partido": "",
         "cargo": "Efetivo"
       },
@@ -597,12 +597,12 @@
         "cargo": "Efetivo"
       },
       {
-        "nome": "Dr. Elton",
+        "nome": "Jorge Caruso",
         "partido": "",
         "cargo": "Efetivo"
       },
       {
-        "nome": "Jorge Caruso",
+        "nome": "Dr. Elton",
         "partido": "",
         "cargo": "Efetivo"
       }

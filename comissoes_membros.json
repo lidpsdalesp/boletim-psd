@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-04-16",
+  "atualizado_em": "2026-04-17",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -7,7 +7,7 @@
       "membros": [
         {
           "nome": "Solange Freitas",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Presidente"
         },
         {
@@ -41,8 +41,13 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Capitão Telhada",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Solange Freitas",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
@@ -53,11 +58,6 @@
         {
           "nome": "Itamar Borges",
           "partido": "MDB",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Capitão Telhada",
-          "partido": "PP",
           "cargo": "Efetivo"
         },
         {
@@ -91,6 +91,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Delegado Olim",
+          "partido": "UNIÃO/PP",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Paula da Bancada Feminista",
           "partido": "PSOL/REDE",
           "cargo": "Suplente"
@@ -98,11 +103,6 @@
         {
           "nome": "Jorge Caruso",
           "partido": "MDB",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Delegado Olim",
-          "partido": "PP",
           "cargo": "Suplente"
         }
       ],
@@ -115,7 +115,7 @@
       "membros": [
         {
           "nome": "Felipe Franco",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Vice-Presidente"
         },
         {
@@ -140,7 +140,7 @@
         },
         {
           "nome": "Felipe Franco",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
@@ -175,7 +175,7 @@
         },
         {
           "nome": "Dr. Elton",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
@@ -248,7 +248,7 @@
         },
         {
           "nome": "Edson Giriboni",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
@@ -303,7 +303,7 @@
         },
         {
           "nome": "Milton Leite Filho",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
@@ -356,8 +356,13 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Capitão Telhada",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Edson Giriboni",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
@@ -368,11 +373,6 @@
         {
           "nome": "Itamar Borges",
           "partido": "MDB",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Capitão Telhada",
-          "partido": "PP",
           "cargo": "Efetivo"
         },
         {
@@ -406,8 +406,13 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Delegado Olim",
+          "partido": "UNIÃO/PP",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Solange Freitas",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
@@ -418,11 +423,6 @@
         {
           "nome": "Jorge Caruso",
           "partido": "MDB",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Delegado Olim",
-          "partido": "PP",
           "cargo": "Suplente"
         }
       ],
@@ -465,7 +465,7 @@
         },
         {
           "nome": "Milton Leite Filho",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
@@ -500,7 +500,7 @@
         },
         {
           "nome": "Edson Giriboni",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
@@ -572,8 +572,13 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Delegado Olim",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Rafael Saraiva",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
@@ -584,11 +589,6 @@
         {
           "nome": "Marta Costa",
           "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Delegado Olim",
-          "partido": "PP",
           "cargo": "Efetivo"
         },
         {
@@ -622,18 +622,18 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Capitão Telhada",
+          "partido": "UNIÃO/PP",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Solange Freitas",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
           "nome": "Rafael Silva",
           "partido": "PSD",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Capitão Telhada",
-          "partido": "PP",
           "cargo": "Suplente"
         }
       ],
@@ -691,6 +691,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Capitão Telhada",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Paula da Bancada Feminista",
           "partido": "PSOL/REDE",
           "cargo": "Efetivo"
@@ -703,11 +708,6 @@
         {
           "nome": "Rafael Silva",
           "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Capitão Telhada",
-          "partido": "PP",
           "cargo": "Efetivo"
         },
         {
@@ -731,18 +731,18 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Delegado Olim",
+          "partido": "UNIÃO/PP",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Solange Freitas",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
           "nome": "Guilherme Cortez",
           "partido": "PSOL/REDE",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Delegado Olim",
-          "partido": "PP",
           "cargo": "Suplente"
         }
       ],
@@ -785,8 +785,13 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Capitão Telhada",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Solange Freitas",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
@@ -797,11 +802,6 @@
         {
           "nome": "Rafael Silva",
           "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Capitão Telhada",
-          "partido": "PP",
           "cargo": "Efetivo"
         },
         {
@@ -835,18 +835,18 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Delegado Olim",
+          "partido": "UNIÃO/PP",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Dr. Elton",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
           "nome": "Marta Costa",
           "partido": "PSD",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Delegado Olim",
-          "partido": "PP",
           "cargo": "Suplente"
         },
         {
@@ -880,7 +880,7 @@
         },
         {
           "nome": "Delegado Olim",
-          "partido": "PP",
+          "partido": "UNIÃO/PP",
           "cargo": "Vice-Presidente"
         },
         {
@@ -914,18 +914,18 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Delegado Olim",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Felipe Franco",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
           "nome": "Jorge Caruso",
           "partido": "MDB",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Delegado Olim",
-          "partido": "PP",
           "cargo": "Efetivo"
         },
         {
@@ -954,13 +954,13 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Léo Oliveira",
-          "partido": "MDB",
+          "nome": "Capitão Telhada",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
-          "nome": "Capitão Telhada",
-          "partido": "PP",
+          "nome": "Léo Oliveira",
+          "partido": "MDB",
           "cargo": "Suplente"
         }
       ],
@@ -1007,18 +1007,18 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Delegado Olim",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Solange Freitas",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
           "nome": "Clarice Ganem",
           "partido": "PODE",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Delegado Olim",
-          "partido": "PP",
           "cargo": "Efetivo"
         },
         {
@@ -1037,18 +1037,18 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Capitão Telhada",
+          "partido": "UNIÃO/PP",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Dr. Elton",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
           "nome": "Ediane Maria",
           "partido": "PSOL/REDE",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Capitão Telhada",
-          "partido": "PP",
           "cargo": "Suplente"
         }
       ],
@@ -1146,7 +1146,7 @@
         },
         {
           "nome": "Felipe Franco",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
@@ -1210,7 +1210,7 @@
         },
         {
           "nome": "Solange Freitas",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
@@ -1245,7 +1245,7 @@
         },
         {
           "nome": "Rafael Saraiva",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
@@ -1268,7 +1268,7 @@
       "membros": [
         {
           "nome": "Delegado Olim",
-          "partido": "PP",
+          "partido": "UNIÃO/PP",
           "cargo": "Presidente"
         },
         {
@@ -1302,18 +1302,18 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Delegado Olim",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Milton Leite Filho",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
           "nome": "Jorge Caruso",
           "partido": "MDB",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Delegado Olim",
-          "partido": "PP",
           "cargo": "Efetivo"
         },
         {
@@ -1347,18 +1347,18 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Capitão Telhada",
+          "partido": "UNIÃO/PP",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Edson Giriboni",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
           "nome": "Itamar Borges",
           "partido": "MDB",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Capitão Telhada",
-          "partido": "PP",
           "cargo": "Suplente"
         },
         {
@@ -1376,7 +1376,7 @@
       "membros": [
         {
           "nome": "Rafael Saraiva",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Presidente"
         },
         {
@@ -1406,12 +1406,12 @@
         },
         {
           "nome": "Edson Giriboni",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
           "nome": "Rafael Saraiva",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
@@ -1456,12 +1456,12 @@
         },
         {
           "nome": "Milton Leite Filho",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
           "nome": "Solange Freitas",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
@@ -1523,8 +1523,13 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Capitão Telhada",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Edson Giriboni",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
@@ -1540,11 +1545,6 @@
         {
           "nome": "Fábio Faria de Sá",
           "partido": "PODE",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Capitão Telhada",
-          "partido": "PP",
           "cargo": "Efetivo"
         },
         {
@@ -1573,8 +1573,13 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Delegado Olim",
+          "partido": "UNIÃO/PP",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Milton Leite Filho",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
@@ -1590,11 +1595,6 @@
         {
           "nome": "Ricardo França",
           "partido": "PODE",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Delegado Olim",
-          "partido": "PP",
           "cargo": "Suplente"
         }
       ],
@@ -1612,7 +1612,7 @@
         },
         {
           "nome": "Rafael Saraiva",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Vice-Presidente"
         },
         {
@@ -1642,7 +1642,7 @@
         },
         {
           "nome": "Rafael Saraiva",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
@@ -1682,7 +1682,7 @@
         },
         {
           "nome": "Milton Leite Filho",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
@@ -1818,7 +1818,7 @@
         },
         {
           "nome": "Dr. Elton",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
@@ -1858,7 +1858,7 @@
         },
         {
           "nome": "Felipe Franco",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
@@ -1897,7 +1897,7 @@
         },
         {
           "nome": "Delegado Olim",
-          "partido": "PP",
+          "partido": "UNIÃO/PP",
           "cargo": "Vice-Presidente"
         },
         {
@@ -1931,6 +1931,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Delegado Olim",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Ediane Maria",
           "partido": "PSOL/REDE",
           "cargo": "Efetivo"
@@ -1938,11 +1943,6 @@
         {
           "nome": "Jorge Caruso",
           "partido": "MDB",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Delegado Olim",
-          "partido": "PP",
           "cargo": "Efetivo"
         },
         {
@@ -1971,8 +1971,13 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Capitão Telhada",
+          "partido": "UNIÃO/PP",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Rafael Saraiva",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
@@ -1983,11 +1988,6 @@
         {
           "nome": "Itamar Borges",
           "partido": "MDB",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Capitão Telhada",
-          "partido": "PP",
           "cargo": "Suplente"
         }
       ],
@@ -2005,7 +2005,7 @@
         },
         {
           "nome": "Milton Leite Filho",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Vice-Presidente"
         },
         {
@@ -2044,18 +2044,18 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Capitão Telhada",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Milton Leite Filho",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
           "nome": "Léo Oliveira",
           "partido": "MDB",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Capitão Telhada",
-          "partido": "PP",
           "cargo": "Efetivo"
         },
         {
@@ -2094,18 +2094,18 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Delegado Olim",
+          "partido": "UNIÃO/PP",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Edson Giriboni",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
           "nome": "Rogério Santos",
           "partido": "MDB",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Delegado Olim",
-          "partido": "PP",
           "cargo": "Suplente"
         },
         {
@@ -2153,7 +2153,7 @@
         },
         {
           "nome": "Solange Freitas",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
@@ -2193,7 +2193,7 @@
         },
         {
           "nome": "Dr. Elton",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
@@ -2227,7 +2227,7 @@
       "membros": [
         {
           "nome": "Delegado Olim",
-          "partido": "PP",
+          "partido": "UNIÃO/PP",
           "cargo": "Presidente"
         },
         {
@@ -2256,8 +2256,13 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Delegado Olim",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Rafael Saraiva",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
         {
@@ -2268,11 +2273,6 @@
         {
           "nome": "Dr. Eduardo Nóbrega",
           "partido": "MDB",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Delegado Olim",
-          "partido": "PP",
           "cargo": "Efetivo"
         },
         {
@@ -2291,8 +2291,13 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Capitão Telhada",
+          "partido": "UNIÃO/PP",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Milton Leite Filho",
-          "partido": "UNIÃO",
+          "partido": "UNIÃO/PP",
           "cargo": "Suplente"
         },
         {
@@ -2308,11 +2313,6 @@
         {
           "nome": "Analice Fernandes",
           "partido": "PSD",
-          "cargo": "Suplente"
-        },
-        {
-          "nome": "Capitão Telhada",
-          "partido": "PP",
           "cargo": "Suplente"
         }
       ],
