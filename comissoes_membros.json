@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-04-22",
+  "atualizado_em": "2026-04-23",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -86,11 +86,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Ana Carolina Serra",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Delegado Olim",
           "partido": "UNIÃO/PP",
           "cargo": "Suplente"
@@ -107,7 +102,7 @@
         }
       ],
       "psd": [],
-      "total": 20
+      "total": 19
     },
     "CAD": {
       "id": "12448",
@@ -830,11 +825,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Ana Carolina Serra",
-          "partido": "PSDB/Cidadania",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Delegado Olim",
           "partido": "UNIÃO/PP",
           "cargo": "Suplente"
@@ -867,7 +857,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 19
+      "total": 18
     },
     "CDDC": {
       "id": "1000000128",
