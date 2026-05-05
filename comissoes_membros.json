@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-05-04",
+  "atualizado_em": "2026-05-05",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -134,8 +134,18 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Rui Alves",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Felipe Franco",
           "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
           "cargo": "Efetivo"
         },
         {
@@ -184,8 +194,14 @@
           "cargo": "Suplente"
         }
       ],
-      "psd": [],
-      "total": 15
+      "psd": [
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        }
+      ],
+      "total": 17
     },
     "CAMM": {
       "id": "12449",
@@ -257,6 +273,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Marcio Nakashima",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Marta Costa",
           "partido": "PSD",
           "cargo": "Efetivo"
@@ -305,16 +326,31 @@
           "nome": "Jorge Caruso",
           "partido": "MDB",
           "cargo": "Suplente"
+        },
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSD",
+          "cargo": "Suplente"
         }
       ],
       "psd": [
         {
+          "nome": "Marcio Nakashima",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Marta Costa",
           "partido": "PSD",
           "cargo": "Efetivo"
+        },
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSD",
+          "cargo": "Suplente"
         }
       ],
-      "total": 23
+      "total": 25
     },
     "CAE": {
       "id": "12454",
@@ -371,6 +407,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Carla Morando",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Leonardo Siqueira",
           "partido": "NOVO",
           "cargo": "Efetivo"
@@ -422,7 +463,7 @@
         }
       ],
       "psd": [],
-      "total": 20
+      "total": 21
     },
     "CCTI": {
       "id": "12456",
@@ -469,6 +510,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Mauro Bragato",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Leonardo Siqueira",
           "partido": "NOVO",
           "cargo": "Efetivo"
@@ -494,6 +540,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Rui Alves",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Edson Giriboni",
           "partido": "UNIÃO/PP",
           "cargo": "Suplente"
@@ -512,10 +563,26 @@
           "nome": "Ricardo França",
           "partido": "PODE",
           "cargo": "Suplente"
+        },
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSD",
+          "cargo": "Suplente"
         }
       ],
-      "psd": [],
-      "total": 17
+      "psd": [
+        {
+          "nome": "Mauro Bragato",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 20
     },
     "CCJR": {
       "id": "12444",
@@ -567,6 +634,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Rui Alves",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Delegado Olim",
           "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
@@ -583,6 +655,11 @@
         },
         {
           "nome": "Marta Costa",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Mauro Bragato",
           "partido": "PSD",
           "cargo": "Efetivo"
         },
@@ -627,7 +704,7 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Rafael Silva",
+          "nome": "Maria Lúcia Amary",
           "partido": "PSD",
           "cargo": "Suplente"
         }
@@ -639,12 +716,17 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Rafael Silva",
+          "nome": "Mauro Bragato",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Maria Lúcia Amary",
           "partido": "PSD",
           "cargo": "Suplente"
         }
       ],
-      "total": 22
+      "total": 24
     },
     "CDD": {
       "id": "12455",
@@ -701,6 +783,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Carlão Pignatari",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Rafael Silva",
           "partido": "PSD",
           "cargo": "Efetivo"
@@ -726,6 +813,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Rui Alves",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Delegado Olim",
           "partido": "UNIÃO/PP",
           "cargo": "Suplente"
@@ -743,12 +835,17 @@
       ],
       "psd": [
         {
+          "nome": "Carlão Pignatari",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Rafael Silva",
           "partido": "PSD",
           "cargo": "Efetivo"
         }
       ],
-      "total": 18
+      "total": 20
     },
     "CDDPD": {
       "id": "1000001015",
@@ -795,7 +892,7 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Rafael Silva",
+          "nome": "Dirceu Dalben",
           "partido": "PSD",
           "cargo": "Efetivo"
         },
@@ -825,6 +922,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Rui Alves",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Delegado Olim",
           "partido": "UNIÃO/PP",
           "cargo": "Suplente"
@@ -847,7 +949,7 @@
       ],
       "psd": [
         {
-          "nome": "Rafael Silva",
+          "nome": "Dirceu Dalben",
           "partido": "PSD",
           "cargo": "Efetivo"
         },
@@ -857,7 +959,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 18
+      "total": 19
     },
     "CDDC": {
       "id": "1000000128",
@@ -919,6 +1021,16 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marcio Nakashima",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Gil Diniz Bolsonaro",
           "partido": "PL",
           "cargo": "Suplente"
@@ -952,10 +1064,26 @@
           "nome": "Léo Oliveira",
           "partido": "MDB",
           "cargo": "Suplente"
+        },
+        {
+          "nome": "Carla Morando",
+          "partido": "PSD",
+          "cargo": "Suplente"
         }
       ],
-      "psd": [],
-      "total": 18
+      "psd": [
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marcio Nakashima",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        }
+      ],
+      "total": 21
     },
     "CDDM": {
       "id": "1000000297",
@@ -978,6 +1106,11 @@
         },
         {
           "nome": "Fabiana Bolsonaro",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Valeria Bolsonaro",
           "partido": "PL",
           "cargo": "Efetivo"
         },
@@ -1012,6 +1145,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Maria Lúcia Amary",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Bruno Zambelli",
           "partido": "PL",
           "cargo": "Suplente"
@@ -1040,10 +1178,26 @@
           "nome": "Ediane Maria",
           "partido": "PSOL/REDE",
           "cargo": "Suplente"
+        },
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSD",
+          "cargo": "Suplente"
         }
       ],
-      "psd": [],
-      "total": 16
+      "psd": [
+        {
+          "nome": "Maria Lúcia Amary",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 19
     },
     "CEC": {
       "id": "12447",
@@ -1100,8 +1254,18 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Profª Camila Godoi",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Carlos Giannazi",
           "partido": "PSOL/REDE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Mauro Bragato",
+          "partido": "PSD",
           "cargo": "Efetivo"
         },
         {
@@ -1152,12 +1316,17 @@
       ],
       "psd": [
         {
+          "nome": "Mauro Bragato",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Marta Costa",
           "partido": "PSD",
           "cargo": "Suplente"
         }
       ],
-      "total": 20
+      "total": 22
     },
     "CFOP": {
       "id": "12445",
@@ -1194,6 +1363,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Ana Carolina Serra",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Gilmaci Santos",
           "partido": "REPUBLICANOS",
           "cargo": "Efetivo"
@@ -1211,6 +1385,16 @@
         {
           "nome": "Ricardo França",
           "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Carlão Pignatari",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
           "cargo": "Efetivo"
         },
         {
@@ -1247,10 +1431,26 @@
           "nome": "Fábio Faria de Sá",
           "partido": "PODE",
           "cargo": "Suplente"
+        },
+        {
+          "nome": "Carla Morando",
+          "partido": "PSD",
+          "cargo": "Suplente"
         }
       ],
-      "psd": [],
-      "total": 17
+      "psd": [
+        {
+          "nome": "Carlão Pignatari",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        }
+      ],
+      "total": 21
     },
     "CFC": {
       "id": "8509",
@@ -1307,6 +1507,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Caio França",
           "partido": "PSB",
           "cargo": "Efetivo"
@@ -1337,6 +1542,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Rui Alves",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Capitão Telhada",
           "partido": "UNIÃO/PP",
           "cargo": "Suplente"
@@ -1352,13 +1562,29 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Mauro Bragato",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Valdomiro Lopes",
           "partido": "PSB",
           "cargo": "Suplente"
         }
       ],
-      "psd": [],
-      "total": 20
+      "psd": [
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Mauro Bragato",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 23
     },
     "CHDRU": {
       "id": "1000001021",
@@ -1420,6 +1646,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Analice Fernandes",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Valdomiro Lopes",
           "partido": "PSB",
           "cargo": "Efetivo"
@@ -1470,13 +1701,29 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Andréa Werner",
           "partido": "PSB",
           "cargo": "Suplente"
         }
       ],
-      "psd": [],
-      "total": 22
+      "psd": [
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 24
     },
     "CI": {
       "id": "12450",
@@ -1513,6 +1760,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Rui Alves",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Capitão Telhada",
           "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
@@ -1535,6 +1787,11 @@
         {
           "nome": "Fábio Faria de Sá",
           "partido": "PODE",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Carlão Pignatari",
+          "partido": "PSD",
           "cargo": "Efetivo"
         },
         {
@@ -1586,10 +1843,26 @@
           "nome": "Ricardo França",
           "partido": "PODE",
           "cargo": "Suplente"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Suplente"
         }
       ],
-      "psd": [],
-      "total": 21
+      "psd": [
+        {
+          "nome": "Carlão Pignatari",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 24
     },
     "CMADS": {
       "id": "12453",
@@ -1651,6 +1924,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Lucas Bove",
           "partido": "PL",
           "cargo": "Suplente"
@@ -1696,8 +1974,14 @@
           "cargo": "Suplente"
         }
       ],
-      "psd": [],
-      "total": 20
+      "psd": [
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        }
+      ],
+      "total": 21
     },
     "CRI": {
       "id": "1000000596",
@@ -1729,6 +2013,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Rui Alves",
+          "partido": "REPUBLICANOS",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Guilherme Cortez",
           "partido": "PSOL/REDE",
           "cargo": "Efetivo"
@@ -1736,6 +2025,16 @@
         {
           "nome": "Itamar Borges",
           "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Maria Lúcia Amary",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marta Costa",
+          "partido": "PSD",
           "cargo": "Efetivo"
         },
         {
@@ -1772,10 +2071,36 @@
           "nome": "Jorge Caruso",
           "partido": "MDB",
           "cargo": "Suplente"
+        },
+        {
+          "nome": "Carla Morando",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Suplente"
         }
       ],
-      "psd": [],
-      "total": 14
+      "psd": [
+        {
+          "nome": "Maria Lúcia Amary",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marta Costa",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 19
     },
     "CS": {
       "id": "12446",
@@ -1799,6 +2124,11 @@
         {
           "nome": "Beth Sahão",
           "partido": "PT/PCdoB/PV",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Ana Carolina Serra",
+          "partido": "PSDB/Cidadania",
           "cargo": "Efetivo"
         },
         {
@@ -1874,7 +2204,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 17
+      "total": 18
     },
     "CSPAP": {
       "id": "12451",
@@ -1936,6 +2266,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Carla Morando",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Gil Diniz Bolsonaro",
           "partido": "PL",
           "cargo": "Suplente"
@@ -1961,6 +2296,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Rui Alves",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Capitão Telhada",
           "partido": "UNIÃO/PP",
           "cargo": "Suplente"
@@ -1979,10 +2319,21 @@
           "nome": "Itamar Borges",
           "partido": "MDB",
           "cargo": "Suplente"
+        },
+        {
+          "nome": "Mauro Bragato",
+          "partido": "PSD",
+          "cargo": "Suplente"
         }
       ],
-      "psd": [],
-      "total": 20
+      "psd": [
+        {
+          "nome": "Mauro Bragato",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        }
+      ],
+      "total": 23
     },
     "CTC": {
       "id": "8520",
@@ -2029,6 +2380,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Ana Carolina Serra",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Jorge Wilson Xerife do Consumidor",
           "partido": "REPUBLICANOS",
           "cargo": "Efetivo"
@@ -2046,6 +2402,11 @@
         {
           "nome": "Léo Oliveira",
           "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSD",
           "cargo": "Efetivo"
         },
         {
@@ -2084,6 +2445,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Rui Alves",
+          "partido": "REPUBLICANOS",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Delegado Olim",
           "partido": "UNIÃO/PP",
           "cargo": "Suplente"
@@ -2099,13 +2465,24 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Carla Morando",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Caio França",
           "partido": "PSB",
           "cargo": "Suplente"
         }
       ],
-      "psd": [],
-      "total": 23
+      "psd": [
+        {
+          "nome": "Analice Fernandes",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        }
+      ],
+      "total": 27
     },
     "CT": {
       "id": "1000001016",
@@ -2152,6 +2529,16 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Analice Fernandes",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Maria Lúcia Amary",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Caio França",
           "partido": "PSB",
           "cargo": "Efetivo"
@@ -2192,11 +2579,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Rafael Silva",
-          "partido": "PSD",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Valdomiro Lopes",
           "partido": "PSB",
           "cargo": "Suplente"
@@ -2204,12 +2586,17 @@
       ],
       "psd": [
         {
-          "nome": "Rafael Silva",
+          "nome": "Analice Fernandes",
           "partido": "PSD",
-          "cargo": "Suplente"
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Maria Lúcia Amary",
+          "partido": "PSD",
+          "cargo": "Efetivo"
         }
       ],
-      "total": 18
+      "total": 19
     },
     "CEDP": {
       "id": "8521",
