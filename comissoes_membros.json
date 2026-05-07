@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-05-06",
+  "atualizado_em": "2026-05-07",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -278,11 +278,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Marta Costa",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Bruno Zambelli",
           "partido": "PL",
           "cargo": "Suplente"
@@ -340,17 +335,12 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Marta Costa",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Analice Fernandes",
           "partido": "PSD",
           "cargo": "Suplente"
         }
       ],
-      "total": 25
+      "total": 24
     },
     "CAE": {
       "id": "12454",
@@ -937,11 +927,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Marta Costa",
-          "partido": "PSD",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Caio França",
           "partido": "PSB",
           "cargo": "Suplente"
@@ -952,14 +937,9 @@
           "nome": "Dirceu Dalben",
           "partido": "PSD",
           "cargo": "Efetivo"
-        },
-        {
-          "nome": "Marta Costa",
-          "partido": "PSD",
-          "cargo": "Suplente"
         }
       ],
-      "total": 19
+      "total": 18
     },
     "CDDC": {
       "id": "1000000128",

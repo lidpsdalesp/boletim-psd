@@ -318,6 +318,11 @@
         "cargo": "Efetivo"
       },
       {
+        "nome": "Carlão Pignatari",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
         "nome": "Delegado Olim",
         "partido": "",
         "cargo": "Efetivo"
@@ -344,11 +349,6 @@
       },
       {
         "nome": "Edson Giriboni",
-        "partido": "",
-        "cargo": "Efetivo"
-      },
-      {
-        "nome": "Carlão Pignatari",
         "partido": "",
         "cargo": "Efetivo"
       },
@@ -506,11 +506,6 @@
       },
       {
         "nome": "Guilherme Cortez",
-        "partido": "",
-        "cargo": "Efetivo"
-      },
-      {
-        "nome": "Marta Costa",
         "partido": "",
         "cargo": "Efetivo"
       }
