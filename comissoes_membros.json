@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-05-07",
+  "atualizado_em": "2026-05-08",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -273,6 +273,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Carla Morando",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Marcio Nakashima",
           "partido": "PSD",
           "cargo": "Efetivo"
@@ -326,6 +331,11 @@
           "nome": "Analice Fernandes",
           "partido": "PSD",
           "cargo": "Suplente"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Suplente"
         }
       ],
       "psd": [
@@ -338,9 +348,14 @@
           "nome": "Analice Fernandes",
           "partido": "PSD",
           "cargo": "Suplente"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Suplente"
         }
       ],
-      "total": 24
+      "total": 26
     },
     "CAE": {
       "id": "12454",
@@ -1289,7 +1304,7 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Marta Costa",
+          "nome": "Carlão Pignatari",
           "partido": "PSD",
           "cargo": "Suplente"
         }
@@ -1301,7 +1316,7 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Marta Costa",
+          "nome": "Carlão Pignatari",
           "partido": "PSD",
           "cargo": "Suplente"
         }
@@ -2013,7 +2028,7 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Marta Costa",
+          "nome": "Mauro Bragato",
           "partido": "PSD",
           "cargo": "Efetivo"
         },
@@ -2070,7 +2085,7 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Marta Costa",
+          "nome": "Mauro Bragato",
           "partido": "PSD",
           "cargo": "Efetivo"
         },
