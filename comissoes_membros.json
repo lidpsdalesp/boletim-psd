@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-05-08",
+  "atualizado_em": "2026-05-11",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -149,6 +149,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Marcio Nakashima",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Caio França",
           "partido": "PSB",
           "cargo": "Efetivo"
@@ -199,9 +204,14 @@
           "nome": "Dirceu Dalben",
           "partido": "PSD",
           "cargo": "Efetivo"
+        },
+        {
+          "nome": "Marcio Nakashima",
+          "partido": "PSD",
+          "cargo": "Efetivo"
         }
       ],
-      "total": 17
+      "total": 18
     },
     "CAMM": {
       "id": "12449",
@@ -892,6 +902,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "André Bueno",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Clarice Ganem",
           "partido": "PODE",
           "cargo": "Efetivo"
@@ -942,6 +957,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Itamar Borges",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Caio França",
           "partido": "PSB",
           "cargo": "Suplente"
@@ -954,7 +974,7 @@
           "cargo": "Efetivo"
         }
       ],
-      "total": 18
+      "total": 20
     },
     "CDDC": {
       "id": "1000000128",
@@ -1259,6 +1279,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Dr. Eduardo Nóbrega",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Mauro Bragato",
           "partido": "PSD",
           "cargo": "Efetivo"
@@ -1299,6 +1324,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "André Bueno",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Ricardo França",
           "partido": "PODE",
           "cargo": "Suplente"
@@ -1321,7 +1351,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 22
+      "total": 24
     },
     "CFOP": {
       "id": "12445",
@@ -1418,7 +1448,7 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Rogério Santos",
+          "nome": "André Bueno",
           "partido": "MDB",
           "cargo": "Suplente"
         },
@@ -1909,7 +1939,7 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Léo Oliveira",
+          "nome": "André Bueno",
           "partido": "MDB",
           "cargo": "Efetivo"
         },
@@ -2018,6 +2048,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "André Bueno",
+          "partido": "MDB",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Itamar Borges",
           "partido": "MDB",
           "cargo": "Efetivo"
@@ -2063,6 +2098,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Dr. Eduardo Nóbrega",
+          "partido": "MDB",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Jorge Caruso",
           "partido": "MDB",
           "cargo": "Suplente"
@@ -2095,7 +2135,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 19
+      "total": 21
     },
     "CS": {
       "id": "12446",
@@ -2147,6 +2187,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Analice Fernandes",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Valdomiro Lopes",
           "partido": "PSB",
           "cargo": "Efetivo"
@@ -2182,7 +2227,7 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Marta Costa",
+          "nome": "Dirceu Dalben",
           "partido": "PSD",
           "cargo": "Suplente"
         },
@@ -2194,12 +2239,17 @@
       ],
       "psd": [
         {
-          "nome": "Marta Costa",
+          "nome": "Analice Fernandes",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Dirceu Dalben",
           "partido": "PSD",
           "cargo": "Suplente"
         }
       ],
-      "total": 18
+      "total": 19
     },
     "CSPAP": {
       "id": "12451",

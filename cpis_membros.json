@@ -216,6 +216,11 @@
         "cargo": "Efetivo"
       },
       {
+        "nome": "André Bueno",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
         "nome": "Fábio Faria de Sá",
         "partido": "",
         "cargo": "Efetivo"
@@ -252,6 +257,11 @@
       },
       {
         "nome": "Jorge Wilson Xerife do Consumidor",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Dr. Eduardo Nóbrega",
         "partido": "",
         "cargo": "Efetivo"
       },
