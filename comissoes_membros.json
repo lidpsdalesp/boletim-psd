@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-05-11",
+  "atualizado_em": "2026-05-12",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -575,11 +575,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Ricardo França",
-          "partido": "PODE",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Analice Fernandes",
           "partido": "PSD",
           "cargo": "Suplente"
@@ -597,7 +592,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 20
+      "total": 19
     },
     "CCJR": {
       "id": "12444",
@@ -793,11 +788,6 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Clarice Ganem",
-          "partido": "PODE",
-          "cargo": "Efetivo"
-        },
-        {
           "nome": "Carlão Pignatari",
           "partido": "PSD",
           "cargo": "Efetivo"
@@ -860,7 +850,7 @@
           "cargo": "Efetivo"
         }
       ],
-      "total": 20
+      "total": 19
     },
     "CDDPD": {
       "id": "1000001015",
@@ -1329,11 +1319,6 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Ricardo França",
-          "partido": "PODE",
-          "cargo": "Suplente"
-        },
-        {
           "nome": "Carlão Pignatari",
           "partido": "PSD",
           "cargo": "Suplente"
@@ -1351,7 +1336,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 24
+      "total": 23
     },
     "CFOP": {
       "id": "12445",
