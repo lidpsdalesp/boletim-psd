@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-05-12",
+  "atualizado_em": "2026-05-14",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -91,6 +91,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Profª Camila Godoi",
+          "partido": "UNIÃO/PP",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Paula da Bancada Feminista",
           "partido": "PSOL/REDE",
           "cargo": "Suplente"
@@ -102,7 +107,7 @@
         }
       ],
       "psd": [],
-      "total": 19
+      "total": 20
     },
     "CAD": {
       "id": "12448",
@@ -141,6 +146,11 @@
         {
           "nome": "Felipe Franco",
           "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Fábio Faria de Sá",
+          "partido": "PODE",
           "cargo": "Efetivo"
         },
         {
@@ -189,7 +199,7 @@
           "cargo": "Suplente"
         },
         {
-          "nome": "Fábio Faria de Sá",
+          "nome": "Vitão do Cachorrão",
           "partido": "PODE",
           "cargo": "Suplente"
         },
@@ -211,7 +221,7 @@
           "cargo": "Efetivo"
         }
       ],
-      "total": 18
+      "total": 19
     },
     "CAMM": {
       "id": "12449",
@@ -338,6 +348,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Vitão do Cachorrão",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Analice Fernandes",
           "partido": "PSD",
           "cargo": "Suplente"
@@ -365,7 +380,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 26
+      "total": 27
     },
     "CAE": {
       "id": "12454",
@@ -714,6 +729,16 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Ricardo França",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Maria Lúcia Amary",
           "partido": "PSD",
           "cargo": "Suplente"
@@ -731,12 +756,17 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Dirceu Dalben",
+          "partido": "PSD",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Maria Lúcia Amary",
           "partido": "PSD",
           "cargo": "Suplente"
         }
       ],
-      "total": 24
+      "total": 26
     },
     "CDD": {
       "id": "12455",
@@ -779,6 +809,11 @@
         },
         {
           "nome": "Capitão Telhada",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Profª Camila Godoi",
           "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
@@ -850,7 +885,7 @@
           "cargo": "Efetivo"
         }
       ],
-      "total": 19
+      "total": 20
     },
     "CDDPD": {
       "id": "1000001015",
@@ -952,6 +987,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Vitão do Cachorrão",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Caio França",
           "partido": "PSB",
           "cargo": "Suplente"
@@ -964,7 +1004,7 @@
           "cargo": "Efetivo"
         }
       ],
-      "total": 20
+      "total": 21
     },
     "CDDC": {
       "id": "1000000128",
@@ -1066,6 +1106,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Profª Camila Godoi",
+          "partido": "UNIÃO/PP",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Léo Oliveira",
           "partido": "MDB",
           "cargo": "Suplente"
@@ -1088,7 +1133,7 @@
           "cargo": "Efetivo"
         }
       ],
-      "total": 21
+      "total": 22
     },
     "CDDM": {
       "id": "1000000297",
@@ -1185,6 +1230,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Vitão do Cachorrão",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Analice Fernandes",
           "partido": "PSD",
           "cargo": "Suplente"
@@ -1202,7 +1252,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 19
+      "total": 20
     },
     "CEC": {
       "id": "12447",
@@ -2212,6 +2262,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Fábio Faria de Sá",
+          "partido": "PODE",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Dirceu Dalben",
           "partido": "PSD",
           "cargo": "Suplente"
@@ -2234,7 +2289,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 19
+      "total": 20
     },
     "CSPAP": {
       "id": "12451",
@@ -2282,6 +2337,11 @@
         },
         {
           "nome": "Delegado Olim",
+          "partido": "UNIÃO/PP",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Profª Camila Godoi",
           "partido": "UNIÃO/PP",
           "cargo": "Efetivo"
         },
@@ -2363,7 +2423,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 23
+      "total": 24
     },
     "CTC": {
       "id": "8520",

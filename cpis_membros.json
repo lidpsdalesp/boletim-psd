@@ -129,6 +129,11 @@
         "cargo": "Efetivo"
       },
       {
+        "nome": "Vitão do Cachorrão",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
         "nome": "Rogério Nogueira",
         "partido": "",
         "cargo": "Efetivo"
@@ -262,6 +267,11 @@
       },
       {
         "nome": "Dr. Eduardo Nóbrega",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Vitão do Cachorrão",
         "partido": "",
         "cargo": "Efetivo"
       },
