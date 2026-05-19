@@ -99,6 +99,11 @@
         "cargo": "Efetivo"
       },
       {
+        "nome": "Oseias de Madureira",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
         "nome": "Rodrigo Moraes",
         "partido": "",
         "cargo": "Efetivo"
@@ -348,6 +353,11 @@
         "cargo": "Efetivo"
       },
       {
+        "nome": "Marcelo Aguiar",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
         "nome": "Thiago Auricchio",
         "partido": "",
         "cargo": "Efetivo"
@@ -475,7 +485,12 @@
         "cargo": "Efetivo"
       },
       {
-        "nome": "Valeria Bolsonaro",
+        "nome": "Marcelo Aguiar",
+        "partido": "",
+        "cargo": "Efetivo"
+      },
+      {
+        "nome": "Oseias de Madureira",
         "partido": "",
         "cargo": "Efetivo"
       },

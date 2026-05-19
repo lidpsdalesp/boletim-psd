@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-05-15",
+  "atualizado_em": "2026-05-19",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -16,7 +16,7 @@
           "cargo": "Vice-Presidente"
         },
         {
-          "nome": "Alex Madureira",
+          "nome": "Marcelo Aguiar",
           "partido": "PL",
           "cargo": "Efetivo"
         },
@@ -117,6 +117,11 @@
           "nome": "Felipe Franco",
           "partido": "UNIÃO/PP",
           "cargo": "Vice-Presidente"
+        },
+        {
+          "nome": "Lucas Bove",
+          "partido": "PL",
+          "cargo": "Efetivo"
         },
         {
           "nome": "Tenente Coimbra",
@@ -221,7 +226,7 @@
           "cargo": "Efetivo"
         }
       ],
-      "total": 19
+      "total": 20
     },
     "CAMM": {
       "id": "12449",
@@ -788,7 +793,7 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Major Mecca",
+          "nome": "Valeria Bolsonaro",
           "partido": "PL",
           "cargo": "Efetivo"
         },
@@ -828,12 +833,7 @@
           "cargo": "Efetivo"
         },
         {
-          "nome": "Rafael Silva",
-          "partido": "PSD",
-          "cargo": "Efetivo"
-        },
-        {
-          "nome": "Lucas Bove",
+          "nome": "Major Mecca",
           "partido": "PL",
           "cargo": "Suplente"
         },
@@ -878,14 +878,9 @@
           "nome": "Carlão Pignatari",
           "partido": "PSD",
           "cargo": "Efetivo"
-        },
-        {
-          "nome": "Rafael Silva",
-          "partido": "PSD",
-          "cargo": "Efetivo"
         }
       ],
-      "total": 20
+      "total": 19
     },
     "CDDPD": {
       "id": "1000001015",
@@ -898,6 +893,11 @@
         },
         {
           "nome": "Fabiana Bolsonaro",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
+          "nome": "Valeria Bolsonaro",
           "partido": "PL",
           "cargo": "Efetivo"
         },
@@ -1004,7 +1004,7 @@
           "cargo": "Efetivo"
         }
       ],
-      "total": 21
+      "total": 22
     },
     "CDDC": {
       "id": "1000000128",
@@ -1021,12 +1021,12 @@
           "cargo": "Vice-Presidente"
         },
         {
-          "nome": "Lucas Bove",
+          "nome": "Letícia Aguiar",
           "partido": "PL",
           "cargo": "Efetivo"
         },
         {
-          "nome": "Thiago Auricchio",
+          "nome": "Lucas Bove",
           "partido": "PL",
           "cargo": "Efetivo"
         },
@@ -1205,6 +1205,16 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Delegada Graciela",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
+          "nome": "Letícia Aguiar",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Ana Perugini",
           "partido": "PT/PCdoB/PV",
           "cargo": "Suplente"
@@ -1252,7 +1262,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 20
+      "total": 22
     },
     "CEC": {
       "id": "12447",
@@ -1339,6 +1349,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Marcelo Aguiar",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Ana Perugini",
           "partido": "PT/PCdoB/PV",
           "cargo": "Suplente"
@@ -1386,7 +1401,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 23
+      "total": 24
     },
     "CFOP": {
       "id": "12445",
@@ -1458,6 +1473,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Oseias de Madureira",
+          "partido": "PL",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Paulo Mansur",
           "partido": "PL",
           "cargo": "Suplente"
@@ -1508,9 +1528,14 @@
           "nome": "Dirceu Dalben",
           "partido": "PSD",
           "cargo": "Efetivo"
+        },
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PL",
+          "cargo": "Suplente"
         }
       ],
-      "total": 21
+      "total": 22
     },
     "CFC": {
       "id": "8509",
@@ -1527,12 +1552,12 @@
           "cargo": "Vice-Presidente"
         },
         {
-          "nome": "Alex Madureira",
+          "nome": "Bruno Zambelli",
           "partido": "PL",
           "cargo": "Efetivo"
         },
         {
-          "nome": "Bruno Zambelli",
+          "nome": "Oseias de Madureira",
           "partido": "PL",
           "cargo": "Efetivo"
         },
@@ -1633,6 +1658,11 @@
         }
       ],
       "psd": [
+        {
+          "nome": "Oseias de Madureira",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
         {
           "nome": "Dirceu Dalben",
           "partido": "PSD",
@@ -2063,6 +2093,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Oseias de Madureira",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Paulo Fiorilo",
           "partido": "PT/PCdoB/PV",
           "cargo": "Efetivo"
@@ -2155,6 +2190,11 @@
       ],
       "psd": [
         {
+          "nome": "Oseias de Madureira",
+          "partido": "PL",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Maria Lúcia Amary",
           "partido": "PSD",
           "cargo": "Efetivo"
@@ -2170,7 +2210,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 21
+      "total": 22
     },
     "CS": {
       "id": "12446",
