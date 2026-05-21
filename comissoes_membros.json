@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-05-20",
+  "atualizado_em": "2026-05-21",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -338,6 +338,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Dra. Damaris Moura",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Gilmaci Santos",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -385,7 +390,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 27
+      "total": 28
     },
     "CAE": {
       "id": "12454",
@@ -1493,6 +1498,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Dra. Damaris Moura",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Tomé Abduch",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -1535,7 +1545,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 22
+      "total": 23
     },
     "CFC": {
       "id": "8509",
@@ -2292,6 +2302,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Dra. Damaris Moura",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Felipe Franco",
           "partido": "UNIÃO/PP",
           "cargo": "Suplente"
@@ -2329,7 +2344,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 20
+      "total": 21
     },
     "CSPAP": {
       "id": "12451",
@@ -2575,6 +2590,11 @@
           "cargo": "Suplente"
         },
         {
+          "nome": "Dra. Damaris Moura",
+          "partido": "PSDB/Cidadania",
+          "cargo": "Suplente"
+        },
+        {
           "nome": "Rui Alves",
           "partido": "REPUBLICANOS",
           "cargo": "Suplente"
@@ -2612,7 +2632,7 @@
           "cargo": "Efetivo"
         }
       ],
-      "total": 27
+      "total": 28
     },
     "CT": {
       "id": "1000001016",
