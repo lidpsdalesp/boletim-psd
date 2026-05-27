@@ -2057,63 +2057,6 @@
     ],
     "psd": []
   },
-  "CPI Operadoras de Seguro": {
-    "nome": "CPI Operadoras de Seguro",
-    "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99970",
-    "membros": [
-      {
-        "nome": "Deputados",
-        "partido": "Lista de DeputadosMesa DiretoraLíderesRelação de PresidentesParlamentares desde 1947Frentes ParlamentaresPrestação de ContasPresença em PlenárioCódigo de ÉticaCorregedoria ParlamentarPerda de MandatoVeículos do GabineteO Trabalho do Deputado",
-        "cargo": "Efetivo"
-      },
-      {
-        "nome": "Lista de Deputados",
-        "partido": "",
-        "cargo": "Efetivo"
-      },
-      {
-        "nome": "Mesa Diretora",
-        "partido": "",
-        "cargo": "Efetivo"
-      },
-      {
-        "nome": "Líderes",
-        "partido": "",
-        "cargo": "Efetivo"
-      },
-      {
-        "nome": "Parlamentares desde 1947",
-        "partido": "",
-        "cargo": "Efetivo"
-      },
-      {
-        "nome": "Prestação de Contas",
-        "partido": "",
-        "cargo": "Efetivo"
-      },
-      {
-        "nome": "Presença em Plenário",
-        "partido": "",
-        "cargo": "Efetivo"
-      },
-      {
-        "nome": "Perda de Mandato",
-        "partido": "",
-        "cargo": "Efetivo"
-      },
-      {
-        "nome": "Veículos do Gabinete",
-        "partido": "",
-        "cargo": "Efetivo"
-      },
-      {
-        "nome": "O Trabalho do Deputado",
-        "partido": "",
-        "cargo": "Efetivo"
-      }
-    ],
-    "psd": []
-  },
   "CPI Guerra Fiscal": {
     "nome": "CPI Guerra Fiscal",
     "url": "https://www.al.sp.gov.br/comissao/cpi/?idComissao=99975",
