@@ -1,5 +1,5 @@
 {
-  "atualizado_em": "2026-07-22",
+  "atualizado_em": "2026-07-23",
   "comissoes": {
     "CAPRT": {
       "id": "12452",
@@ -2803,6 +2803,11 @@
           "cargo": "Efetivo"
         },
         {
+          "nome": "Carla Morando",
+          "partido": "PSD",
+          "cargo": "Efetivo"
+        },
+        {
           "nome": "Agente Federal Danilo Balas",
           "partido": "PL",
           "cargo": "Suplente"
@@ -2865,7 +2870,7 @@
           "cargo": "Suplente"
         }
       ],
-      "total": 18
+      "total": 19
     }
   }
 }
